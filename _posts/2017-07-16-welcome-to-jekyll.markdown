@@ -4,15 +4,16 @@ title:  "Why You Need a Hadoop Cluster"
 date:   2017-07-16 20:15:25 -0500
 categories: jekyll update
 ---
-##Hadoop Remote Cluster
+## Hadoop Remote Cluster
 
 *TL; DR*
-   Creating a shared computing cluster for Hadoop based MapReduce applciation and query design benefits the ITM department by enabling large scale research and industry best practice teaching by adjuncts and full time, further this resource does not exist on the IIT campus at the moment and could (properly done) open up opporturtunity to conduct joint research with other departments who are lacking this expertise and hardware capabilities.
+
+Creating a shared computing cluster for Hadoop based MapReduce applciation and query design benefits the ITM department by enabling large scale research and industry best practice teaching by adjuncts and full time, further this resource does not exist on the IIT campus at the moment and could (properly done) open up opporturtunity to conduct joint research with other departments who are lacking this expertise and hardware capabilities.
 
 
-### Abstract:
+### Abstract
 
-    The nature and need for data processing is ever increasing.  Novel methods have been designed to analyze this data.  This paper seeks to show the positive arguments for building a large scale Hadoop/MapReduce cluster that provides a department level service for researcher professors, teaching professors, and students alike.   Having this "Big Data" cluster as a resource will give our student body unparallel access to research tools as well as seperate our program in terms of tooling offered.
+The nature and need for data processing is ever increasing.  Novel methods have been designed to analyze this data.  This paper seeks to show the positive arguments for building a large scale Hadoop/MapReduce cluster that provides a department level service for researcher professors, teaching professors, and students alike.   Having this "Big Data" cluster as a resource will give our student body unparallel access to research tools as well as seperate our program in terms of tooling offered.
 
 ### History of Big Data
 
