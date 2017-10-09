@@ -4,4 +4,4 @@ _site
 _drafts/
 .DS_Store
 *.swp
-wp-content/
+assets/
