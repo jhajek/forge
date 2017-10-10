@@ -29,7 +29,7 @@ tags:
 comments: []
 ---
 <p>Project Glass Charts<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;glass-clearshade-isometric.jpg"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;05&#47;glass-clearshade-isometric-300x207.jpg" alt="glass-clearshade-isometric" width="300" height="207" class="aligncenter size-medium wp-image-1091" &#47;><&#47;a><br />
+<a href="/assets/2014&#47;05&#47;glass-clearshade-isometric.jpg"><img src="/assets/2014&#47;05&#47;glass-clearshade-isometric-300x207.jpg" alt="glass-clearshade-isometric" width="300" height="207" class="aligncenter size-medium wp-image-1091" &#47;><&#47;a><br />
 This project used <a href="http:&#47;&#47;www.google.com&#47;glass&#47;start&#47;">Google Glass<&#47;a> in order to create real-time HUD charts.  Using hands free devices and voice control we successfully found that this device and project could make a great impact on field workers needing real-time charted data.  Special thanks to Val Scarlata who lent us one pair of Google Glass for development.</p>
 <p><strong><br />
 11 Minute Presentation<&#47;strong><br />

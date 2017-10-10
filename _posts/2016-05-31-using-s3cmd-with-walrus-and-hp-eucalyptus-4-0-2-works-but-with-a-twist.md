@@ -27,14 +27,14 @@ comments: []
 <p>Dear Team,</p>
 <p>  I would like to pass on that using S3cmd works fine with Eucalyptus 4.0.2 (will be installing and testing 4.2.2 soon) with a twist...   Assuming you are using Linux or the Bash on Windows 10 (Linux subsystem) for this exercise...</p>
 <p><a href="https:&#47;&#47;github.com&#47;s3tools&#47;s3cmd">S3cmd<&#47;a> is a commandline tool built in Python for accessing Object Storage via the commandline.  This is useful for <a href="https:&#47;&#47;aws.amazon.com&#47;s3&#47;">AWS S3<&#47;a>, but also for <a href="http:&#47;&#47;www8.hp.com&#47;us&#47;en&#47;cloud&#47;helion-eucalyptus.html">HP Eucalyptus Walrus<&#47;a> (Eucalyptus S3 Object storage--AWS compatible).</p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;s3cmd-permission-denied.png"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;s3cmd-permission-denied.png" alt="s3cmd-permission-denied" width="847" height="88" class="aligncenter size-full wp-image-1742" &#47;><&#47;a></p>
+<p><a href="/assets/2016&#47;05&#47;s3cmd-permission-denied.png"><img src="/assets/2016&#47;05&#47;s3cmd-permission-denied.png" alt="s3cmd-permission-denied" width="847" height="88" class="aligncenter size-full wp-image-1742" &#47;><&#47;a></p>
 <p><strong><em>My command<&#47;em><&#47;strong> was as follows: <code>.&#47;s3cmd -v -c .&#47;s3cfg la s3:&#47;&#47;vagrant-builds<&#47;code></p>
 <p>A bucket I created with my account credentials should have list and read permission.  Even switching to the ADMIN credentials the same error appears.</p>
 <p>Then I noticed a little tidbit in the S3cmd --help file that said this:  </p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;signature-v2.png"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;signature-v2.png" alt="signature-v2" width="817" height="127" class="aligncenter size-full wp-image-1743" &#47;><&#47;a></p>
+<p><a href="/assets/2016&#47;05&#47;signature-v2.png"><img src="/assets/2016&#47;05&#47;signature-v2.png" alt="signature-v2" width="817" height="127" class="aligncenter size-full wp-image-1743" &#47;><&#47;a></p>
 <p>Look at the entry that says:  <code><br />
 --signature-v2    Use AWS Signature version 2 instead of newer signature methods. Helpful for S3-like systems that don't have AWS Signature v4 yet.<&#47;code> </p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;velma_jinkies_by_tinent.png"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;velma_jinkies_by_tinent.png" alt="velma_jinkies_by_tinent" width="300" height="212" class="aligncenter size-full wp-image-1746" &#47;><&#47;a></p>
+<p><a href="/assets/2016&#47;05&#47;velma_jinkies_by_tinent.png"><img src="/assets/2016&#47;05&#47;velma_jinkies_by_tinent.png" alt="velma_jinkies_by_tinent" width="300" height="212" class="aligncenter size-full wp-image-1746" &#47;><&#47;a></p>
 <p>Thats right Velma, <em>jinkees<&#47;em>, a clue.</p>
 <p> AWS changes their API often and certain aspects of their code changes that invalidates using old APIs--which I guess makes sense from their upkeep point of view.  BUT it makes it hard for honest Eucalyptus developers that are trying to peg their product to AWS Java SDK, so it seems they are a few signature versions back.</p>
 <p><strong>How to generate s3cfg<&#47;strong></p>
@@ -87,4 +87,4 @@ verbosity = WARNING<&#47;code></p>
 <p>Adding this flag to the S3cmd solves the long listing problem using my own credentials.<br />
 <code>.&#47;s3cmd -v --signature-v2 -c .&#47;s3cfg la s3:&#47;&#47;vagrant-builds<&#47;code></p>
 <p>Now the results are what I was looking for!</p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;s3cmd-works.png"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;05&#47;s3cmd-works.png" alt="s3cmd-works"  class="aligncenter size-full wp-image-1748" &#47;><&#47;a></p>
+<p><a href="/assets/2016&#47;05&#47;s3cmd-works.png"><img src="/assets/2016&#47;05&#47;s3cmd-works.png" alt="s3cmd-works"  class="aligncenter size-full wp-image-1748" &#47;><&#47;a></p>

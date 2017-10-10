@@ -34,5 +34,5 @@ Article publication about the event: <a href="http:&#47;&#47;chicagoinno.streetw
 <p><code>Source Code is here:<br />
 <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;amf">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;amf<&#47;a><&#47;code></p>
 <p>The money shot - two drones operating simultaneously<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;08&#47;IMG_2055.jpg"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;08&#47;IMG_2055.jpg" alt="IMG_2055" width="5760" height="3840" class="aligncenter size-full wp-image-1850" &#47;><&#47;a></p>
+<a href="/assets/2016&#47;08&#47;IMG_2055.jpg"><img src="/assets/2016&#47;08&#47;IMG_2055.jpg" alt="IMG_2055" width="5760" height="3840" class="aligncenter size-full wp-image-1850" &#47;><&#47;a></p>
 <p>[gallery columns="4" ids="1851,1852,1853,1854,1855,1856,1857,1858,1859,1860,1861,1862,1863,1864,1865,1866,1867,1868,1869,1870,1871,1872,1873,1874,1875,1876,1877,1878,1879"]</p>

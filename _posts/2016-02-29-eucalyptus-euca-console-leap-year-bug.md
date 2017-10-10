@@ -27,7 +27,7 @@ comments: []
 ---
 <p>Woke up this morning to an <strong>Internal Server Error<&#47;strong> after logging into the Euca-Console.  </p>
 <p>Looking at the error logs this came up:</p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;02&#47;desktop-1_002.png" rel="attachment wp-att-1649"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;02&#47;desktop-1_002-300x169.png" alt="desktop 1_002" width="300" height="169" class="alignnone size-medium wp-image-1649" &#47;><&#47;a></p>
+<p><a href="/assets/2016&#47;02&#47;desktop-1_002.png" rel="attachment wp-att-1649"><img src="/assets/2016&#47;02&#47;desktop-1_002-300x169.png" alt="desktop 1_002" width="300" height="169" class="alignnone size-medium wp-image-1649" &#47;><&#47;a></p>
 <p>Leap year bug...  luckily everyone else's software caught fire so there was a quick solution here:</p>
 <p><a href="https:&#47;&#47;groups.google.com&#47;a&#47;eucalyptus.com&#47;forum&#47;#!topic&#47;euca-users&#47;mqhYXCzAfaE">https:&#47;&#47;groups.google.com&#47;a&#47;eucalyptus.com&#47;forum&#47;#!topic&#47;euca-users&#47;mqhYXCzAfaE<&#47;a></p>
 <p>Fix is here:<br />
