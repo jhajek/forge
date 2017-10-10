@@ -51,7 +51,7 @@ version compatible with eucalyptus 4.0.2<br />
 <p>Type this command inside the euca2ools directory to install<br />
 <code>python setup.py install (add sudo if you are on Linux - no sudo on Mac)<&#47;code></p>
 <p>Note - depending on what version of Ubuntu you are using (I am looking at you Linux Mint 17.x) May have an older version of the package python-requests (which includes python-requestbuilder)  </p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;02&#47;python-requestbuilder-error.png" rel="attachment wp-att-1683"><img src="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2016&#47;02&#47;python-requestbuilder-error-300x26.png" alt="python-requestbuilder-error" width="300" height="26" class="alignnone size-medium wp-image-1683" &#47;><&#47;a></p>
+<p><a href="/assets/2016&#47;02&#47;python-requestbuilder-error.png" rel="attachment wp-att-1683"><img src="/assets/2016&#47;02&#47;python-requestbuilder-error-300x26.png" alt="python-requestbuilder-error" width="300" height="26" class="alignnone size-medium wp-image-1683" &#47;><&#47;a></p>
 <p>If you receive the error message above - you need to remove the python-requests default package and allow it to be installed by the python installer:<br />
 <code>sudo apt-get remove python-requests<&#47;code></p>
 <p>** This may or may not be necessary depending on how credentials were generated for you...<br />
