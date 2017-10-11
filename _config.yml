@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: SAT Research Forge
+email: hajek@iit.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This Blog represents the work of the students of the SAT Research Forge at Illinois Institute of Technology in the Information Technology and Management program under the guidance of Professor Jeremy Hajek.  Coming to you from the greatest city in the world, Chicago!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://192.168.1.65" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://forge.sat.iit.edu" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jeremyhajek
+github_username:  jhajek
 
 # Build settings
 markdown: kramdown
