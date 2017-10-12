@@ -33,8 +33,10 @@ comments: []
 <p><code>Source Code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;bluetoothbeacon">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;bluetoothbeacon<&#47;a><&#47;code></p>
 <p><strong>10 minute Full Presentation<&#47;strong><br />
 [jwplayer mediaid="1956"]</p>
-<p><strong>3 minute demo video <&#47;strong><br />
-https:&#47;&#47;youtu.be&#47;VYwt01uB370</p>
+<p><strong>3 minute demo video <&#47;strong>
+
+{% youtube VYwt01uB370 %}
+
 <p>Gabriel Corte Real Saldanha<br />
 Jessica Cristina Leite Machado<br />
 Igor Reginato Dulgher Araujo<br />
