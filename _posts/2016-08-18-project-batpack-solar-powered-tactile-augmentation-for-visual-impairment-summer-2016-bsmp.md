@@ -32,13 +32,13 @@ This project sought to create a solar powered battery backed backpack system tha
 
 [https:&#47;&#47;github.com&#47;illinoistech-itm&#47;batpack](Source Code: "Source Code")
 
-*10 minute Full Presentation<&#47;*
+*10 minute Full Presentation*
 
 {% video /assets/2016/08/batpak-with-music.mp4 %}
 
 (Here be dragons)
-<p>Marcelo Campos Ramos Candomil Farias<br />
-Gabriela De Freitas Gandorphi<br />
-Leticia Maia Teixeira<br />
-Pedro Resende Breitschaft<br />
-Rafael Custodio Cejas </p>
+Marcelo Campos Ramos Candomil Farias
+Gabriela De Freitas Gandorphi
+Leticia Maia Teixeira
+Pedro Resende Breitschaft
+Rafael Custodio Cejas
