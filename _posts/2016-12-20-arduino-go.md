@@ -26,7 +26,7 @@ tags:
 - ITMT492
 comments: []
 ---
-<p>[jwplayer mediaid="2059"]</p>
+<p>[jwplayer mediaid="2059"]
 <p><strong>Project Arduino Go<&#47;strong><br />
 A competitive digital and distributed version of the traditional Korean board game, Go. ┬&aacute;This project seeks to overcome the barrier of making a digital version of the game that is a two player distributed competition -- using wireless technologies.</p>
 <p><code>Source Code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;arduinogo">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;arduinogo<&#47;a><&#47;code></p>
