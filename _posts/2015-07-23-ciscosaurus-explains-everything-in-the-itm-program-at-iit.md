@@ -25,7 +25,9 @@ comments: []
 ![*Switch on a Rex*](/assets/2015/07/image-300x255.png "Switch on a Rex")
 
 <p>Here is the desktop wallpaper editions<br />
-<a href="/assets/2015&#47;07&#47;switchonarex.png"><img src="/assets/2015&#47;07&#47;switchonarex-300x196.png" alt="switchonarex" width="300" height="196" class="alignnone size-medium wp-image-1505" &#47;><&#47;a></p>
+
+![Rex 2](/assets/2015&#47;07&#47;switchonarex.png "Rex2") 
+
 <p>Take care<br />
 World Class!<br />
 Jeremy Hajek</p>
