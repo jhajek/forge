@@ -24,7 +24,7 @@ comments: []
 
 ![*Switch on a Rex*](/assets/2015/07/image-300x255.png "Switch on a Rex")
 
-<p>Here is the desktop wallpaper editions<br />
+Here is the desktop wallpaper editions
 
 [![Rex 2](/assets/2015&#47;07&#47;switchonarex-300x196.png "Rex2")](/assets/2015&#47;07&#47;switchonarex.png) 
 
