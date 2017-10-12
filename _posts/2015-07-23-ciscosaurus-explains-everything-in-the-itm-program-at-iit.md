@@ -26,7 +26,7 @@ comments: []
 
 <p>Here is the desktop wallpaper editions<br />
 
-![Rex 2](/assets/2015&#47;07&#47;switchonarex.png "Rex2") 
+[![Rex 2](/assets/2015&#47;07&#47;switchonarex-300x196.png "Rex2")](/assets/2015&#47;07&#47;switchonarex.png) 
 
 <p>Take care<br />
 World Class!<br />
