@@ -23,11 +23,11 @@ tags:
 - hololens
 comments: []
 ---
-<p>These brave souls were the first people on campus at Illinois Institute of Technology to unbox and trry an Augmented Reality - Microsoft Hololens.</p>
-<video controls>
-<source type="video/youtube" src="https://youtu.be/foAka4eqqLA" />
-Your browser does not support the video tag.
-</video>
+These brave souls were the first people on campus at Illinois Institute of Technology to unbox and try an Augmented Reality - Microsoft Hololens.
+
+{% video foAka4eqqLA %} 
+
+
 https://youtu.be/foAka4eqqLA
 https://youtu.be/MewoJFdqOB0
 https://youtu.be/FMbLchL1DxM
