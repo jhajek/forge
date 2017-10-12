@@ -25,9 +25,6 @@ comments: []
 ---
 These brave souls were the first people on campus at Illinois Institute of Technology to unbox and try an Augmented Reality - Microsoft Hololens.
 
-{% youtube foAka4eqqLA %} 
-
-
-https://youtu.be/foAka4eqqLA
-https://youtu.be/MewoJFdqOB0
-https://youtu.be/FMbLchL1DxM
+{% youtube foAka4eqqLA %}
+{% youtube MewoJFdqOB0 %}
+{% youtube FMbLchL1DxM %}
