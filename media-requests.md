@@ -18,24 +18,24 @@ categories: []
 tags: []
 comments: []
 ---
-<p>Here is a recent list of Media appearances by Jeremy Hajek</p>
-<p><strong>2016<&#47;strong></p>
-<ul>
-<li><a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;12&#47;16&#47;top-illinois-researchers-and-research-projects-in-2016&#47;">Illinois Researchers Who Wowed Us in 2016<&#47;a> 12&#47;16&#47;2016 <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;">Chicago Inno<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;07&#47;27&#47;illinois-tech-researchers-demo-drones-that-fly-themselves&#47;">Illinois Tech Researchers Demo Drones That Fly Themselves<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;www.chicagotribune.com&#47;bluesky&#47;originals&#47;ct-vibration-motor-university-of-illinois-study-bsi-20160613-story.html">"Your phone's vibration motor is now on the list of hackable items" - Chicago Tribune Article<&#47;a> 06&#47;13&#47;16<&#47;li>
-<li><a href="http:&#47;&#47;wgntv.com&#47;2016&#47;05&#47;05&#47;the-evolution-of-the-smartphone&#47;#ooid=1yNXliMzE6tnMFasD0cwyq2N9s_gGxS-">WGN TV - The Evolution of the Smartphone <&#47;a> 05&#47;06&#47;16<&#47;li>
-<li><a href="http:&#47;&#47;www.usnews.com&#47;news&#47;technology&#47;articles&#47;2016-03-14&#47;smartphone-voices-not-always-helpful-in-health-crisis">US News & World Report - Smartphone 'voices' not always helpful in a health crisis<&#47;a> 03&#47;14&#47;2016<&#47;li>
-<li><a href="http:&#47;&#47;abcnews.go.com&#47;Technology&#47;wireStory&#47;smartphone-voices-helpful-health-crisis-37633175">ABC News - Smartphone 'voices' not always helpful in a health crisis<&#47;a> 03&#47;14&#47;2016<&#47;li>
-<li><a href="http:&#47;&#47;www.foxnews.com&#47;health&#47;2016&#47;03&#47;14&#47;smartphone-voices-not-always-helpful-in-health-crisis.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+foxnews%2Fhealth+%28Internal+-+Health+-+Text%29">Fox news - Smartphone 'voices' not always helpful in a health crisis<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;www.dailymail.co.uk&#47;sciencetech&#47;article-3492121&#47;Researchers-slam-smartphone-assistants-failing-offer-help-owners-rape-mental-illness-questions.html">Daily Mail UK - Smartphone 'voices' not always helpful in a health crisis<&#47;a> march 14, 2016<&#47;li>
-<li><a href="http:&#47;&#47;www.sfgate.com&#47;business&#47;technology&#47;article&#47;Smartphone-voices-not-always-helpful-in-health-6888679.php">San Fransico Chronicle  - Smartphone 'voices' not always helpful in a health crisis<&#47;a> 03&#47;14&#47;2016<&#47;li><br />
+Here is a recent list of Media appearances by Jeremy Hajek
+## 2016
+
+* <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;12&#47;16&#47;top-illinois-researchers-and-research-projects-in-2016&#47;">Illinois Researchers Who Wowed Us in 2016<&#47;a> 12&#47;16&#47;2016 <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;">Chicago Inno<&#47;a><&#47;li>
+* <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;07&#47;27&#47;illinois-tech-researchers-demo-drones-that-fly-themselves&#47;">Illinois Tech Researchers Demo Drones That Fly Themselves<&#47;a><&#47;li>
+* <a href="http:&#47;&#47;www.chicagotribune.com&#47;bluesky&#47;originals&#47;ct-vibration-motor-university-of-illinois-study-bsi-20160613-story.html">"Your phone's vibration motor is now on the list of hackable items" - Chicago Tribune Article<&#47;a> 06&#47;13&#47;16<&#47;li>
+* <a href="http:&#47;&#47;wgntv.com&#47;2016&#47;05&#47;05&#47;the-evolution-of-the-smartphone&#47;#ooid=1yNXliMzE6tnMFasD0cwyq2N9s_gGxS-">WGN TV - The Evolution of the Smartphone <&#47;a> 05&#47;06&#47;16<&#47;li>
+* <a href="http:&#47;&#47;www.usnews.com&#47;news&#47;technology&#47;articles&#47;2016-03-14&#47;smartphone-voices-not-always-helpful-in-health-crisis">US News & World Report - Smartphone 'voices' not always helpful in a health crisis<&#47;a> 03&#47;14&#47;2016<&#47;li>
+* <a href="http:&#47;&#47;abcnews.go.com&#47;Technology&#47;wireStory&#47;smartphone-voices-helpful-health-crisis-37633175">ABC News - Smartphone 'voices' not always helpful in a health crisis<&#47;a> 03&#47;14&#47;2016<&#47;li>
+* <a href="http:&#47;&#47;www.foxnews.com&#47;health&#47;2016&#47;03&#47;14&#47;smartphone-voices-not-always-helpful-in-health-crisis.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+foxnews%2Fhealth+%28Internal+-+Health+-+Text%29">Fox news - Smartphone 'voices' not always helpful in a health crisis<&#47;a><&#47;li>
+* <a href="http:&#47;&#47;www.dailymail.co.uk&#47;sciencetech&#47;article-3492121&#47;Researchers-slam-smartphone-assistants-failing-offer-help-owners-rape-mental-illness-questions.html">Daily Mail UK - Smartphone 'voices' not always helpful in a health crisis<&#47;a> march 14, 2016<&#47;li>
+* <a href="http:&#47;&#47;www.sfgate.com&#47;business&#47;technology&#47;article&#47;Smartphone-voices-not-always-helpful-in-health-6888679.php">San Fransico Chronicle  - Smartphone 'voices' not always helpful in a health crisis<&#47;a> 03&#47;14&#47;2016<&#47;li><br />
 <&#47;ul></p>
 <p>The above interview was picked up by 338 prominent media outlets and helped gain national media exposure for Illinois Tech. </p>
 <p><strong>2015<&#47;strong></p>
-<p><strong>Open letter ban on "offensive autonomous weapons". WLS radio interveiw 7&#47;29&#47;15<&#47;strong><br />
+<p><strong>Open letter ban on "offensive autonomous weapons". WLS radio interview 7&#47;29&#47;15<&#47;strong><br />
 <a href="http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743">http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743<&#47;a> Early 2015</p>
-<p><strong>Dailey Business Ledger - May 27 2015<br />
+<p><strong>Daily Business Ledger - May 27 2015<br />
 <&#47;strong><br />
 <a href="http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492">http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492<&#47;a></p>
 <p><strong>ABC 7 April 28th 2015 <&#47;strong><br />
