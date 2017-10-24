@@ -21,7 +21,8 @@ comments: []
 Here is a recent list of Media appearances by Jeremy Hajek
 ## 2016
 
-* <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;12&#47;16&#47;top-illinois-researchers-and-research-projects-in-2016&#47;">Illinois Researchers Who Wowed Us in 2016<&#47;a> 12&#47;16&#47;2016 <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;">Chicago Inno<&#47;a><&#47;li>
+* [Illinois Researchers Who Wowed Us in 2016 12&#47;16&#47;2016](http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;12&#47;16&#47;top-illinois-researchers-and-research-projects-in-2016&#47; "Illinois Top Researcher")
+    + [Chicago Inno](http:&#47;&#47;chicagoinno.streetwise.co&#47; "Chicago Inno")
 * <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;07&#47;27&#47;illinois-tech-researchers-demo-drones-that-fly-themselves&#47;">Illinois Tech Researchers Demo Drones That Fly Themselves<&#47;a><&#47;li>
 * <a href="http:&#47;&#47;www.chicagotribune.com&#47;bluesky&#47;originals&#47;ct-vibration-motor-university-of-illinois-study-bsi-20160613-story.html">"Your phone's vibration motor is now on the list of hackable items" - Chicago Tribune Article<&#47;a> 06&#47;13&#47;16<&#47;li>
 * <a href="http:&#47;&#47;wgntv.com&#47;2016&#47;05&#47;05&#47;the-evolution-of-the-smartphone&#47;#ooid=1yNXliMzE6tnMFasD0cwyq2N9s_gGxS-">WGN TV - The Evolution of the Smartphone <&#47;a> 05&#47;06&#47;16<&#47;li>
