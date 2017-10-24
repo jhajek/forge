@@ -26,7 +26,9 @@ tags:
 - IllinoisTech
 comments: []
 ---
-<p>[jwplayer mediaid="2069"]</p>
-<p>Project M.U.T.S (Modular Utility Tunnel Sensor)</p>
-<p>This project is the outcome of multiple semesters work with ComEd to develop a reliable sensor platform to be placed into sealed electrical vaults in order to provide accurate and precise calculation of various parameters needed to keep the vaults functioning and alert technicians before dangerous thresholds are met. ┬&aacute;This project won the Dean&Gamma;&Ccedil;&Ouml;s award for the Spring 2016 IPRO track.</p>
-<p>Zubin Fanibanda</p>
+### Project M.U.T.S (Modular Utility Tunnel Sensor)
+{% video /assets/2016/12/2016Fall-ITMT492-muts-w-music.mp4 %}
+
+This project is the outcome of multiple semesters work with [ComEd](http://comed.com "ComEd") to develop a reliable sensor platform to be placed into sealed electrical vaults in order to provide accurate and precise calculation of various parameters needed to keep the vaults functioning and alert technicians before dangerous thresholds are met. This project won the Dean's award for the Spring 2016 IPRO track.
+
+Zubin Fanibanda
