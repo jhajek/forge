@@ -43,13 +43,12 @@ Here is a recent list of Media appearances by Jeremy Hajek
 
 * ABC 7 April 28th 2015 <&#47;strong>
 Here is the video clip from the tornado warning sirens story on ABC 7 Chicago. I apologize I did not get a heads-up from ABC 7 regarding the air date.
-<a href="http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;">http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;<&#47;a>
+{% video http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;">http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;%}
 
 * Fox 32 April 1st 2015
-<&#47;strong>
 They're doing a story about the intersection of Armitage and Sheffield, where drivers complain that they cannot open or start their cars with their FOBs. There have been stories from other cities where experts suggest that a nearby "pirate radio station" might be interfering.
 Here is the video clip:
-{ video http:&#47;&#47;www.myfoxchicago.com&#47;story&#47;28655527&#47;key-fobs}
+{% video http:&#47;&#47;www.myfoxchicago.com&#47;story&#47;28655527&#47;key-fobs %}
 * ABC 7 (6 in Philly)  Feb 16th 2015
 <&#47;strong>
 The ABC 7 Chicago report on "Home Hacking" was picked up by ABC 6 News in Philadelphia (the sister station to ABC 7 Chicago). Here is the link to the ABC 6 story: (just in the last few minutes)
