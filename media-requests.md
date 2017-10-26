@@ -19,6 +19,31 @@ tags: []
 comments: []
 ---
 Here is a recent list of Media appearances by Jeremy Hajek
+## 2017
+
+* CBS 2 Chicago TV Interview - ATM Skimmers - 10/23/17
+    + [http://chicago.cbslocal.com/2017/10/23/14-skimmers-now-found-on-atms-across-chicago/](http://chicago.cbslocal.com/2017/10/23/14-skimmers-now-found-on-atms-across-chicago/)
+
+* CBS 2 Chicago TV INterview - ATM SKimmers - 10/20/17
+    + [http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/](http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/)
+
+* Yahoo Finance - Credit Card Fraud - 10/02/17
+    + [https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html](https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html)
+
+* Newsweek.com - Sonic’s Data Breach: Why Are Credit Cards Still Getting Hacked? - 09/28/17
+    + [http://www.newsweek.com/sonics-data-breach-why-are-credit-cards-still-getting-hacked-672962](http://www.newsweek.com/sonics-data-breach-why-are-credit-cards-still-getting-hacked-672962)
+
+* Comments on Wisconsin Company Adding RFID Chips to employees - 08/02/17
+   + [https://www.google.com/search?q=%22Jeremy+Hajek%22&rlz=1C5CHFA_enUS731US731&tbs=qdr:d&filter=0&biw=2228&bih=1219](https://www.google.com/search?q=%22Jeremy+Hajek%22&rlz=1C5CHFA_enUS731US731&tbs=qdr:d&filter=0&biw=2228&bih=1219)
+
+* Comments on Wisconsin Company Adding RFID Chips to employees - Duam.com (Korean) - 08/02/17
+    + [http://v.media.daum.net/v/20170802212505706](http://v.media.daum.net/v/20170802212505706) 
+    
+* CBS 2 Chicago - EMV Chips in Credit Cards - 03/15/17
+    + [http://chicago.cbslocal.com/2017/03/14/those-chip-cards-theyre-not-invincible/](http://chicago.cbslocal.com/2017/03/14/those-chip-cards-theyre-not-invincible/)
+
+* 
+
 ## 2016
 
 * [Illinois Researchers Who Wowed Us in 2016 12&#47;16&#47;2016](http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;12&#47;16&#47;top-illinois-researchers-and-research-projects-in-2016&#47; "Illinois Top Researcher")
