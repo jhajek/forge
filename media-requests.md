@@ -68,21 +68,20 @@ Here is a recent list of Media appearances by Jeremy Hajek
     + [Open letter ban on offensive autonomous weapons](http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743">http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743) 
 
 * Daily Business Ledger - May 27 2015
-http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492">http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492
+    + [http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492](http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492 "High Tech Robots")
 
 * ABC 7 April 28th 2015 
-Here is the video clip from the tornado warning sirens story on ABC 7 Chicago. I apologize I did not get a heads-up from ABC 7 regarding the air date.
-{% video http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;">http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;%}
+    + Here is the video clip from the tornado warning sirens story on ABC 7 Chicago. I apologize I did not get a heads-up from ABC 7 regarding the air date.
+    + [http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;](http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47; "Tornado Warning System")
 
 * Fox 32 April 1st 2015
-They're doing a story about the intersection of Armitage and Sheffield, where drivers complain that they cannot open or start their cars with their FOBs. There have been stories from other cities where experts suggest that a nearby "pirate radio station" might be interfering.
-Here is the video clip:
-{% video http:&#47;&#47;www.myfoxchicago.com&#47;story&#47;28655527&#47;key-fobs %}
-* ABC 7 (6 in Philly)  Feb 16th 2015
+    + They're doing a story about the intersection of Armitage and Sheffield, where drivers complain that they cannot open or start their cars with their FOBs. There have been stories from other cities where experts suggest that a nearby "pirate radio station" might be interfering.
+    + [http:&#47;&#47;www.myfoxchicago.com&#47;story&#47;28655527&#47;key-fobs](http:&#47;&#47;www.myfoxchicago.com&#47;story&#47;28655527&#47;key-fobs "key fobs") - Video
 
-The ABC 7 Chicago report on "Home Hacking" was picked up by ABC 6 News in Philadelphia (the sister station to ABC 7 Chicago). Here is the link to the ABC 6 story: (just in the last few minutes)
-http:&#47;&#47;6abc.com&#47;technology&#47;home-hackers-digital-invaders-a-threat-to-your-house&#47;516744&#47;">http:&#47;&#47;6abc.com&#47;technology&#47;home-hackers-digital-invaders-a-threat-to-your-house&#47;516744&#47;
+*  ABC 7 (6 in Philly)  Feb 16th 2015
+    + The ABC 7 Chicago report on "Home Hacking" was picked up by ABC 6 News in Philadelphia (the sister station to ABC 7 Chicago). Here is the link to the ABC 6 story: (just in the last few minutes)
+    + [http:&#47;&#47;6abc.com&#47;technology&#47;home-hackers-digital-invaders-a-threat-to-your-house&#47;516744&#47;](http:&#47;&#47;6abc.com&#47;technology&#47;home-hackers-digital-invaders-a-threat-to-your-house&#47;516744&#47; "Home Hackers")
 
 * DNA Info Feb 4 2015
-Here is a link to the cold weather cell phone story in DNAinfo. Looks like it went online today.
-http:&#47;&#47;www.dnainfo.com&#47;chicago&#47;20150204&#47;downtown&#47;winter-is-killing-your-smartphone-heres-how-protect-it">http:&#47;&#47;www.dnainfo.com&#47;chicago&#47;20150204&#47;downtown&#47;winter-is-killing-your-smartphone-heres-how-protect-it
+    + Here is a link to the cold weather cell phone story in DNAinfo. Looks like it went online today.
+    + [http:&#47;&#47;www.dnainfo.com&#47;chicago&#47;20150204&#47;downtown&#47;winter-is-killing-your-smartphone-heres-how-protect-it](http:&#47;&#47;www.dnainfo.com&#47;chicago&#47;20150204&#47;downtown&#47;winter-is-killing-your-smartphone-heres-how-protect-it "Winter kills your phone")
