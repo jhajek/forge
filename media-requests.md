@@ -37,7 +37,7 @@ Here is a recent list of Media appearances by Jeremy Hajek
 ## 2015
 
 * WLS radio interview 7&#47;29&#47;15
-    + [Open letter ban on "offensive autonomous weapons](http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743">http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743) 
+    + [Open letter ban on offensive autonomous weapons](http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743">http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743) 
 
 * Daily Business Ledger - May 27 2015
 http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492">http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492
