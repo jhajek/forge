@@ -27,6 +27,9 @@ Here is a recent list of Media appearances by Jeremy Hajek
 * CBS 2 Chicago TV INterview - ATM SKimmers - 10/20/17
     + [http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/](http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/)
 
+* SIGITE 2017 Conference Paper Presentation - Rochester NY - 10/04/17
+    +   Autonomous Movement Framework for UAVs     
+
 * Yahoo Finance - Credit Card Fraud - 10/02/17
     + [https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html](https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html)
 
