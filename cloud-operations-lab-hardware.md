@@ -40,7 +40,7 @@ Current applications include:
     + Datanode3 - 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5504 Quad Core](https://ark.intel.com/products/40711/Intel-Xeon-Processor-E5504-4M-Cache-2_00-GHz-4_80-GTs-Intel-QPI "Intel 5504")
     + Datanode4 - 2 TB of storage, 24 GB of RAM, [AMD FX 6100 Hexacore ](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
 
-## Decomissioned
+## Decommissioned
 
 [AppendixForITResroucesABET.pdf from 05/15](https://forge.sat.iit.edu/wp-content/uploads/2015/05/ "ABET Appendix")
 
