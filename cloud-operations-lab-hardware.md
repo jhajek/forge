@@ -18,7 +18,7 @@ categories: []
 tags: []
 comments: []
 ---
-For a while I wanted to publish all of our research capabilities for the Cloud and Operations research group in the [School of Applied Technology](http://appliedtech.iit.edu "School of Applied Technology")  [Information Technology and Management Program](http://appliedtech.iit.edu/itm "ITM"). 
+For a while I wanted to publish the research capabilities of Professor Jeremy Hajek for the Cloud and Operations research group in the [Information Technology and Management Program](http://appliedtech.iit.edu/itm "ITM") Program at the [School of Applied Technology](http://appliedtech.iit.edu "School of Applied Technology"). 
 
 ## Current Hardware Platform - as of 10/26/17
 
