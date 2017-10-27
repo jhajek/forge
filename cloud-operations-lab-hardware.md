@@ -18,8 +18,10 @@ categories: []
 tags: []
 comments: []
 ---
-<p>For a while I wanted to publish all of our research capabilities for the Cloud and Operations research group in the <a href="http:&#47;&#47;appliedtech.iit.edu&#47;" title="School of Applied Technology">School of Applied Technology <&#47;a> <a href="http:&#47;&#47;appliedtech.iit.edu&#47;itm" title="ITM">Information Technology and Management Program<&#47;a>.</p>
-<p><a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2015&#47;05&#47;AppendixForITResroucesABET.pdf">AppendixForITResroucesABET.pdf from 05&#47;15<&#47;a></p>
+For a while I wanted to publish all of our research capabilities for the Cloud and Operations research group in the [School of Applied Technology](http:&#47;&#47;appliedtech.iit.edu "School of Applied Technology")  [Information Technology and Management Program](http:&#47;&#47;appliedtech.iit.edu&#47;itm "ITM"). 
+
+[AppendixForITResroucesABET.pdf from 05&#47;15](https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2015&#47;05&#47; "ABET Appendix")
+
 <p><strong>HP Eucalyptus 4.0.2 Cloud Computing Stack<&#47;strong><br />
 <strong>Updated: 08&#47;10&#47;2016<&#47;strong><br />
 <strong>Updated: 12&#47;02&#47;2016<&#47;strong></p>
