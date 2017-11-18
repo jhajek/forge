@@ -8,8 +8,6 @@ author:
   login: hajek
   email: hajek@iit.edu
   url: ''
-author_login: hajek
-author_email: hajek@iit.edu
 wordpress_id: 2074
 wordpress_url: https://forge.sat.iit.edu/?p=2074
 date: '2016-12-20 11:23:23 -0600'
