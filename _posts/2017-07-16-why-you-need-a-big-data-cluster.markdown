@@ -12,8 +12,11 @@ Creating a shared computing cluster for Hadoop based MapReduce applciation and q
 
 
    At the same time, Google released two white papers, GFS (Google File System) and MapReduce.  Both of these white papers, released far after Google had commercialized these technologies, became the solutions Doug Cutting was looking for.   Launching the Hadoop project, named after his son's toy elephant, he implemented the Google Filesystem into the HDFS (Hadoop Filesystem).  This filesystem is optimized for handling large scale data and for processing large scale ad-hoc queries.  In fact much in the same way a drag racer car is optimized to win a short quarter mile race, not to drive to the store for milk, in the same way HDFS is optimized.  
+
    At the same time, Google released two white papers, GFS (Google File System) and MapReduce.  Both of these white papers, released far after Google had commercialized these technologies, became the solutions Doug Cutting was looking for.   Launching the Hadoop project, named after his son's toy elephant, he implemented the Google Filesystem into the HDFS (Hadoop Filesystem).  This filesystem is optimized for handling large scale data and for processing large scale ad-hoc queries.  In fact much in the same way a drag racer car is optimized to win a short quarter mile race, not to drive to the store for milk, in the same way HDFS is optimized.  
+
    At the same time, Google released two white papers, GFS (Google File System) and MapReduce.  Both of these white papers, released far after Google had commercialized these technologies, became the solutions Doug Cutting was looking for.   Launching the Hadoop project, named after his son's toy elephant, he implemented the Google Filesystem into the HDFS (Hadoop Filesystem).  This filesystem is optimized for handling large scale data and for processing large scale ad-hoc queries.  In fact much in the same way a drag racer car is optimized to win a short quarter mile race, not to drive to the store for milk, in the same way HDFS is optimized.  
+
    At the same time, Google released two white papers, GFS (Google File System) and MapReduce.  Both of these white papers, released far after Google had commercialized these technologies, became the solutions Doug Cutting was looking for.   Launching the Hadoop project, named after his son's toy elephant, he implemented the Google Filesystem into the HDFS (Hadoop Filesystem).  This filesystem is optimized for handling large scale data and for processing large scale ad-hoc queries.  In fact much in the same way a drag racer car is optimized to win a short quarter mile race, not to drive to the store for milk, in the same way HDFS is optimized.  
 
    The MapReduce paper by Google was written to explain the ways and theories behind Google's handling, indexing, and qerying large amounts of data.  In 2005, when the paper was released we would assume they had a scale of data problem that no one else on the planet had relating to indexing the web.  Doug Cutting implemented the MapReduce paradigm in Java, combined with the HDFS, and created and opensourced the Hadoop platform.
@@ -23,6 +26,7 @@ Creating a shared computing cluster for Hadoop based MapReduce applciation and q
    The MapReduce paper by Google was written to explain the ways and theories behind Google's handling, indexing, and qerying large amounts of data.  In 2005, when the paper was released we would assume they had a scale of data problem that no one else on the planet had relating to indexing the web.  Doug Cutting implemented the MapReduce paradigm in Java, combined with the HDFS, and created and opensourced the Hadoop platform.
 
    The MapReduce paper by Google was written to explain the ways and theories behind Google's handling, indexing, and qerying large amounts of data.  In 2005, when the paper was released we would assume they had a scale of data problem that no one else on the planet had relating to indexing the web.  Doug Cutting implemented the MapReduce paradigm in Java, combined with the HDFS, and created and opensourced the Hadoop platform.
+
 ### Abstract
 
 The nature and need for data processing is ever increasing.  Novel methods have been designed to analyze this data.  This paper seeks to show the positive arguments for building a large scale Hadoop/MapReduce cluster that provides a department level service for researcher professors, teaching professors, and students alike.   Having this "Big Data" cluster as a resource will give our student body unparallel access to research tools as well as seperate our program in terms of tooling offered.
@@ -59,7 +63,7 @@ The nature and need for data processing is ever increasing.  Novel methods have 
    The Hadoop system capitalizes on 4 distinct technology advantages that had become accessable and prevelant in late 2008-2010 that were not in existance during the development of the early RDMBS:
 
 - Accessible
-    + Hadoop is designed from the ground up to run on commodity Intel based hardware
+    + Hadoop is designed from the ground up to run on commodity x86 based hardware
 - Robust
     + Hadoop is architected to assume frequent hardware failures (Reliability)
 - Scalable  
