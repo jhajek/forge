@@ -30,4 +30,7 @@ Here are the two presentations and video reviewed during the night:
  *  [/assets/2016/09/IIT_Autonomous_Delivery_Drone_VERSION_2.pptx](iit_autonomous_delivery_drone_version_2.pptx "delivery drone PPTX")
  * [/assets/2016/09/Presentation_final-AMF-Louis-Philias.pdf](presentation_final-amf-louis-philias.pdf "Louis Philias presentation")
  * {% youtube sV9fBxjziS0 %}
-<p>[gallery ids="2039,2040,2041"]</p>
+ 
+![*Uniforum*](/assets/2016/09/WP_20160927_19_48_55_Pro-768x432.jpg "Uniforum")
+![*Uniforum*](/assets/2016/09/WP_20160927_19_49_04_Pro-768x432.jpg "Uniforum")
+![*Uniforum*](/assets/2016/09/WP_20160927_19_53_19_Pro-768x432.jpg "Uniforum")
