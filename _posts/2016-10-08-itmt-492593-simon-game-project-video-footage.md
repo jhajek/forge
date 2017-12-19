@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ITMT 492&#47;593 Simon Game Project Video footage
+title: ITMT 492/593 Simon Game Project Video footage
 author:
   display_name: hajek
   login: hajek
