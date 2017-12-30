@@ -31,12 +31,17 @@ tags:
 - bsmp
 comments: []
 ---
-<p>https:&#47;&#47;youtu.be&#47;T7jT2GwwN38</p>
-<p>This project implements the 4 focuses of security in a small memory space (32kb) on the Arduino Platform.  Integrity, Authenticity, Confidentiality, Non-Repudiation.  The work was done during the summer BSMP program.</p>
-<p><code>Source code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;windowlatch">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;windowlatch<&#47;a><&#47;code></p>
-<p><strong>11 Minute presentation<&#47;strong><br />
-[jwplayer mediaid="1982"]</p>
-<p>Matheus Ancelmo Bonfim Pita<br />
-Grasiele Aparecida de Oliveira Brustolom<br />
-Joao Antonio Figueredo Calmon<br />
-Bruno Augusto Pereira Pinto </p>
+This project implements the 4 focuses of security in a small memory space (32kb) on the [Arduino Platform](https://www.arduino.cc/ "Arduino Platform").  Integrity, Authenticity, Confidentiality, Non-Repudiation.  The work was done during the summer BSMP program.
+
+{% youtube T7jT2GwwN38 %}
+
+```Github Source code:``` [Project Window Latch](https://github.com/illinoistech-itm/windowlatch "Project Window Latch")
+
+**11 Minute presentation**
+
+{% youtube T7jT2GwwN38 %}
+
+*  Matheus Ancelmo Bonfim Pita
+*  Grasiele Aparecida de Oliveira Brustolom
+*  Joao Antonio Figueredo Calmon
+*  Bruno Augusto Pereira Pinto
