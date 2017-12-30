@@ -28,13 +28,16 @@ tags:
 - bsmp
 comments: []
 ---
-<p>Project Glass Charts<br />
+Project Glass Charts
+
 ![*Project Glass Charts Team](/assets/2014/05/glass-clearshade-isometric-300x207.jpg "glass-clearshade-isometric")
 
 This project used [Google Glass](http://www.google.com/glass/start/ "Google Glass") in order to create real-time HUD charts.  Using hands free devices and voice control we successfully found that this device and project could make a great impact on field workers needing real-time charted data.  Special thanks to Val Scarlata who lent us one pair of Google Glass for development.
 
 **11 Minute Presentation**
+
 {% youtube svUX6grS3vo %}
+
 ```Github Source Code:``` [Project Glass Charts](https://github.com/illinoistech-itm/glasscharts "Project Glass Charts")
 *  Cristina Freitas Bazzano
 *  Camilo Mellen Sad Neto
