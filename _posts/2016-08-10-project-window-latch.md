@@ -33,7 +33,7 @@ comments: []
 ---
 This project implements the 4 focuses of security in a small memory space (32kb) on the [Arduino Platform](https://www.arduino.cc/ "Arduino Platform").  Integrity, Authenticity, Confidentiality, Non-Repudiation.  The work was done during the summer BSMP program.
 
-**11 Minute presentation**
+**3 Minute presentation**
 
 {% youtube T7jT2GwwN38 %}
 
