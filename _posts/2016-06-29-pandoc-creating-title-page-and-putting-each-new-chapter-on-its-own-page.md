@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Pandoc - Argument of \Paragraph has an extra }
+title: Pandoc error - Argument of \Paragraph has an extra }
 author:
   display_name: hajek
   login: hajek
