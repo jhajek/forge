@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: DevOps Meetup w&#47;Bryan Cantrill and Ray Krueger
+title: DevOps Meetup with Bryan Cantrill and Ray Krueger
 author:
   display_name: hajek
   login: hajek
