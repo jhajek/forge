@@ -33,13 +33,11 @@ comments: []
 ---
 This project implements the 4 focuses of security in a small memory space (32kb) on the [Arduino Platform](https://www.arduino.cc/ "Arduino Platform").  Integrity, Authenticity, Confidentiality, Non-Repudiation.  The work was done during the summer BSMP program.
 
-{% youtube T7jT2GwwN38 %}
-
-```Github Source code:``` [Project Window Latch](https://github.com/illinoistech-itm/windowlatch "Project Window Latch")
-
 **11 Minute presentation**
 
 {% youtube T7jT2GwwN38 %}
+
+```Github Source code:``` [Project Window Latch](https://github.com/illinoistech-itm/windowlatch "Project Window Latch")
 
 *  Matheus Ancelmo Bonfim Pita
 *  Grasiele Aparecida de Oliveira Brustolom
