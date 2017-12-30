@@ -27,7 +27,7 @@ Dear Friends,
 Went to an amazing DevOps meetup here in Chicago and heard [Bryan Cantrill](http://dtrace.org/blogs/bmc/ "Bryan Cantrill") (CTO of Joyent) speak.  He is as advertised.  Also heard from Ray Krueger, the CTO of Hilton Hotels talk about their own IT and infrastructure patterns.  
 They posted a video of the presentation here:
 
-{% video https://vimeo.com/165120806 %}
+{% video //vimeo.com/165120806 %}
 
 Go to about 1:40 (1 hour 40 minutes in) to hear me ask a question about debugging and tracings place in education.
 
