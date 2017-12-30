@@ -37,4 +37,10 @@ This is the demo video for the Autonomous Movement Framework for UAVs. Our demo 
 ```Source Code``` [Project AMF](https://github.com/illinoistech-itm/amf "Project AMF")
 
 ![*Two drones operating simultaneously*](/assets/2016/08/IMG_2055.jpg "Two drones operating sumultaniously")
-[gallery columns="4" ids="1851,1852,1853,1854,1855,1856,1857,1858,1859,1860,1861,1862,1863,1864,1865,1866,1867,1868,1869,1870,1871,1872,1873,1874,1875,1876,1877,1878,1879"]
+{% gallery galleryname %}
+galleries/amf/IMG_1980.jpg::3DR IRIS
+galleries/amf/IMG_1993.jpg:: Team Attempting a repair
+galleries/amf/IMG_2000.jpg
+galleries/amf/IMG_2055.jpg
+galleries/amf/IMG_2067.jpg
+{% endgallery %}
