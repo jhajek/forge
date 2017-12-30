@@ -15,8 +15,7 @@ wordpress_url: https://forge.sat.iit.edu/?p=1997
 date: '2016-08-18 11:51:56 -0500'
 date_gmt: '2016-08-18 16:51:56 -0500'
 categories:
-- Uncategorized
-- Projects
+- projects
 - presentation
 tags:
 - Illinois Tech
