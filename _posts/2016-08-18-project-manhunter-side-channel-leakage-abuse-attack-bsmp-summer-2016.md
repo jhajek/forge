@@ -32,10 +32,10 @@ comments: []
 {% youtube 4tymo_ytJDE %}
 This project was an implementation of a research paper - Side Channel Leakage Abuse, original thesis work by Dr. Jason Perry of Lewis University. And implemented on the HP Eucalyptus OSR object storage system.
 
-<code>Source Code:
+<code>Source Code:</code>
 [Propject Manhunter](https://github.com/illinoistech-itm/manhunter "Project Manhunter")
 
-[img src="/assets/2016/08/manhunter-2-300x200.jpg"](/assets/2016/08/manhunter-2.jpg "project manhunter")
+![*Project Slam Team*](/assets/2016/08/manhunter-2.jpg "project manhunter")
 
 *  Gabriel De Magalhaes Escudeiro
 *  Paulo Victor Lobato Sarmento
