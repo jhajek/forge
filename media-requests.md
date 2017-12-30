@@ -28,7 +28,7 @@ Here is a recent list of Media appearances by Jeremy Hajek
     + [http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/](http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/)
 
 * SIGITE 2017 Conference Paper Presentation - Rochester NY - 10/04/17
-    +   Autonomous Movement Framework for UAVs     
+    +  Riviere, T., Gutierrez Ayala, H., & Hajek, J. (2017). The Extension and Implementation of the Autonomous Movement Framework. Proceedings of the 6th Annual Conference on Reaseach in Information and Technology. Rochester: ACM.     
 
 * Yahoo Finance - Credit Card Fraud - 10/02/17
     + [https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html](https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html)
