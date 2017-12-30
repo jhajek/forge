@@ -33,7 +33,7 @@ This presentation created a system to detect an approaching body to a door and s
 **10 minute demo video**
 {% youtube 80B8qZ8Rls0 %}
 
-<code>Source Code: [Project S.L.A.M. source code](https://github.com/illinoistech-itm/slam "Project SLAM source code")</code>
+<code>Source Code:</code> [Project S.L.A.M. source code](https://github.com/illinoistech-itm/slam "Project SLAM source code")
 
 *  Gabriel Filipe Botelho Barbosa
 *  Matheus Braz Duque
