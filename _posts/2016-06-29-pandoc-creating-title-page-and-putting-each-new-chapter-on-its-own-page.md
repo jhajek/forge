@@ -22,20 +22,33 @@ tags:
 - pdf
 comments: []
 ---
-<p>Writing <a href="https:&#47;&#47;github.com&#47;jhajek&#47;Linux-text-book-part-1">a textbook for a class<&#47;a> -- as I am doing -- is hard enough, I am using <a href="http:&#47;&#47;www.pandoc.org">Pandoc<&#47;a> for my choice of <a href="http:&#47;&#47;daringfireball.net&#47;projects&#47;markdown&#47;">markdown<&#47;a> to produce PDF and ePub. </p>
-<p>There are differences and trade offs trying to take a common markdown code base and publish it to different formats.  Currently I don't have a feature parity between both formats they both have extra items the other one doesn't.  </p>
-<p>Recently I reinstalled Pandoc with <a href="http:&#47;&#47;miktex.org&#47;">MikTeX<&#47;a> for Windows and <a href="https:&#47;&#47;www.tug.org&#47;mactex&#47;morepackages.html">BasicTeX<&#47;a> for Mac, and deb package <a href="http:&#47;&#47;tex.stackexchange.com&#47;questions&#47;28528&#47;best-way-to-install-packages-for-texlive-in-ubuntu">texlive<&#47;a> for Ubuntu 16.04.  These packages are needed to turn Pandoc markdown into PDFs via a LateX library.</p>
-<p>Installing the latest version of Pandoc 1.17.1 and running my build script to produce a PDF all of a sudden generated this error...  </p>
-<p><a href="/assets/2016&#47;06&#47;pandoc-error.png"><img src="/assets/2016&#47;06&#47;pandoc-error.png" alt="pandoc-error" width="1348" height="946" class="aligncenter size-full wp-image-1815" &#47;><&#47;a></p>
-<p>Oh no... this error is not very helpful as I have 13 chapters worth of material, what could be causing this error?  It could be anywhere!   I did what any good detective did, I removed each chapter 1 by 1 and rebuilt the PDF trying to narrow down where the error is by process of elimination.  </p>
-<p>I went all the way down - stripping all the chapters out but one.  That was the title page.  The file titlesec.tex is a LaTeX style formatting command to generate a title page and also make sure that each new chapter starts on its own page.  This worked for the entire last year using this command line option:</p>
-<p>Here is the full code that throws the error:</p>
-<p><code>pandoc --toc -V geometry:margin=1in --number-sections --include-in-header .&#47;title&#47;titlesec.tex -s -o .&#47;output&#47;pdf&#47;Understanding-the-Technology-and-Philosophy-of-Linux-Part-I-$STAMP.pdf  .&#47;Chapter-01&#47;chapter-01.md .&#47;Chapter-02&#47;chapter-02.md .&#47;Chapter-03&#47;chapter-03.md .&#47;Chapter-04&#47;chapter-04.md .&#47;Chapter-05&#47;chapter-05.md .&#47;Chapter-06&#47;chapter-06.md .&#47;Chapter-07&#47;chapter-07.md .&#47;Chapter-08&#47;chapter-08.md .&#47;Chapter-09&#47;chapter-09.md .&#47;Chapter-10&#47;chapter-10.md .&#47;Chapter-11&#47;chapter-11.md .&#47;Chapter-12&#47;chapter-12.md .&#47;Chapter-13&#47;chapter-13.md .&#47;Chapter-14&#47;chapter-14.md .&#47;Chapter-15&#47;chapter-15.md .&#47;Appendix-A&#47;Appendix-A.md .&#47;Appendix-B&#47;Appendix-B.md .&#47;Appendix-C&#47;Appendix-C.md<&#47;code></p>
-<p>Strange.  The quick fix for this error was to remove the offending line of code:</p>
-<p><code>--include-in-header .&#47;title&#47;titlesec.tex<&#47;code></p>
-<p>Replacing it with this line:<br />
-<code>-V documentclass=report<&#47;code></p>
-<p>Which then generates the expected PDF -- compare the difference below:</p>
-<p><a href="/assets/2016&#47;06&#47;pandoc-broke.png"><img src="/assets/2016&#47;06&#47;pandoc-broke.png" alt="pandoc-broke" width="1143" height="168" class="aligncenter size-full wp-image-1814" &#47;><&#47;a></p>
-<p><a href="/assets/2016&#47;06&#47;pandoc-fix.png"><img src="/assets/2016&#47;06&#47;pandoc-fix.png" alt="pandoc-fix" width="1160" height="172" class="aligncenter size-full wp-image-1816" &#47;><&#47;a></p>
-<p><a href="/assets/2016&#47;06&#47;pandoc-success.png"><img src="/assets/2016&#47;06&#47;pandoc-success.png" alt="pandoc-success" width="1318" height="326" class="aligncenter size-full wp-image-1813" &#47;><&#47;a></p>
+I am currently writing a textbook.  In doing so I choose to use [Markdown](https://daringfireball.net/projects/markdown/ "Markdown history").  [The book is located on Github](https://github.com/jhajek/Linux-text-book-part-1 "Link to Github for textbook") you can download this and build the book yourself. This book is being used for a class is hard enough, I am using  a flavor of Markdown called [Pandoc](https://www.pandoc.org "pandoc") for my choice to produce PDF, ePub, html, docx, and mobi (Kindle)
+
+There are differences and trade offs trying to take a common markdown code base and publish it to different formats.  Currently I don't have a feature parity between both formats they both have extra items the other one doesn't. 
+
+Recently I reinstalled Pandoc with [MikTeX for Windows](http://miktex.org/ "Miktex") and [BasicTeX for Mac](https://www.tug.org/mactex/morepackages.html "BasicTeX"), and a [deb package for texlive](http://tex.stackexchange.com/questions/28528/best-way-to-install-packages-for-texlive-in-ubuntu "deb package for texlive") for Ubuntu 16.04.  These packages are needed to turn Pandoc markdown into PDFs via a LateX library.
+
+Installing the latest version of Pandoc 1.17.1 and running my build script to produce a PDF all of a sudden generated this error... 
+
+![*Pandoc Error*](/assets/2016/06/pandoc-error.png "pandoc-error")
+Oh no... this error is not very helpful as I have 13 chapters worth of material, what could be causing this error?  It could be anywhere!   I did what any good detective did, I removed each chapter 1 by 1 and rebuilt the PDF trying to narrow down where the error is by process of elimination.
+
+I went all the way down - stripping all the chapters out but one.  That was the title page.  The file titlesec.tex is a LaTeX style formatting command to generate a title page and also make sure that each new chapter starts on its own page.  This worked for the entire last year using this command line option:
+
+Here is the full code that throws the error:
+```pandoc --toc -V geometry:margin=1in --number-sections --include-in-header ./title/titlesec.tex -s -o ./output/pdf/Understanding-the-Technology-and-Philosophy-of-Linux-Part-I-$STAMP.pdf  ./Chapter-01/chapter-01.md ./Chapter-02/chapter-02.md ./Chapter-03/chapter-03.md ./Chapter-04/chapter-04.md ./Chapter-05/chapter-05.md ./Chapter-06/chapter-06.md ./Chapter-07/chapter-07.md ./Chapter-08/chapter-08.md ./Chapter-09/chapter-09.md ./Chapter-10/chapter-10.md ./Chapter-11/chapter-11.md ./Chapter-12/chapter-12.md ./Chapter-13/chapter-13.md ./Chapter-14/chapter-14.md ./Chapter-15/chapter-15.md ./Appendix-A/Appendix-A.md ./Appendix-B/Appendix-B.md ./Appendix-C/Appendix-C.md```
+
+Strange...  The quick fix for this error was to remove the offending line of code:
+
+```--include-in-header ./title/titlesec.tex```
+
+Replacing it with this line:
+
+```-V documentclass=report```
+
+Which then generates the expected PDF -- compare the difference below:
+![*Pandoc Broke*](/assets/2016/06/pandoc-broke.png "pandoc-broke")
+
+![*Pandoc Fixed*](/assets/2016/06/pandoc-fix.png "pandoc-fix")
+
+![*Pandoc Success*](/assets/2016/06/pandoc-success.png "pandoc-success")
