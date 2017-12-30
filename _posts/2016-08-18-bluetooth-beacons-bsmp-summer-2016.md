@@ -28,18 +28,21 @@ tags:
 - beacons
 comments: []
 ---
-<p>Bluetooth Beacons Project</p>
-<p>This project used Bluetooth LE to create beacons to be used to create location based supplimental information</p>
-<p><code>Source Code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;bluetoothbeacon">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;bluetoothbeacon<&#47;a><&#47;code></p>
-<p><strong>10 minute Full Presentation<&#47;strong><br />
-[jwplayer mediaid="1956"]</p>
-<p><strong>3 minute demo video <&#47;strong>
+Bluetooth Beacons Project
 
+This project used Bluetooth LE to create beacons to be used to create location based supplimental information
+
+```Github Source Code:``` [Project Blue Tooth Beacon](https://github.com/illinoistech-itm/bluetoothbeacon "Project Blue Tooth Beacon")
+
+**10 minute Full Presentation**
+{% youtube BYF3DuLBdGs %}
+
+**3 minute demo video**
 {% youtube VYwt01uB370 %}
 
-<p>Gabriel Corte Real Saldanha<br />
-Jessica Cristina Leite Machado<br />
-Igor Reginato Dulgher Araujo<br />
-Rafael Rodrigues Ghossi<br />
-Anderson Sales De Menezes<br />
-Thales Silva De Sousa </p>
+*  Gabriel Corte Real Saldanha
+*  Jessica Cristina Leite Machado
+*  Igor Reginato Dulgher Araujo
+*  Rafael Rodrigues Ghossi
+*  Anderson Sales De Menezes
+*  Thales Silva De Sousa
