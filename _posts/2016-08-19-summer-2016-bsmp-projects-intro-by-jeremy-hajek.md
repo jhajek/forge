@@ -29,7 +29,7 @@ comments: []
 {% youtube fm8YQOf28mA %}
 The group from Brazil did an excellent job this summer on over 11 different projects ranging from cyber-security to IoT prototypes.  
 
-Let me introduce the projects.
+Let me introduce the projects:
 
 <p><strong><a href="/assets/2016/08/autonomous-movement-framework-for-uavs/">Autonomous Movement Framework for UAVs (uAMF)</a></strong><br />
 This project successfully built and deployed hardware and software to manage the autonomous movement of UAVs based on GPS location.  The goal was to be able to call a carrier drone to your location via a standard smart phone app and have a central server process the order, queue the order up, and distribute the order to a waiting drone.  This was done using Pixhawk processor and 3DR Iris copters. </p>
@@ -44,7 +44,7 @@ This project is using two pair of Google Glass and Android Chart Libraries in or
 <p><strong><a href="/assets/2016/08/project-batpack-solar-powered-tactile-augmentation-for-visual-impairment-summer-2016-bsmp/">Project BatPack</a></strong><br />
 This project will create solar power and battery backed apparel that supplements a user&Gamma;&Ccedil;&Ouml;s rear and peripheral vision.  This is done by using sonic range finders and an algorithm for determining approaching bodies.  The apparel and computers are small enough as to be embedded in normal clothing and items and the battery combined with solar panels allow for a full days use off the grid.    </p>
 <p><strong><a href="/assets/2016/08/project-glass-charts-google-glass-huds-summer-2016-bsmp/">Project Glass Charts</a><a href="/assets/2016/08/project-manhunter-side-channel-leakage-abuse-attack-bsmp-summer-2016/">Project Manhunter</a></strong><br />
-This project is working on implementing research to test the hypothesis of leakage abuse attacks against searchable encrypted data.   This will be done using an object based storage (S3 based) product called Walrus from the HP Eucalyptus private cloud software. The goal is to be able to identify commonly encrypted data stored on this cloud by looking at side channel leakage.  Source: http://www.cs.lewisu.edu/~perryjn/ccs15.pdf </p>
+This project is working on implementing research to test the hypothesis of leakage abuse attacks against searchable encrypted data.   This will be done using an object based storage (S3 based) product called Walrus from the HP Eucalyptus private cloud software. The goal is to be able to identify commonly encrypted data stored on this cloud by looking at side channel leakage.  Source: [Link to Dr. Perry's research](http://www.cs.lewisu.edu/~perryjn/ccs15.pdf "CCS15") </p>
 <p><strong><a href="/assets/2016/08/project-guest-pass-gpu-passthrough-in-linux-kvm-summer-2016-bsmp/">Project Guest Pass</a></strong><br />
 This system is investigating the ability to use GPU/PCI passthrough with Linux KVM to create self-service on-demand GPU clusters.  They will be using commodity x86 processors and AMD Radeon GPU cards<br />
 running on Linux using the KVM virtualization platform.   </p>
