@@ -31,10 +31,10 @@ The group from Brazil did an excellent job this summer on over 11 different proj
 
 Let me introduce the projects:
 
-**[Autonomous Movement Framework for UAVs (uAMF)](/amf/2016/09/28/autonomous-movement-framework-presentation-at-uniforum.html)**
+**[Autonomous Movement Framework for UAVs (uAMF)](/amf/2016/09/28/autonomous-movement-framework-presentation-at-uniforum.html "AMF")**
 This project successfully built and deployed hardware and software to manage the autonomous movement of UAVs based on GPS location.  The goal was to be able to call a carrier drone to your location via a standard smart phone app and have a central server process the order, queue the order up, and distribute the order to a waiting drone.  This was done using Pixhawk processor and 3DR Iris copters.
 
-**(/assets/2016/08/lamp-sense-using-intellignt-lighting-for-two-way-communication-bsmp-summer-2016/)[Lamp Sense**
+**[Lamp Sense](projects/presentation/2016/08/18/lamp-sense-using-intelligent-lighting-for-two-way-communication-bsmp-summer-2016.html "Lamp Sense")**
 This project involves using the [Philips Hue](https://www2.meethue.com/en-us "Hue Lights") Intelligent lighting platform to give lighting a 2 way purpose -- to allow lights to be able to direct a person to a specific location. 
 
 **(/assets/2016/08/bluetooth-beacons-bsmp-summer-2016/)[Bluetooth Beacon**
@@ -53,7 +53,7 @@ This project will create solar power and battery backed apparel that supplements
 
 This project is working on implementing research to test the hypothesis of leakage abuse attacks against searchable encrypted data.   This will be done using an object based storage (S3 based) product called Walrus from the HP Eucalyptus private cloud software. The goal is to be able to identify commonly encrypted data stored on this cloud by looking at side channel leakage.  Source: [Link to Dr. Perry's research](http://www.cs.lewisu.edu/~perryjn/ccs15.pdf "CCS15") 
 
-**(/assets/2016/08/project-guest-pass-gpu-passthrough-in-linux-kvm-summer-2016-bsmp/)[Project Guest Pass**
+**[Project Guest Pass](/assets/2016/08/project-guest-pass-gpu-passthrough-in-linux-kvm-summer-2016-bsmp/)**
 This system is investigating the ability to use GPU/PCI passthrough with Linux KVM to create self-service on-demand GPU clusters.  They will be using commodity x86 processors and AMD Radeon GPU cards
 running on Linux using the KVM virtualization platform.   
 
