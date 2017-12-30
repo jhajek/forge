@@ -28,11 +28,13 @@ tags:
 - bsmp
 comments: []
 ---
-<p>https:&#47;&#47;youtu.be&#47;77RNsdyS6nI</p>
-<p>This is the demo video for the Autonomous Movement Framework for UAVs. Our demo was a rousing success, thank you so much to the team.<br />
-Article publication about the event: <a href="http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;07&#47;27&#47;illinois-tech-researchers-demo-drones-that-fly-themselves&#47;">Illinois Tech Researchers Demo Drones That Fly Themselves<&#47;a></p>
-<p><code>Source Code is here:<br />
-<a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;amf">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;amf<&#47;a><&#47;code></p>
-<p>The money shot - two drones operating simultaneously<br />
-<a href="/assets/2016&#47;08&#47;IMG_2055.jpg"><img src="/assets/2016&#47;08&#47;IMG_2055.jpg" alt="IMG_2055" width="5760" height="3840" class="aligncenter size-full wp-image-1850" &#47;><&#47;a></p>
-<p>[gallery columns="4" ids="1851,1852,1853,1854,1855,1856,1857,1858,1859,1860,1861,1862,1863,1864,1865,1866,1867,1868,1869,1870,1871,1872,1873,1874,1875,1876,1877,1878,1879"]</p>
+This is the demo video for the Autonomous Movement Framework for UAVs. Our demo was a rousing success, thank you so much to the team.
+
+{% youtube 77RNsdyS6nI %}
+
+[Article publication about the event](http://chicagoinno.streetwise.co/2016/07/27/illinois-tech-researchers-demo-drones-that-fly-themselves/ "Chicago Inno Article")>
+
+```Source Code``` [Project AMF](https://github.com/illinoistech-itm/amf "Project AMF")
+
+![*Two drones operating simultaneously*](/assets/2016/08/IMG_2055.jpg "Two drones operating sumultaniously")
+[gallery columns="4" ids="1851,1852,1853,1854,1855,1856,1857,1858,1859,1860,1861,1862,1863,1864,1865,1866,1867,1868,1869,1870,1871,1872,1873,1874,1875,1876,1877,1878,1879"]
