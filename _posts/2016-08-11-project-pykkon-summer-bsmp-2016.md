@@ -32,14 +32,19 @@ tags:
 - bsmp
 comments: []
 ---
-<p>3 minute demo video<br />
-https:&#47;&#47;youtu.be&#47;mt1HMDCHb7Y</p>
-<p>This is a project implementing an iSCSI injection attack to modify an iSCSI file request in-mid stream and return the altered document without disrupting the TCP&#47;IP stream.</p>
-<p><code>Source Code: Code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;pykkon">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;pykkon<&#47;a><&#47;code></p>
-<p>7 minute presentation<br />
-[jwplayer mediaid="1981"]</p>
-<p>Matheus Camasmie Pavan<br />
-Israel Cavalcanti Costa<br />
-Lucas De Assis Rosa<br />
-William Picon Studart<br />
-Hale Valente Silva </p>
+This project implements an iSCSI injection attack to modify an iSCSI file request in-mid stream and return the altered document without disrupting the TCP/IP stream.
+
+**3 minute demo video**
+{% youtube mt1HMDCHb7Y %}
+
+```Github Source Code:``` [Project Pykkon](https://github.com/illinoistech-itm/pykkon "Project Pykkon")
+
+**7 minute presentation**
+
+{% youtube 1CpNMoN7y14 %}
+
+*  Matheus Camasmie Pavan
+*  Israel Cavalcanti Costa
+*  Lucas De Assis Rosa
+*  William Picon Studart
+*  Hale Valente Silva
