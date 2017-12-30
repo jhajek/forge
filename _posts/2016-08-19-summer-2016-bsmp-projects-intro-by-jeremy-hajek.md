@@ -26,8 +26,11 @@ tags:
 - bsmp
 comments: []
 ---
-<p>[jwplayer mediaid="1943"]</p>
-<p>The group from Brazil did an excellent job this summer on over 11 different projects ranging from cyber-security to IoT prototypes.  Let me introduce the projects.</p>
+{% youtube fm8YQOf28mA %}
+The group from Brazil did an excellent job this summer on over 11 different projects ranging from cyber-security to IoT prototypes.  
+
+Let me introduce the projects.
+
 <p><strong><a href="/assets/2016/08/autonomous-movement-framework-for-uavs/">Autonomous Movement Framework for UAVs (uAMF)</a></strong><br />
 This project successfully built and deployed hardware and software to manage the autonomous movement of UAVs based on GPS location.  The goal was to be able to call a carrier drone to your location via a standard smart phone app and have a central server process the order, queue the order up, and distribute the order to a waiting drone.  This was done using Pixhawk processor and 3DR Iris copters. </p>
 <p><strong><a href="/assets/2016/08/lamp-sense-using-intelligent-lighting-for-two-way-communication-bsmp-summer-2016/">Lamp Sense</a></strong><br />
