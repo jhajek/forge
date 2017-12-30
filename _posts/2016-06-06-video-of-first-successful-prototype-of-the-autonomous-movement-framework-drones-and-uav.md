@@ -26,13 +26,20 @@ tags:
 - drones
 comments: []
 ---
-<p>This was done in March of 2015 -- I forgot to post it so I am posting it now.  </p>
-<p><strong>Fist successful flight of the Autonomous Service Framework<br />
-<&#47;strong></p>
-<p>https:&#47;&#47;youtu.be&#47;wusmjFMszqM</p>
-<p>The voice you hear is then Undergraduate student Mark Milhouse --  completing this demo out in the February snow of 2015, near the IIT Keating Sports Center.</p>
-<p>This is the first outtake video of our unit getting confused and dropping its payload mid-air</p>
-<p>https:&#47;&#47;youtu.be&#47;PSdfGmEkUYA</p>
-<p>Finally this last video is some funny out-takes of the units crashing, all set to music.</p>
-<p>https:&#47;&#47;youtu.be&#47;VrlIRfBs3k0</p>
-<p>This was all the footage from our initial round of research.</p>
+**Fist successful flight of the Autonomous Service Framework**
+
+*This was done in March of 2015 -- I forgot to post it so I am posting it now.*
+
+{% youtube wusmjFMszqM %}
+
+The voice you hear is then Undergraduate student Mark Milhouse --  completing this demo out in the February snow of 2015, near the IIT Keating Sports Center.
+
+This is the first outtake video of our unit getting confused and dropping its payload mid-air
+
+{% youtube PSdfGmEkUYA %}
+
+Finally this last video is some funny out-takes of the units crashing, all set to music.
+
+{% youtube VrlIRfBs3k0 %}
+
+This was all the footage from our initial round of research.
