@@ -26,16 +26,17 @@ tags:
 - Solar
 comments: []
 ---
-<p>Project SLAM</p>
-<p>This presentation created a system to detect an approaching body to a door and send a signal to the outside hall of that approaching person.  This system had the additional requirement of being solar powered and battery backed. </p>
-<p><code>Source Code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;slam">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;slam<&#47;a><br />
-<&#47;code></p>
-<p><strong>10 minute demo video<&#47;strong><br />
-[jwplayer mediaid="1959"]</p>
-<p><code>Source Code:<br />
-<a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;slam">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;slam<&#47;a><&#47;code></p>
-<p>Gabriel Filipe Botelho Barbosa<br />
-Matheus Braz Duque<br />
-Guilherme De Castro<br />
-Luiz Gustavo De Marchi Brito<br />
-Rodrigo Ferreira Abdulmassih </p>
+Project SLAM
+
+This presentation created a system to detect an approaching body to a door and send a signal to the outside hall of that approaching person.  This system had the additional requirement of being solar powered and battery backed. 
+
+**10 minute demo video**
+{% youtube 80B8qZ8Rls0 %}
+
+<code>Source Code: [Project S.L.A.M. source code](https://github.com/illinoistech-itm/slam "Project SLAM source code")</code>
+
+*  Gabriel Filipe Botelho Barbosa
+*  Matheus Braz Duque
+*  Guilherme De Castro
+*  Luiz Gustavo De Marchi Brito
+*  Rodrigo Ferreira Abdulmassih
