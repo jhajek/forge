@@ -38,10 +38,3 @@ This is the demo video for the Autonomous Movement Framework for UAVs. Our demo 
 
 ![*Two drones operating simultaneously*](/assets/2016/08/IMG_2055.jpg "Two drones operating sumultaniously")
 
-{% gallery amfphotos %}
-galleries/amf/IMG_1980.jpg::3DR IRIS
-galleries/amf/IMG_1993.jpg:: Team Attempting a repair
-galleries/amf/IMG_2000.jpg
-galleries/amf/IMG_2055.jpg
-galleries/amf/IMG_2067.jpg
-{% endgallery %}
