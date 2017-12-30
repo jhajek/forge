@@ -28,17 +28,16 @@ tags:
 comments: []
 ---
 **Bat Pack**
-This project sought to create a solar powered battery backed backpack system that uses sonic range finders and vibrating motors to create a sensory aid system for peripheral vision.   Code: https://github.com/illinoistech-itm/batpack
-
-[https://github.com/illinoistech-itm/batpack](Source Code: "Source Code")
+This project sought to create a solar powered battery backed backpack system that uses sonic range finders and vibrating motors to create a sensory aid system for peripheral vision.   
 
 10 minute Full Presentation
 
 {% youtube ho4WNazdSf4 %}
 
-(Here be dragons)
-Marcelo Campos Ramos Candomil Farias
-Gabriela De Freitas Gandorphi
-Leticia Maia Teixeira
-Pedro Resende Breitschaft
-Rafael Custodio Cejas
+<code>Git Hub Source Code:</code> [Project Batpak](https://github.com/illinoistech-itm/batpack "Batpak source code")
+
+*  Marcelo Campos Ramos Candomil Farias
+*  Gabriela De Freitas Gandorphi
+*  Leticia Maia Teixeira
+*  Pedro Resende Breitschaft
+*  Rafael Custodio Cejas
