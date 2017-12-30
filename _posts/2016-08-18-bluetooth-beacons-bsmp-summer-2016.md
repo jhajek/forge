@@ -15,7 +15,7 @@ wordpress_url: https://forge.sat.iit.edu/?p=2023
 date: '2016-08-18 13:10:27 -0500'
 date_gmt: '2016-08-18 18:10:27 -0500'
 categories:
-- Pandoc
+- projects
 - presentation
 tags:
 - IoT
