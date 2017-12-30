@@ -39,3 +39,10 @@ gems:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+gallerytag:
+    dir: assests/galleries
+    url: /assests/galleries
+    thumb_width: 150
+    thumb_height: 150
+    columns: 4
