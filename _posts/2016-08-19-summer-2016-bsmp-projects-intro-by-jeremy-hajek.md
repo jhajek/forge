@@ -46,10 +46,10 @@ This project solves a problem of creating a sensor that will warn people in a pe
 **(/assets/2016/08/project-glass-charts-google-glass-huds-summer-2016-bsmp/)[Project Glass Charts**
 This project is using two pair of Google Glass and Android Chart Libraries in order to create real-time and voice activated graphs based on collected building HVAC data.  The purpose is to give field engineers a tool that can help them supplement conditions and make informed decisions. 
 
-**[Project BatPack](projects/presentation/2016/08/18/project-batpack-solar-powered-tactile-augmentation-for-visual-impairment-summer-2016-bsmp.html "Batpak")**
+**[Project BatPack](/projects/presentation/2016/08/18/project-batpack-solar-powered-tactile-augmentation-for-visual-impairment-summer-2016-bsmp.html "Batpak")**
 This project will create solar power and battery backed apparel that supplements a user&Gamma;&Ccedil;&Ouml;s rear and peripheral vision.  This is done by using sonic range finders and an algorithm for determining approaching bodies.  The apparel and computers are small enough as to be embedded in normal clothing and items and the battery combined with solar panels allow for a full days use off the grid.    
 
-**(/assets/2016/08/project-glass-charts-google-glass-huds-summer-2016-bsmp/)[Project Glass Charts(/assets/2016/08/project-manhunter-side-channel-leakage-abuse-attack-bsmp-summer-2016/)[Project Manhunter**
+**[Project Manhunter](/projects/presentation/2016/08/18/project-manhunter-side-channel-leakage-abuse-attack-bsmp-summer-2016.html "Project Manhunter")**
 
 This project is working on implementing research to test the hypothesis of leakage abuse attacks against searchable encrypted data.   This will be done using an object based storage (S3 based) product called Walrus from the HP Eucalyptus private cloud software. The goal is to be able to identify commonly encrypted data stored on this cloud by looking at side channel leakage.  Source: [Link to Dr. Perry's research](http://www.cs.lewisu.edu/~perryjn/ccs15.pdf "CCS15") 
 
