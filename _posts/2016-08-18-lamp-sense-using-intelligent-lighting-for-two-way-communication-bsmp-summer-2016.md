@@ -28,11 +28,16 @@ tags:
 - sensors
 comments: []
 ---
-Light Sense
-A project showing the possibilities of using intelligent lights (the Philips Hue Platform) to be able to display two-way information using lighting.
-```Source Code: <a href="https:&#47;&#47;github.com&#47;illinoistech-itm&#47;lampsense">https:&#47;&#47;github.com&#47;illinoistech-itm&#47;lampsense<&#47;a>```
+Lamp Sense
+
+A project showing the possibilities of using intelligent lights (the Philips Hue Platform) to be able to display two-way information using lighting.
+
+```Github Source Code:``` [Project Lamp Sense](https://github.com/illinoistech-itm/lampsense "Project Lamp Sense Source Code")
+
 __10 Minute Full Presentation__
-[jwplayer mediaid="1979"]
-Andreive Giovanini Silva
-Pedro Henrique Gualdi Silva
-Breno Soares Martins
+
+{% youtube OcqB5tRWMkY %}
+
+*  Andreive Giovanini Silva
+*  Pedro Henrique Gualdi Silva
+*  Breno Soares Martins
