@@ -37,7 +37,7 @@ This project successfully built and deployed hardware and software to manage the
 **[Lamp Sense](/projects/presentation/2016/08/18/lamp-sense-using-intelligent-lighting-for-two-way-communication-bsmp-summer-2016.html "Lamp Sense")**
 This project involves using the [Philips Hue](https://www2.meethue.com/en-us "Hue Lights") Intelligent lighting platform to give lighting a 2 way purpose -- to allow lights to be able to direct a person to a specific location. 
 
-**(/assets/2016/08/bluetooth-beacons-bsmp-summer-2016/)[Bluetooth Beacon**
+**[Bluetooth Beacon](/projects/presentation/2016/08/18/bluetooth-beacons-bsmp-summer-2016.html "Bluetooth Beacon")**
 This project involved creating and utilizing Bluetooth LE in order to create intelligent beacons--useful for triggering location awareness in mobile applications. 
 
 **(/assets/2016/08/project-s-l-a-m-solar-location-awareness-module-bsmp-summer-2016/)[Project S.L.A.M. (Solar based Location Awareness Module)**
@@ -46,7 +46,7 @@ This project solves a problem of creating a sensor that will warn people in a pe
 **(/assets/2016/08/project-glass-charts-google-glass-huds-summer-2016-bsmp/)[Project Glass Charts**
 This project is using two pair of Google Glass and Android Chart Libraries in order to create real-time and voice activated graphs based on collected building HVAC data.  The purpose is to give field engineers a tool that can help them supplement conditions and make informed decisions. 
 
-**(/assets/2016/08/project-batpack-solar-powered-tactile-augmentation-for-visual-impairment-summer-2016-bsmp/)[Project BatPack**
+**[Project BatPack](projects/presentation/2016/08/18/project-batpack-solar-powered-tactile-augmentation-for-visual-impairment-summer-2016-bsmp.html "Batpak")**
 This project will create solar power and battery backed apparel that supplements a user&Gamma;&Ccedil;&Ouml;s rear and peripheral vision.  This is done by using sonic range finders and an algorithm for determining approaching bodies.  The apparel and computers are small enough as to be embedded in normal clothing and items and the battery combined with solar panels allow for a full days use off the grid.    
 
 **(/assets/2016/08/project-glass-charts-google-glass-huds-summer-2016-bsmp/)[Project Glass Charts(/assets/2016/08/project-manhunter-side-channel-leakage-abuse-attack-bsmp-summer-2016/)[Project Manhunter**
