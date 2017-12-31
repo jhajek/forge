@@ -108,20 +108,21 @@ I am glad you asked. I though it might be <a href="https://forge.sat.iit.edu/201
 
 **Error as follows from the exception handling in Java:**
 
-```Downloading an object
+``` 
+Downloading an object
 May 31, 2016 12:37:06 AM com.amazonaws.services.s3.AmazonS3Client getSignerByURI
 WARNING: Failed to parse the endpoint http://objectstorage.sat.iit.edu:8773/services/objectstorage, and skip re-signing the signer region
 java.lang.IllegalArgumentException: Invalid S3 URI: hostname does not appear to be a valid S3 endpoint: http://objectstorage.sat.iit.edu:8773/services/objectstorage
 ```
 
 ![S3 v3 error](/assets/2016/06/sampleS3-v3-error.png)
-![S3 v2 error v2](/assets/2016/06/sampleS3-v3-error-P2.png)
+![S3 v2 error v2](/assets/2016/06/sampleS3-v3-error-P2-905x192.png)
 What could be causing this error?  The connection is proper and 3/4ths of the code works! It is the signature problem mentioned above but also something else.  The AWS Java SDK is too new and the way it handles downloading an object is not compatible.  This means I had to roll versions back.  If you roll back to AWS Java SDK 1.9.4 then you get 4 green check marks. So the solution is:
 
 *  Add the setSignature() method detailed above
 *  Change the POM.xml file value to pull AWS Java SDK 1.9.4 (no higher)
 *  Walrus problems are solved
 
-![*POM Assests*](/assets/2016/06/pom-xml-1-9-4-300x107.png)
+![*POM Assests*](/assets/2016/06/pom-xml-1-9-4-768x275.png)
 
 Take care, Jeremy!
