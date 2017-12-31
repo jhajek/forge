@@ -85,18 +85,19 @@ aws_secret_access_key = YOURSECRETKEYHERE
 ```
 
 This is how the S3 connection object looks in the S3Sample.java provided in the Github link for the AWS JAVA SDK project.
-```java AmazonS3 s3 = new AmazonS3Client();
+
+{% highlight java %} AmazonS3 s3 = new AmazonS3Client();
 Region usWest2 = Region.getRegion(Regions.US_WEST_2);
 s3.setRegion(usWest2);
-```
+{% endhighlight %}
 
 Eucalyptus has *different* regions so to speak. So you need to comment out a few AWS specific lines and add an override so the code knows how to find your Walrus/OSG (Object Storage Gateway) URI.</p>
-```java AmazonS3 s3 = new AmazonS3Client();
+{% highlight java %} AmazonS3 s3 = new AmazonS3Client();
 //Region usWest2 = Region.getRegion(Regions.US_WEST_2);
 //s3.setRegion(usWest2);
 s3.setEndpoint("http://objectstorage.yourdomain.com:8773/services/objectstorage");
 s3.setS3ClientOptions(new S3ClientOptions().withPathStyleAccess( true ) );
-```
+{% endhighlight %}
 
 With this set, the code will compile and run and connect to AWS Java SDK 1.11.4, and all of the JAR dependencies will be fetched by <a href="https://en.wikipedia.org/wiki/Apache_Maven">Apache Maven</a> for you, easy setup no need to download any additional JARs or classpath. </p>
 
