@@ -27,5 +27,7 @@ comments: []
 ---
 <p>In case you missed it last night, Jeremy's Hajek's interview appeared during the 9pm newscast on WGN TV last  Great job Jeremy!</p>
 <p>Link to presentation:<br />
-[embed]http://wgntv.com/2016/05/05/the-evolution-of-the-smartphone/#ooid=1yNXliMzE6tnMFasD0cwyq2N9s_gGxS-[/embed]</p>
+
+{% video http://wgntv.com/2016/05/05/the-evolution-of-the-smartphone/#ooid=1yNXliMzE6tnMFasD0cwyq2N9s_gGxS-%}
+
 <p>Just a side note, since this is the critical news rating time period for television stations (future advertising rates are set based on ratings for this month) news stories are carefully selected to generate maximum ratings. WGN News is the number one newscast in this time period. Appearing in a news story during this broadcast is significant.</p>

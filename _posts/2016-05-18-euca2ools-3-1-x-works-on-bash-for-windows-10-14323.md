@@ -28,9 +28,9 @@ comments: []
 <p><a href="/assets/2016/05/bash-git-clone.png"><img src="/assets/2016/05/bash-git-clone.png" alt="bash-git-clone" width="846" height="82" class="aligncenter size-full wp-image-1718" /></a></p>
 <p>Following the normal process -- everything worked!  But one thing...<br />
 <a href="/assets/2016/05/bash-euca-version.png"><img src="/assets/2016/05/bash-euca-version.png" alt="bash-euca-version" width="888" height="73" class="aligncenter size-full wp-image-1717" /></a></p>
-<p><a href="/assets/2016/05/bash-on-win-install.png"><img src="/assets/2016/05/bash-on-win-install-1024x608.png" alt="bash-on-win-install" width="845" height="502" class="aligncenter size-large wp-image-1719" /></a></p>
+<p><a href="/assets/2016/05/bash-on-win-install-1024x608.png"><img src="/assets/2016/05/bash-on-win-install-1024x608.png" alt="bash-on-win-install" width="845" height="502" class="aligncenter size-large wp-image-1719  " /></a></p>
 <p>The thing to keep in mind is that Ubuntu 14.04 has its own version of the python-requests library.  You need to remove this version:</p>
 <p><code>sudo apt-get remove python-requests</code></p>
-<p><a href="/assets/2016/05/bash-on-win-install.png"><img src="/assets/2016/05/bash-on-win-install-1024x608.png" alt="bash-on-win-install" width="845" height="502" class="aligncenter size-large wp-image-1719" /></a></p>
+<p><a href="/assets/2016/05/bash-on-win-install-1024x608.png"><img src="/assets/2016/05/bash-on-win-install-1024x608.png" alt="bash-on-win-install" width="845" height="502" class="aligncenter size-large wp-image-1719" /></a></p>
 <p><a href="/assets/2016/05/bash-euca2ools-building.png"><img src="/assets/2016/05/bash-euca2ools-building.png" alt="bash-euca2ools-building" width="859" height="603" class="aligncenter size-full wp-image-1715" /></a></p>
 <p><a href="/assets/2016/05/bash-euca-describe-instances.png"><img src="/assets/2016/05/bash-euca-describe-instances.png" alt="bash-euca-describe-instances" width="908" height="584" class="aligncenter size-full wp-image-1716" /></a></p>
