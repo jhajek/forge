@@ -26,7 +26,7 @@ tags:
 - AWS Java SDk
 comments: []
 ---
-[*HPE Eucalyptus*](/assets/2016/06/225px-Eucalyptus-Logo.jpg)
+![*HPE Eucalyptus*](/assets/2016/06/225px-Eucalyptus-Logo.jpg)
 
 <strike>Here at Illinois Tech we</strike> I have just completed a successful semester of using HP Eucalyptus 4.0.2 Cloud Platform for all of our capstone and research projects.  It has been a blessing as it has taken hardware requests and budgeting problems out of the IT groups hands and placed it into the students hands.  They were able to rapidly deploy their services, load-balancers and any resources needed on their own.
 
