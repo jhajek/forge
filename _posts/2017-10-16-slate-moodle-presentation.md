@@ -14,7 +14,7 @@ tags:
 - Deployment
 comments: []
 ---
-I was able to jointly present the current research project for Moodle LMS being run at IIT with Joe Liaw from Hinsdale Central High School and with Louis McHugh, Director of Information Technology at the IIT School of Applied Technology.  [Presentaion, The Skunkworks Approach to Learning:](The-Skunkworks-Approach-Slate-2017.pdf "The Skunkworks Approach to Learning")
+I was able to jointly present the current research project for Moodle LMS being run at IIT with Joe Liaw from Hinsdale Central High School and with Louis McHugh, Director of Information Technology at the IIT School of Applied Technology.  [Presentaion, The Skunkworks Approach to Learning:](/assests/2017/10/The-Skunkworks-Approach-Slate-2017.pdf "The Skunkworks Approach to Learning")
 
 Here are some of the highlights: 1.3+ million (!) individual quiz question attempts since August alone for formative and summative assessments....which is the recently published, most effective means of helping students prepare for final exams and for learning:
  
