@@ -24,4 +24,4 @@ tags:
 comments: []
 ---
 <p>Our IRPO day and ITMT 495 summer session class projects involving Xbees were written up by Digit.com and posted on their blog.</p>
-<p><a href="http:&#47;&#47;www.digi.com&#47;blog&#47;community&#47;illinois-institute-of-technology-students-bring-connected-solutions-to-life-with-xbee&#47;">http:&#47;&#47;www.digi.com&#47;blog&#47;community&#47;illinois-institute-of-technology-students-bring-connected-solutions-to-life-with-xbee&#47;<&#47;a></p>
+<p><a href="http://www.digi.com/blog/community/illinois-institute-of-technology-students-bring-connected-solutions-to-life-with-xbee/">http://www.digi.com/blog/community/illinois-institute-of-technology-students-bring-connected-solutions-to-life-with-xbee/</a></p>
