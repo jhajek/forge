@@ -43,3 +43,5 @@ Finally this last video is some funny out-takes of the units crashing, all set t
 {% youtube VrlIRfBs3k0 %}
 
 This was all the footage from our initial round of research.
+
+![*In a Tree*](/assets/2016/06/inatree2-480x400.jpg "In a tree")
