@@ -67,7 +67,7 @@ My setup was:
 4) **What I Did Next**
   + Let me show you the initial code, my additions, and then explain it below.  Modify the first few lines of code in the sample to reflect below.</p>
 
-```java // My additions to the S3Sample.java code
+{% highlight java %} // My additions to the S3Sample.java code
 ClientConfiguration opts = new ClientConfiguration();
 opts.setSignerOverride("S3SignerType");  // NOT "AWS3SignerType"  -- mentioned by Steve Jones set signatures back to v2.</p>
 AmazonS3Client s3 = new AmazonS3Client(opts);
@@ -75,7 +75,7 @@ AmazonS3Client s3 = new AmazonS3Client(opts);
 // s3.setRegion(usWest2);
 s3.setEndpoint("http://objectstorage.yourdomain.com:8773/services/objectstorage/");
 s3.setS3ClientOptions(new S3ClientOptions().withPathStyleAccess( true ) );
-```
+{% endhighlight %}
 
 Also don't forget to create a credential file on the local system--don't put creds in your actual code--too risky. In your home directory (Linux or Windows), create a directory named **.aws** with a file named **credentials** inside that file place the syntax below.  These keys can be AWS account keys or HP Eucalyptus Account keys. The keys will come in your credentials zip file provided by your Eucalyptus Administrator, extract the zip file and the credentials listed below will be contained in a file named **eucarc**. In this story they are your account keys from our HP Eucalyptus system.</p>
 
