@@ -106,7 +106,7 @@ I am glad you asked. I though it might be <a href="https://forge.sat.iit.edu/201
 *  Proper code that creates uploads an new object to the previously created bucket ![](/assets/2016/05/Green-Tick.png)
 *   Proper code that downloads that previously uploaded object ![](/assets/2016/06/th.jpg)
 
-**Error as follows from the exception handling in Java: **
+**Error as follows from the exception handling in Java:**
 
 ```Downloading an object
 May 31, 2016 12:37:06 AM com.amazonaws.services.s3.AmazonS3Client getSignerByURI
