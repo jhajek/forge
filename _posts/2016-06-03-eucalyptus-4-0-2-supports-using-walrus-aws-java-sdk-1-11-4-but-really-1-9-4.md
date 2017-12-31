@@ -57,10 +57,13 @@ My setup was:
 <del datetime="2016-06-16T21:00:18+00:00">I opened the sample/test code provided by Amazon, located in the <a href="https://github.com/aws/aws-sdk-java/tree/master/src/samples/AmazonS3">https://github.com/aws/aws-sdk-java/blob/master/src/samples/AmazonS3/S3Sample.java</a> file.</del>
 
 1) start by cloning the AWS Java SDK sample projects from AWSlab: 
-  +  <code>git clone https://github.com/awslabs/aws-java-sample.git</code>
+  +  ```git clone https://github.com/awslabs/aws-java-sample.git```
+
 2) you can then open the project directly in NetBeans and it will import the entire build package (S3Sample.java) plus the Maven file (pom.xml) required to download all the .jar dependencies. Just hit the green RUN triangle and Maven will retrieve all of the JARs needed, even the AWS Java SDK.
+
 3) **Issues Encountered**
   +  I encountered one small issue using AWS Java API 1.11.4 -- <a href="https://groups.google.com/a/eucalyptus.com/forum/#!searchin/euca-users/aws$20java$20sdk/euca-users/hnU9NmFM7-Q/W-AScuslW1YJ">this issue is referenced here by member CoderSparks</a>. - though the questioner had a different error -- I think the concept was the same:  
+
 4) **What I Did Next**
   + Let me show you the initial code, my additions, and then explain it below.  Modify the first few lines of code in the sample to reflect below.</p>
 
