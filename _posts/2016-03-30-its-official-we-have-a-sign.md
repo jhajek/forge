@@ -21,7 +21,8 @@ tags:
 - IoT
 comments: []
 ---
-<p>Good news our newly built and renovated Smart Tech and Embedded Systems Lab at <a href="http://web.iit.edu/">Illinois Tech</a> recently got an official sign and plaque outside the main door.  Like a country isn't official until it has a flag and an anthem, now we have a sign and are an official lab.</p>
+Good news our newly built and renovated Smart Tech and Embedded Systems Lab at [Illinois Tech](http://web.iit.edu/) recently got an official sign and plaque outside the main door.  Like a country isn't official until it has a flag and an anthem, now we have a sign and are an official lab.
+
 ![*We have a Plaque*](/assets/2016/03/WP_20160324_16_58_09_Pro-1024x577.jpg)
 
 Take care,
