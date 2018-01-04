@@ -31,11 +31,13 @@ comments: []
 For installing Euca2ools 3.1.x for use on Eucalyptus 4.0.2 (yes we are a couple of versions behind) here is the instructions and tests:
 Pre-reqs may be needed: (Ubuntu)
 
-```sudo apt-get install git build-essential python-setuptools python-dev libxslt1-dev libxml2 libxml2-dev zlib1g-dev```
+```
+sudo apt-get install git build-essential python-setuptools python-dev libxslt1-dev libxml2 libxml2-dev zlib1g-dev
+```
 
 On Mac or Linux [preferably Ubuntu because the school's VPN software doesn't compile on RedHat/Fedora](https://forge.sat.iit.edu/2015/10/getting-shrewsoft-vpn-2-2-1-to-compile-on-ubuntu-15-04-for-use-at-illinois-tech/)
 
-```git clone [https://github.com/jhajek/euca2ools.git](https://github.com/jhajek/euca2ools.git)```
+```git clone https://github.com/jhajek/euca2ools.git```
 
 ```git branch -a```
 
