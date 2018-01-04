@@ -65,11 +65,11 @@ My setup was:
   +  I encountered one small issue using AWS Java API 1.11.4 -- <a href="https://groups.google.com/a/eucalyptus.com/forum/#!searchin/euca-users/aws$20java$20sdk/euca-users/hnU9NmFM7-Q/W-AScuslW1YJ">this issue is referenced here by member CoderSparks</a>. - though the questioner had a different error -- I think the concept was the same:  
 
 4) **What I Did Next**
-  + Let me show you the initial code, my additions, and then explain it below.  Modify the first few lines of code in the sample to reflect below.</p>
+  + Let me show you the initial code, my additions, and then explain it below.  Modify the first few lines of code in the sample to reflect below.
 
 {% highlight java %} // My additions to the S3Sample.java code
 ClientConfiguration opts = new ClientConfiguration();
-opts.setSignerOverride("S3SignerType");  // NOT "AWS3SignerType"  -- mentioned by Steve Jones set signatures back to v2.</p>
+opts.setSignerOverride("S3SignerType");  // NOT "AWS3SignerType"  -- mentioned by Steve Jones set signatures back to v2.
 AmazonS3Client s3 = new AmazonS3Client(opts);
 // Region usWest2 = Region.getRegion(Regions.US_WEST_2);
 // s3.setRegion(usWest2);
@@ -77,7 +77,7 @@ s3.setEndpoint("http://objectstorage.yourdomain.com:8773/services/objectstorage/
 s3.setS3ClientOptions(new S3ClientOptions().withPathStyleAccess( true ) );
 {% endhighlight %}
 
-Also don't forget to create a credential file on the local system--don't put creds in your actual code--too risky. In your home directory (Linux or Windows), create a directory named **.aws** with a file named **credentials** inside that file place the syntax below.  These keys can be AWS account keys or HP Eucalyptus Account keys. The keys will come in your credentials zip file provided by your Eucalyptus Administrator, extract the zip file and the credentials listed below will be contained in a file named **eucarc**. In this story they are your account keys from our HP Eucalyptus system.</p>
+Also don't forget to create a credential file on the local system--don't put creds in your actual code--too risky. In your home directory (Linux or Windows), create a directory named **.aws** with a file named **credentials** inside that file place the syntax below.  These keys can be AWS account keys or HP Eucalyptus Account keys. The keys will come in your credentials zip file provided by your Eucalyptus Administrator, extract the zip file and the credentials listed below will be contained in a file named **eucarc**. In this story they are your account keys from our HP Eucalyptus system.
 
 ```[default]
 aws_access_key_id = YOURACCESSKEYHERE
@@ -91,7 +91,7 @@ Region usWest2 = Region.getRegion(Regions.US_WEST_2);
 s3.setRegion(usWest2);
 {% endhighlight %}
 
-Eucalyptus has *different* regions so to speak. So you need to comment out a few AWS specific lines and add an override so the code knows how to find your Walrus/OSG (Object Storage Gateway) URI.</p>
+Eucalyptus has *different* regions so to speak. So you need to comment out a few AWS specific lines and add an override so the code knows how to find your Walrus/OSG (Object Storage Gateway) URI.
 {% highlight java %} AmazonS3 s3 = new AmazonS3Client();
 //Region usWest2 = Region.getRegion(Regions.US_WEST_2);
 //s3.setRegion(usWest2);
@@ -99,7 +99,7 @@ s3.setEndpoint("http://objectstorage.yourdomain.com:8773/services/objectstorage"
 s3.setS3ClientOptions(new S3ClientOptions().withPathStyleAccess( true ) );
 {% endhighlight %}
 
-With this set, the code will compile and run and connect to AWS Java SDK 1.11.4, and all of the JAR dependencies will be fetched by <a href="https://en.wikipedia.org/wiki/Apache_Maven">Apache Maven</a> for you, easy setup no need to download any additional JARs or classpath. </p>
+With this set, the code will compile and run and connect to AWS Java SDK 1.11.4, and all of the JAR dependencies will be fetched by <a href="https://en.wikipedia.org/wiki/Apache_Maven">Apache Maven</a> for you, easy setup no need to download any additional JARs or classpath. 
 
 **From Whence Came That Error?**
 I am glad you asked. I though it might be <a href="https://forge.sat.iit.edu/2016/05/using-s3cmd-with-walrus-and-hp-eucalyptus-4-0-2-works-but-with-a-twist/">the same issue as the in the S3cmd article...</a>  Let's look at the sample code and go item by item until we get to the error and squeeze its meaning out.
