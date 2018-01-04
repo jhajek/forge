@@ -36,6 +36,10 @@ Leap year bug...  luckily everyone else's software caught fire so there was a qu
 
 Fix is here: by changing the line: 
 
-```expires = datetime.today().replace(year=2003)" to expires = datetime.today().replace(year=2016) in /usr/lib/python2.6/site-packages/Beaker-1.5.4-py2.6.egg/beaker/session.py ```
+```expires = datetime.today().replace(year=2003)``` 
+to 
+```expires = datetime.today().replace(year=2016)``` 
+in 
+```/usr/lib/python2.6/site-packages/Beaker-1.5.4-py2.6.egg/beaker/session.py ```
 
 and restarted the console service and it works fine.
