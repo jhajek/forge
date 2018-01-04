@@ -82,6 +82,7 @@ source /home/eucauser/creds/eucarc
 ```
 
 Final test - from the command line type:
+
 ```
 euca-version
 euca-describe-instances
