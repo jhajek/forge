@@ -25,21 +25,23 @@ tags:
 comments: []
 ---
 Hello,
-  My mission started off to see if I could figure out how to integrate the <a href="http://docs.aws.amazon.com/aws-sdk-php/v3/api/">AWS SDK for PHP v3</a> to use it on Eucalyptus 4.0.2 production systems.
+
+My mission started off to see if I could figure out how to integrate the [http://docs.aws.amazon.com/aws-sdk-php/v3/api/](AWS SDK for PHP v3) to use it on Eucalyptus 4.0.2 production systems.
+
 Researching the internet turned up not much current information.  But it did turn up these two original pieces of information about getting the AWS PHP SDK v1 to run from 2013.
-<ul>
-<li><a href="https://github.com/eucalyptus/eucalyptus/wiki/Using-PHP-with-Eucalyptus">https://github.com/eucalyptus/eucalyptus/wiki/Using-PHP-with-Eucalyptus</a></li>
-<li><a href="https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP">https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP</a></li>
-</ul>
-But AWS PHP SDK 1.0 is <a href="https://github.com/amazonwebservices/aws-sdk-for-php">deprecated</a>, big time. 
-So what to do?  Perhaps you could just make a drop in replacement?  If only that was possible.  It seems that AWS always modifys there API terminology per version.  B
-To the rescue! As of Eucalyptus 4.x branch the developers have managed to match their code perfectly and v3 api works right out of the box.
+
+* [https://github.com/eucalyptus/eucalyptus/wiki/Using-PHP-with-Eucalyptus](https://github.com/eucalyptus/eucalyptus/wiki/Using-PHP-with-Eucalyptus)
+*  [https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP](https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP)
+
+But AWS PHP SDK 1.0 is [deprecated](https://github.com/amazonwebservices/aws-sdk-for-php), big time. So what to do?  Perhaps you could just make a drop in replacement?  If only that was possible.  It seems that AWS always modifys there API terminology per version. To the rescue! As of Eucalyptus 4.x branch the developers have managed to match their code perfectly and v3 api works right out of the box.
+
 Steps to recreate:
-Install the AWS PHP SDK v3 via composer following <a href="http://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/installation.html">normal AWS directions</a>
-Once that is done - you need to do some reading.   
-Based on the two articles of the hardwork done to make the AWS PHP SDK work with Eucalyptus no longer work directly - you have to read the Aws/Ec2/Ec2Client constructor.  All the information is actually encased in the previous Eucalyptus wiki articles but the constructor names have changed!
+Install the AWS PHP SDK v3 via composer following [normal AWS directions](http://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/installation.html)
+
+Once that is done - you need to do some reading. Based on the two articles of the hardwork done to make the AWS PHP SDK work with Eucalyptus no longer work directly - you have to read the Aws/Ec2/Ec2Client constructor.  All the information is actually encased in the previous Eucalyptus wiki articles but the constructor names have changed!
+
 So after 10 minutes of reading I realized that this was an easy fix.
-<a href="http://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.Ec2.Ec2Client.html">Go directly to the Elastic Compute Cloud portion of the AWS PHP SDK</a> and scroll down to the constructor and see for yourself.
+[Go directly to the Elastic Compute Cloud portion of the AWS PHP SDK](http://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.Ec2.Ec2Client.html) and scroll down to the constructor and see for yourself.
 
 ![*EC2 Output*](/assets/2016/03/ec2-768x460.png)
 
@@ -65,9 +67,7 @@ print_r($result);
 ?>
 {% endhighlight %}
 
-Note I hard coded the credentials for two reasons:  1 you have to change the permissions of any credentials file - like ~/.aws/crednetials because it is owned by root:root on any Eucalyptus created image.
-Or you could use IAM - which I am working on =) 
-But at least this gets you started!
-S3 is my next take but their constructor is not so straight forward.
+Note I hard coded the credentials for two reasons:  1 you have to change the permissions of any credentials file - like ~/.aws/crednetials because it is owned by root:root on any Eucalyptus created image. Or you could use IAM - which I am working on =)  But at least this gets you started! S3 is my next take but their constructor is not so straight forward.
+
 take care
 Jeremy Hajek 
