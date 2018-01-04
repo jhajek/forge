@@ -23,14 +23,17 @@ tags:
 - bash on windows
 comments: []
 ---
-<p>Bash for Windows or the <a href="http://blog.dustinkirkland.com/2016/04/howto-ubuntu-on-windows.html">Linux Subsystem for Windows</a> </p>
-<p>Since it is basically Ubuntu 14.04 - euca2ools should install properly.  I set out to see what would happen as it would be comforting to be able to use the Linux subsystem for euca2ools work. </p>
-<p><a href="/assets/2016/05/bash-git-clone.png"><img src="/assets/2016/05/bash-git-clone.png" alt="bash-git-clone" width="846" height="82" class="aligncenter size-full wp-image-1718" /></a></p>
-<p>Following the normal process -- everything worked!  But one thing...<br />
-<a href="/assets/2016/05/bash-euca-version.png"><img src="/assets/2016/05/bash-euca-version.png" alt="bash-euca-version" width="888" height="73" class="aligncenter size-full wp-image-1717" /></a></p>
-<p><a href="/assets/2016/05/bash-on-win-install-1024x608.png"><img src="/assets/2016/05/bash-on-win-install-1024x608.png" alt="bash-on-win-install" width="845" height="502" class="aligncenter size-large wp-image-1719  " /></a></p>
-<p>The thing to keep in mind is that Ubuntu 14.04 has its own version of the python-requests library.  You need to remove this version:</p>
-<p><code>sudo apt-get remove python-requests</code></p>
-<p><a href="/assets/2016/05/bash-on-win-install-1024x608.png"><img src="/assets/2016/05/bash-on-win-install-1024x608.png" alt="bash-on-win-install" width="845" height="502" class="aligncenter size-large wp-image-1719" /></a></p>
-<p><a href="/assets/2016/05/bash-euca2ools-building.png"><img src="/assets/2016/05/bash-euca2ools-building.png" alt="bash-euca2ools-building" width="859" height="603" class="aligncenter size-full wp-image-1715" /></a></p>
-<p><a href="/assets/2016/05/bash-euca-describe-instances.png"><img src="/assets/2016/05/bash-euca-describe-instances.png" alt="bash-euca-describe-instances" width="908" height="584" class="aligncenter size-full wp-image-1716" /></a></p>
+Bash for Windows or the [Linux Subsystem for Windows](http://blog.dustinkirkland.com/2016/04/howto-ubuntu-on-windows.html) Since it is basically Ubuntu 14.04 - euca2ools should install properly.  I set out to see what would happen as it would be comforting to be able to use the Linux subsystem for euca2ools work.
+
+![*Git clone*](/assets/2016/05/bash-git-clone.png)
+Following the normal process -- everything worked!  But one thing...
+![*Euca Version*](/assets/2016/05/bash-euca-version.png)
+
+![*Bash on Windows Install*](/assets/2016/05/bash-on-win-install-1024x608.png)
+
+The thing to keep in mind is that Ubuntu 14.04 has its own version of the python-requests library.  You need to remove this version:
+
+```sudo apt-get remove python-requests```
+
+![*Bash on euca2ools*](/assets/2016/05/bash-euca2ools-building.png)
+![*Bash Euca Describe*](/assets/2016/05/bash-euca-describe-instances.png)
