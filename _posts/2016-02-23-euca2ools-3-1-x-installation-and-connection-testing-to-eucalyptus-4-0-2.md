@@ -56,7 +56,9 @@ version compatible with eucalyptus 4.0.2
 ```git checkout origin/maint-3.1``` 
 
 Type this command inside the euca2ools directory to install
-```python setup.py install (add sudo if you are on Linux - no sudo on Mac)```
+```
+python setup.py install # add sudo if you are on Linux - no sudo on Mac
+```
 
 Note - depending on what version of Ubuntu you are using (I am looking at you Linux Mint 17.x) May have an older version of the package python-requests (which includes python-requestbuilder)  
 ![*Requestbuilder error*](/assets/2016/02/python-requestbuilder-error.png)
@@ -96,4 +98,5 @@ You can log directly into the web console via going to
 <strike><a href="https://lexington.sat.iit.edu">https://lexington.sat.iit.edu</a></strike>
 
 take care
+
 Jeremy Hajek
