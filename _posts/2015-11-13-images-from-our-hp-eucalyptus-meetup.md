@@ -24,6 +24,7 @@ tags:
 - euca
 comments: []
 ---
-<p>So much thanks goes out to HPE for helping with space and pizza -- Chris and Craig are wonderful guys.  Thanks to Sai who did yeoman's work setting up the demo app and thanks to all those who joined in on the windy night in Chicago.</p>
-<p>Here are pictures from the event:</p>
-<p>[gallery ids="1601,1602,1603,1604,1605,1606,1607,1608"]</p>
+So much thanks goes out to HPE for helping with space and pizza -- Chris and Craig are wonderful guys.  Thanks to Sai who did yeoman's work setting up the demo app and thanks to all those who joined in on the windy night in Chicago.
+
+Here are pictures from the event:
+
