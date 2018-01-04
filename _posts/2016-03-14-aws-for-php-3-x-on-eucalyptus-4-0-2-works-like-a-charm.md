@@ -40,7 +40,9 @@ Install the AWS PHP SDK v3 via composer following <a href="http://docs.aws.amazo
 <p>Based on the two articles of the hardwork done to make the AWS PHP SDK work with Eucalyptus no longer work directly - you have to read the Aws/Ec2/Ec2Client constructor.  All the information is actually encased in the previous Eucalyptus wiki articles but the constructor names have changed!</p>
 <p>So after 10 minutes of reading I realized that this was an easy fix.<br />
 <a href="http://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.Ec2.Ec2Client.html">Go directly to the Elastic Compute Cloud portion of the AWS PHP SDK</a> and scroll down to the constructor and see for yourself.</p>
-<p><a href="/assets/2016/03/ec2.png" rel="attachment wp-att-1661"><img src="/assets/2016/03/ec2-300x180.png" alt="ec2" width="300" height="180" class="alignnone size-medium wp-image-1661" /></a></p>
+
+![*EC2 Output*](/assets/2016/03/ec2-768x460.png)
+
 <p>Once that work was done here is all that is needed to get the EC2 tools via PHP running:</p>
 <pre lang="PHP">
 <p>&#060;&#063;php<br />
