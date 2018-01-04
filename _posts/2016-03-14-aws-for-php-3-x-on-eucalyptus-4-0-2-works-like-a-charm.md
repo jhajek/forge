@@ -44,8 +44,8 @@ So after 10 minutes of reading I realized that this was an easy fix.
 ![*EC2 Output*](/assets/2016/03/ec2-768x460.png)
 
 Once that work was done here is all that is needed to get the EC2 tools via PHP running:
-<pre lang="PHP">
-&#060;&#063;php
+
+{% highlight php %}
 require 'vendor/autoload.php';
 use Aws\Ec2\Ec2Client;
 $client = new Ec2Client([
@@ -62,7 +62,9 @@ $client = new Ec2Client([
 $result = $client->describeInstances([
 ]);
 print_r($result);
-?></pre>
+?>
+{% endhighlight %}
+
 Note I hard coded the credentials for two reasons:  1 you have to change the permissions of any credentials file - like ~/.aws/crednetials because it is owned by root:root on any Eucalyptus created image.
 Or you could use IAM - which I am working on =) 
 But at least this gets you started!
