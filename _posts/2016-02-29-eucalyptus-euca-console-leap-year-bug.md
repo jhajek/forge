@@ -25,10 +25,15 @@ tags:
 - HP Eucalyptus 4.0.2
 comments: []
 ---
-<p>Woke up this morning to an <strong>Internal Server Error</strong> after logging into the Euca-Console.  </p>
-<p>Looking at the error logs this came up:</p>
-<p><a href="/assets/2016/02/desktop-1_002.png" rel="attachment wp-att-1649"><img src="/assets/2016/02/desktop-1_002-300x169.png" alt="desktop 1_002" width="300" height="169" class="alignnone size-medium wp-image-1649" /></a></p>
-<p>Leap year bug...  luckily everyone else's software caught fire so there was a quick solution here:</p>
-<p><a href="https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE">https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE</a></p>
-<p>Fix is here:<br />
-<code>by changing the line "expires = datetime.today().replace(year=2003)" to expires = datetime.today().replace(year=2016) in /usr/lib/python2.6/site-packages/Beaker-1.5.4-py2.6.egg/beaker/session.py and restarted the console service and it works fine.</code></p>
+Woke up this morning to an **Internal Server Error** after logging into the Euca-Console.
+
+Looking at the error logs this came up:
+![*Error Message*](/assets/2016/02/desktop-1_002-768x432.png)
+
+Leap year bug...  luckily everyone else's software caught fire so there was a quick solution here:
+
+[https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE](https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE)
+
+Fix is here: by changing the line: 
+``` expires = datetime.today().replace(year=2003)" to expires = datetime.today().replace(year=2016) in /usr/lib/python2.6/site-packages/Beaker-1.5.4-py2.6.egg/beaker/session.py ```
+and restarted the console service and it works fine.
