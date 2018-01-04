@@ -29,7 +29,7 @@ After a while searching [askubuntu](http://askubuntu.com) and [serverfault](http
 ![*Ganglia*](/assets/2016/03/ganglia-1-768x238.png) 
 
 But Something looked familiar about the answer and the comments...
-![*Ganglia 2*](/assets/2016/03/ganglia-2-300x158.png)
+![*Ganglia 2*](/assets/2016/03/ganglia-2.png)
 
 Yep...  that's me giving the comment clarifying an answer.  I don't know if this is a good sign that I did this and forgot about it or a bad omen that I found my own answer and forgot about it.
 Perhaps there should be a specific stackoverflow badge for this...
