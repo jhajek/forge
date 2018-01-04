@@ -35,5 +35,7 @@ Leap year bug...  luckily everyone else's software caught fire so there was a qu
 [https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE](https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE)
 
 Fix is here: by changing the line: 
+
 ``` expires = datetime.today().replace(year=2003)" to expires = datetime.today().replace(year=2016) in /usr/lib/python2.6/site-packages/Beaker-1.5.4-py2.6.egg/beaker/session.py ```
+
 and restarted the console service and it works fine.
