@@ -41,8 +41,8 @@ gems:
 #   - vendor/ruby/
 
 gallerytag:
-    dir: assests/galleries
-    url: /assests/galleries
+    dir: assets/galleries
+    url: /assets/galleries
     thumb_width: 150
     thumb_height: 150
     columns: 4
