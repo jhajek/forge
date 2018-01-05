@@ -27,6 +27,8 @@ comments: []
 ---
 Using pandoc markdown to write a text book - I came across a table from Wikipedia I wanted to include.
 
+<code>
+<pre>
 --------- ------------------------------------------------- -------------------
 @yearly    Run once a year at midnight of January 1st         ```0 0 1 1 *```
 @monthly   Run once a month, midnight 1st day of the month.   ```0 0 1 * *```
@@ -35,6 +37,8 @@ Using pandoc markdown to write a text book - I came across a table from Wikipedi
 @hourly    Run once an hour at the beginning of the hour.     ```0 * * * *```
 @reboot    Run at startup.                                       @reboot
 --------- ------------------------------------------------- -------------------
+</pre>
+</code>
 
 But using [Pandoc](http://pandoc.org/) markdown syntax on Windows (you need to use the [MiKTeX](http://miktex.org/) Latex PDF engine) causes a crash when encountering ```@yearly```. Or so I thought. When I changed the code to look like this no crashing:
 <code>
