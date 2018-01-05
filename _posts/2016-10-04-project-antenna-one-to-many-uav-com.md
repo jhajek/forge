@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Project Antenna Research of using 1 to many communication for autonomous uavs
+title: Project Antenna Research of using one to many communication for autonomous uavs
 author:
   display_name: hajek
   login: hajek
