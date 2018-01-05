@@ -25,8 +25,7 @@ tags:
 - pandoc
 comments: []
 ---
-<p>Using pandoc markdown to write a text book - I came across a table from Wikipedia I wanted to include.<br />
-
+Using pandoc markdown to write a text book - I came across a table from Wikipedia I wanted to include.
 
 --------- ------------------------------------------------- -------------------
 @yearly    Run once a year at midnight of January 1st         ```0 0 1 1 *```
@@ -37,19 +36,19 @@ comments: []
 @reboot    Run at startup.                                       @reboot
 --------- ------------------------------------------------- -------------------
 
-<p>But using <a href="http://pandoc.org/">Pandoc</a> markdown syntax on Windows (you need to use the <a href="http://miktex.org/">MiKTeX</a> Latex PDF engine) causes a crash when encountering <code>@yearly</code>. Or so I thought. When I changed the code to look like this no crashing:<br />
-<code></p>
+But using [Pandoc](http://pandoc.org/) markdown syntax on Windows (you need to use the [MiKTeX](http://miktex.org/) Latex PDF engine) causes a crash when encountering ```@yearly```. Or so I thought. When I changed the code to look like this no crashing:
+<code>
 <pre>
-Entry Description Equivalent to<br />
---------- ------------------------------------------------- -------------------<br />
-&amp;&#35;64&#59;yearly    Run once a year at midnight of January 1st         ```0 0 1 1 *```<br />
-&amp;&#35;64&#59;monthly   Run once a month, midnight 1st day of the month.   ```0 0 1 * *```<br />
-&amp;&#35;64&#59;weekly    Run once a week at midnight on Sunday morning      ```0 0 * * 0```<br />
-&amp;&#35;64&#59;daily     Run once a day at midnight                         ```0 0 * * *```<br />
-&amp;&#35;64&#59;hourly    Run once an hour at the beginning of the hour.     ```0 * * * *```<br />
-&amp;&#35;64&#59;reboot.   Run at startup                                       &amp;&#35;64&#59;reboot<br />
---------- ------------------------------------------------- -------------------<br />
-</pre><br />
+Entry Description Equivalent to
+--------- ------------------------------------------------- -------------------
+&amp;&#35;64&#59;yearly    Run once a year at midnight of January 1st         ```0 0 1 1 *```
+&amp;&#35;64&#59;monthly   Run once a month, midnight 1st day of the month.   ```0 0 1 * *```
+&amp;&#35;64&#59;weekly    Run once a week at midnight on Sunday morning      ```0 0 * * 0```
+&amp;&#35;64&#59;daily     Run once a day at midnight                         ```0 0 * * *```
+&amp;&#35;64&#59;hourly    Run once an hour at the beginning of the hour.     ```0 * * * *```
+&amp;&#35;64&#59;reboot.   Run at startup                                       &amp;&#35;64&#59;reboot
+--------- ------------------------------------------------- -------------------
+</pre>
 </code></p>
 <p>The @ sign is a reserved LaTeX word and causes a crash.</p>
 <p>The solution is to use the HTML ascii code for an @ sign which is: <code>&amp;&#35;64&#59;</code> which will render correctly as ascii and unconfuse the LaTeX compiler and remove the error.</p>
