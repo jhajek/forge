@@ -28,6 +28,7 @@ So much thanks goes out to HPE for helping with space and pizza -- Chris and Cra
 
 Here are pictures from the event:
 
+<!--
 {% gallery hpe %}
 hpe/WP_20151112_19_16_00_Pro-905x400.jpg:: A caption!
 hpe/WP_20151112_19_38_21_Pro-905x400.jpg:: Another caption
@@ -37,3 +38,4 @@ hpe/WP_20151112_20_01_24_Pro-905x400.jpg
 hpe/WP_20151112_20_01_35_Pro-905x400.jpg
 hpe/WP_20151112_20_28_39_Pro-905x400.jpg
 {% endgallery %}
+-->
