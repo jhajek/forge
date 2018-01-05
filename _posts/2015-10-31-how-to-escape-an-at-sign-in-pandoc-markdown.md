@@ -56,4 +56,4 @@ Entry Description Equivalent to
 </code>
 
 The @ sign is a reserved LaTeX word and causes a crash.
-<The solution is to use the HTML ascii code for an @ sign which is: ```&amp;&#35;64&#59;``` which will render correctly as ascii and unconfuse the LaTeX compiler and remove the error.
+The solution is to use the HTML ascii code for an @ sign which is: ```&amp;&#35;64&#59;``` which will render correctly as ascii and unconfuse the LaTeX compiler and remove the error.
