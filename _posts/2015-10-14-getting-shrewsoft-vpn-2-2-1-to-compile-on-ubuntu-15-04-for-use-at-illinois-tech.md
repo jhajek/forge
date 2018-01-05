@@ -29,7 +29,12 @@ If you are like me and want to use Ubuntu Linux and a VPN in conjunction with yo
 **Update:** Now tested and works on Ubuntu 16.04 beta too for Linux you have to compile the application from source.   Unfortunately there are no good instructions until now...
 
 1) Download and untar the tarball from shrewsoft -> latest here (10/15/15): [https://www.shrew.net/download/ike/ike-2.2.1-release.tgz](https://www.shrew.net/download/ike/ike-2.2.1-release.tgz)
-1) Install these dependencies: ```sudo apt-get install libedit2 libedit-dev qt-sdk cmake flex bison build-essential libssl-dev```
+1) Install these dependencies: 
+
+```
+sudo apt-get install libedit2 libedit-dev qt-sdk cmake flex bison build-essential libssl-dev
+```
+
 1) In the directory where you extracted the tarball run the cmake command to build the 
 application:
 
