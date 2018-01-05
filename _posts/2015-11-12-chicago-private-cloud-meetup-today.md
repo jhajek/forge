@@ -19,5 +19,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>Today will be our meetup second meeting and we have the privilege to hold the meeting at HP Chicago's office - which is pretty cool since HP own Eucalyptus company now.  The event is RSVP only - we will take some pictures though.</p>
-<p><a href="http://www.meetup.com/Chicago-Open-Source-Private-Cloud-Meetup/events/226429183/?a=ra1_te">http://www.meetup.com/Chicago-Open-Source-Private-Cloud-Meetup/events/226429183/?a=ra1_te</a></p>
+Today will be our meetup second meeting and we have the privilege to hold the meeting at HP Chicago's office - which is pretty cool since HP own Eucalyptus company now.  The event is RSVP only - we will take some pictures though.
+
+[http://www.meetup.com/Chicago-Open-Source-Private-Cloud-Meetup/events/226429183/?a=ra1_te](http://www.meetup.com/Chicago-Open-Source-Private-Cloud-Meetup/events/226429183/?a=ra1_te)
