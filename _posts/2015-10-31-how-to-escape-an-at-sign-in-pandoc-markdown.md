@@ -26,19 +26,17 @@ tags:
 comments: []
 ---
 <p>Using pandoc markdown to write a text book - I came across a table from Wikipedia I wanted to include.<br />
-<code></p>
-<pre>
-Entry Description Equivalent to<br />
---------- ------------------------------------------------- -------------------<br />
-@yearly    Run once a year at midnight of January 1st         ```0 0 1 1 *```<br />
-@monthly   Run once a month, midnight 1st day of the month.   ```0 0 1 * *```<br />
-@weekly    Run once a week at midnight on Sunday morning      ```0 0 * * 0```<br />
-@daily     Run once a day at midnight                         ```0 0 * * *```<br />
-@hourly    Run once an hour at the beginning of the hour.     ```0 * * * *```<br />
-@reboot    Run at startup.                                       @reboot<br />
---------- ------------------------------------------------- -------------------<br />
-</pre><br />
-</code></p>
+
+
+--------- ------------------------------------------------- -------------------
+@yearly    Run once a year at midnight of January 1st         ```0 0 1 1 *```
+@monthly   Run once a month, midnight 1st day of the month.   ```0 0 1 * *```
+@weekly    Run once a week at midnight on Sunday morning      ```0 0 * * 0```
+@daily     Run once a day at midnight                         ```0 0 * * *```
+@hourly    Run once an hour at the beginning of the hour.     ```0 * * * *```
+@reboot    Run at startup.                                       @reboot
+--------- ------------------------------------------------- -------------------
+
 <p>But using <a href="http://pandoc.org/">Pandoc</a> markdown syntax on Windows (you need to use the <a href="http://miktex.org/">MiKTeX</a> Latex PDF engine) causes a crash when encountering <code>@yearly</code>. Or so I thought. When I changed the code to look like this no crashing:<br />
 <code></p>
 <pre>
