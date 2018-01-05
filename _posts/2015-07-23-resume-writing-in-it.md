@@ -22,9 +22,9 @@ tags:
 comments: []
 ---
 <p>Hi - I get this question a lot.</p>
-<p>The best article I found is written by Peter Grace who is an IT admin at <a href="http:&#47;&#47;www.stackexchange.com">stackexchange<&#47;a>&#47;<a href="http:&#47;&#47;www.stackoverflow.com">stackoverflow<&#47;a> which is one of the top 100 traffic websites in the <a href="http:&#47;&#47;www.alexa.com&#47;siteinfo&#47;stackoverflow.com">world<&#47;a>. * number 56 to be exact, number 14 in India.*   So if he has something to say - better listen to the man.</p>
-<p>2 part article <a href="http:&#47;&#47;blog.serverfault.com&#47;2011&#47;11&#47;09&#47;pete-get-a-job-in-it&#47;">http:&#47;&#47;blog.serverfault.com&#47;2011&#47;11&#47;09&#47;pete-get-a-job-in-it&#47;<&#47;a></p>
-<p>The most important part is <strong>HERE<&#47;strong> <a href="http:&#47;&#47;blog.serverfault.com&#47;2012&#47;11&#47;20&#47;so-you-want-to-get-a-job-in-information-technology-part-2&#47;">http:&#47;&#47;blog.serverfault.com&#47;2012&#47;11&#47;20&#47;so-you-want-to-get-a-job-in-information-technology-part-2&#47;<&#47;a></p>
+<p>The best article I found is written by Peter Grace who is an IT admin at <a href="http://www.stackexchange.com">stackexchange</a>/<a href="http://www.stackoverflow.com">stackoverflow</a> which is one of the top 100 traffic websites in the <a href="http://www.alexa.com/siteinfo/stackoverflow.com">world</a>. * number 56 to be exact, number 14 in India.*   So if he has something to say - better listen to the man.</p>
+<p>2 part article <a href="http://blog.serverfault.com/2011/11/09/pete-get-a-job-in-it/">http://blog.serverfault.com/2011/11/09/pete-get-a-job-in-it/</a></p>
+<p>The most important part is <strong>HERE</strong> <a href="http://blog.serverfault.com/2012/11/20/so-you-want-to-get-a-job-in-information-technology-part-2/">http://blog.serverfault.com/2012/11/20/so-you-want-to-get-a-job-in-information-technology-part-2/</a></p>
 <p>His point is to describe the projects you have worked on and be SPECIFIC as much as you can in the technologies you have used and how you implemented them to save TIME and or MONEY</p>
 <p>Read it and you will see what I mean.</p>
 <p>take care<br />
