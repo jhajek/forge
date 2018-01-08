@@ -20,14 +20,14 @@ tags:
 - jeremyhajek
 comments: []  
 ---
-<p>Hi - the phrase is often used that a picture is worth a thousand words - well here I believe this picture is worth a thousand words to describe what our research group is up to at IIT...</p>
+Hi - the phrase is often used that a picture is worth a thousand words - well here I believe this picture is worth a thousand words to describe what our research group is up to at IIT...
 
 ![*Switch on a Rex*](/assets/2015/07/image-300x255.png "Switch on a Rex")
 
 Here is the desktop wallpaper editions
 
-[![Rex 2](/assets/2015&#47;07&#47;switchonarex-300x196.png "Rex2")](/assets/2015&#47;07&#47;switchonarex.png) 
+[![Rex 2](/assets/2015/07/switchonarex-300x196.png "Rex](/assets/2015/07/switchonarex.png) 
 
-<p>Take care<br />
-World Class!<br />
-Jeremy Hajek</p>
+Take care
+World Class!
+Jeremy Hajek
