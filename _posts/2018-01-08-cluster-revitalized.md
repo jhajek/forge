@@ -26,19 +26,19 @@ Though the first set of results indicated that the jobs took longer than usual t
 
 The first set of results obtained after the cluster was set up shows significantly lesser time taken for the reduce, merge, shuffle and map times. Let us take a look at the following graphs to understand this better. The bar chart in green is the times taken by the optimised cluster and the time taken by the same job under the old configuration is given in red. 
 
-![img1](https://github.com/illinoistech-itm/vchandrasekaran/blob/master/ITMD-521/Images/1.png)
+![*Map Time Comparisons*](/assets/2018/01/1.png)
 
 The above graph shows the map times of the jobs. We can see that the jobs take about the same time as the previous map times or lesser. Most of the map times are considerably lesser than the previous tasks. 
 
-![img2](https://github.com/illinoistech-itm/vchandrasekaran/blob/master/ITMD-521/Images/2.png)
+![*Reduce Times*](/assets/2018/01/2.png)
 
 From the reduce times we can see that not a single task exceeds around 200 seconds for the reducer containers to complete the task. There is a considerable amount of time cut off in this regard which helps in the overall performance. 
 
-![img3](https://github.com/illinoistech-itm/vchandrasekaran/blob/master/ITMD-521/Images/3.png)
+![*Merge Times*](/assets/2018/01/3.png)
 
 The merge times taken by the tasks considerably lesser for the new cluster as well. 
 
-![img4](https://github.com/illinoistech-itm/vchandrasekaran/blob/master/ITMD-521/Images/4.png)
+![*Shuffle Times*](/assets/2018/01/4.png)
 
 These times show that the cluster is clearly optimised as there is hardly any shuffle time used by the current cluster. 
 
@@ -46,11 +46,11 @@ The  major changes from the previous cluster configuration is the change in the 
 
 We also have the graphana metrics included to monitor the cluster and its performance. 
 
-![img5](https://github.com/illinoistech-itm/vchandrasekaran/blob/master/ITMD-521/Images/graphana.PNG)
+![*Run Time Graphs*](/assets/2018/01/graphana.PNG)
 
 It provides the metrics on the machines and forwards them to an aggregator which displays the utilization information for the jobs. The reports can be configured to display the utilization for a specific period of time or days of the week as well. 
 The report displays the current utilization of CPU and memory resources, average load and the processes. The CPU utilization and memory for the entire cluster includes the resources consumed by the applications. A closer look into the CPU utilization during one of the testing phases is given below. 
 
-![img6](https://github.com/illinoistech-itm/vchandrasekaran/blob/master/ITMD-521/Images/graphana1.PNG)
+![*CPU Usage*](/assets/2018/01/graphana1.PNG)
 
 In the following post we will discuss the benchmark technique of SWIM used to test the entire cluster utilization. 
