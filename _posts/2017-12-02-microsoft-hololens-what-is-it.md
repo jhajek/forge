@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: What is a Hololens?
+title: What is a Hololens? What is Augmented Reality?
 date: '2017-10-16 12:11:43 -0500'
 date_gmt: '2017-10-16 20:11:43 -0500'
 categories:
@@ -15,7 +15,7 @@ tags:
 comments: []
 ---
 
-Some may ask, what is Augmented Reality (AR)?  What is a [Microsoft Hololens](https://www.microsoft.com/en-us/hololens)?
+Some may ask, what is [Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)?  What is a [Microsoft Hololens](https://www.microsoft.com/en-us/hololens)?
 
 In short it is the only mainstream standalone, hands free AR solution on the market.
 
