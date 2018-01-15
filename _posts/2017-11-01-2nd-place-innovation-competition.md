@@ -17,7 +17,7 @@ comments: []
 
 Last year our team took first place in the [Chicago Innovation Challenge](https://web.iit.edu/knapp-center/contest/2017-finalist) 2016.  This year, 2018, we took 2nd place.  The team consisted of Jaina Parekh, Rohit Desai, and Afaque Siddiqui.
 
-![*Winning Team*](/assets/2017/11/01/win.png)
+![*Winning Team*](/assets/2017/11/win.png)
 
 This was the winning entry video:
 
