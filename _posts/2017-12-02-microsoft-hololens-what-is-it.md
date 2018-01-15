@@ -15,7 +15,7 @@ tags:
 comments: []
 ---
 
-Some may ask, what is Augmented Reality (AR)?  What is a Microsoft Hololens?
+Some may ask, what is Augmented Reality (AR)?  What is a [Microsoft Hololens](https://www.microsoft.com/en-us/hololens)?
 
 In short it is the only mainstream standalone, hands free AR solution on the market.
 
@@ -23,6 +23,9 @@ In short it is the only mainstream standalone, hands free AR solution on the mar
 
 Here is two videos (with audio commentary showing what is being done).  The entire city block of 31st and Michigan Ave in Chicago was modeled and displayed in a ballroom.  Note that the demo was unoptimzed for the location but a proof of concept.  
 
+Part 1:
+{% youtube GUa61OB6mU8 %}
+
+Part 2:
 {% youtube S27XCG7vbmI %}
 
-{% youtube GUa61OB6mU8 %}
