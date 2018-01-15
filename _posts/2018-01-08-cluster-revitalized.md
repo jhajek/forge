@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'Cluster Revitalized'
+title: 'Hadoop Cluster Revitalized'
 author:
   display_name: Venkatesh Naidu
   login: vchandrasekaran
