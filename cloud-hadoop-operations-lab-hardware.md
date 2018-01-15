@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Cloud Operations Lab Hardware
+title: Cloud Hadoop Operations Lab 
 author:
   display_name: hajek
   login: hajek
@@ -10,8 +10,6 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1568
-wordpress_url: https://forge.sat.iit.edu/?page_id=1568
 date: '2015-08-22 16:35:41 -0500'
 date_gmt: '2015-08-22 21:35:41 -0500'
 categories: []
