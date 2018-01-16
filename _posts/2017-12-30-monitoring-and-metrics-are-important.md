@@ -39,7 +39,7 @@ What is an *event router*? It is a system that receives, logs, metrics, and even
 
 Riemann is used to collect all of the metrics and logs pushed to it, filter them as I see fit and send them to a graphing solution.  What sort of metrics am I collecting for a Hadoop cluster? I am using [collectd](https://collectd.org/) which is a trusted solution for collecting the traditional CPU, RAM, and HDD usage stats.  These and other metrics are being collected and filter through riemann and graph them with Graphite and Grafana. 
 
-Image Goes Here
+![*Grafana](/assets/2017/12/graphite.png)
 
 [Grafana](https://grafana.com/) is an industry standard tool that provides a graphing framework based on data you feed to it.
 
