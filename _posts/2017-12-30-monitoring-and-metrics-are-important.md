@@ -35,7 +35,7 @@ The capability and need has arrisen for **PUSH** metric and log collection.  Our
 
 What is an *event router*? It is a system that receives, logs, metrics, and events from a system and based on criteria you set will route those events, whether that is to a notification system, a graphing solution like Graphite, to email or text, or a log aggregation systems like the [ELK stack](https://www.elastic.co/products).  The event router of choice (and I know there are many) that I was introduced to is [Riemann](https://riemann.io). Riemann provides low-latency, transient shared state for systems with many moving parts.  Riemann demo video here:
 
-{% video https://vimeo.com/131385889 720 480 /assets/2017/12/riemann.png %}
+{% video https://vimeo.com/131385889 [720 480] [/assets/2017/12/riemann.png] %}
 
 Riemann is used to collect all of the metrics and logs pushed to it, filter them as I see fit and send them to a graphing solution.  What sort of metrics am I collecting for a Hadoop cluster? I am using [collectd](https://collectd.org/) which is a trusted solution for collecting the traditional CPU, RAM, and HDD usage stats.  These and other metrics are being collected and filter through riemann and graph them with Graphite and Grafana. 
 
