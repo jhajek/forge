@@ -19,6 +19,11 @@ tags: []
 comments: []
 ---
 Here is a recent list of Media appearances by Jeremy Hajek
+## 2018
+
+* ABC 7 Chicago TV Interview - US, UK issue joint warning on Russian hackers - 04/19/2018
+    + [http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/](http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/)
+
 ## 2017
 
 * CBS 2 Chicago TV Interview - ATM Skimmers - 10/23/17
