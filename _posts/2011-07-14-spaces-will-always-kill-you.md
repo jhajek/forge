@@ -50,7 +50,7 @@ Notice all the content is missing! Trust me it is still there as this
 is an important server and if it went missing, I just might go missing
 as well. So what is going on? Remember the link I posted at the top?
 Count the number of characters in the virtual machine name of danada
-Notice how in the datastore window it seems to cut off. (Compare
+Notice how in the datastore window it seems to cut off. \(Compare
 that with the pic 1 and you will see a longer name.) (Hint Also I
 fixed the problem as well replacing   with _.)
 It turns out if you have a space in the 32nd place of the name of your
