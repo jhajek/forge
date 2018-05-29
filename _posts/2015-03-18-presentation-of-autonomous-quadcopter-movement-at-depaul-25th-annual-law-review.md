@@ -30,6 +30,8 @@ comments: []
 ---
 <p>On Friday March 13th Mark Milhouse and Professor Jeremy Hajek presented research on Autonomous Quadcopter Movement to the DePaul 25th Annual Law Review.</p>
 <p>Video Here:<br />
-<a href="http:&#47;&#47;condor.depaul.edu&#47;mptvideo&#47;LAW&#47;03132015&#47;03132015_S2.html">http:&#47;&#47;condor.depaul.edu&#47;mptvideo&#47;LAW&#47;03132015&#47;03132015_S2.html<&#47;a></p>
-<p>Slides Here:<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2015&#47;03&#47;IIT_Autonomous_Delivery_Drone_VERSION_2.pptx">IIT_Autonomous_Delivery_Drone_VERSION_2<&#47;a></p>
+<a href="http://condor.depaul.edu/mptvideo/LAW/03132015/03132015_S2.html">http://condor.depaul.edu/mptvideo/LAW/03132015/03132015_S2.html</a></p>
+
+Slides Here:
+
+[IIT_Autonomous_Delivery_Drone_VERSION_2.pptx](assets/2015/03/IIT_Autonomous_Delivery_Drone_VERSION_2.pptx "PPTX")
