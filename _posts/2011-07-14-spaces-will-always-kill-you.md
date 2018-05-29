@@ -47,10 +47,9 @@ Notice all the content is missing! Trust me it is still there as this is an impo
 
 (Compare that with the pic 1 and you will see a longer name.) (Hint Also I fixed the problem as well replacing " " with "_".)
 
-It turns out if you have a space in the 32nd place of the name of your
-vm, the datastore cannot see it!  So lets do some quick counting
+It turns out if you have a space in the 32nd place of the name of your vm, the datastore cannot see it!  So lets do some quick counting
+
 <a href="https://forge.sat.iit.edu/assets/2011/07/32space1.png"><img class="alignnone size-full wp-image-36" title="32space" src="https://forge.sat.iit.edu/assets/2011/07/32space1.png" alt="" width="327" height="70" /></a>
 
 Sure enough 32nd char is a space. Now what to do? Simple Vmware recommends to rename the vm and eliminate the space in that spot (I now go further and forbid all spaces ever) and then you need to
 migrate the vm to another system and the content will appear again. I tried this and it works the problem of the missing data solved.
-
