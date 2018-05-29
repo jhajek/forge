@@ -38,14 +38,14 @@ This point is no more vitally important than in dealing with vmware esx and esxi
 I have my vcenter instance and I am managing 3 esxi-servers.
 If I want to download the entire .vmdk (virtual machine) for backup I would simply change my options in vCenter and goto DATASTORES.
 
-<a href="https://forge.sat.iit.edu//2011/07/pic4.png"><img class="alignnone size-thumbnail wp-image-22" title="pic4" src="https://forge.sat.iit.edu//2011/07/pic4-150x150.png" alt="" width="150" height="150" /></a>
+<a href="https://forge.sat.iit.edu/assets/2011/07/pic4.png"><img class="alignnone size-thumbnail wp-image-22" title="pic4" src="https://forge.sat.iit.edu/assets/2011/07/pic4-150x150.png" alt="" width="150" height="150" /></a>
 When I browse a datastore looking for a virtual machine here is what I see:
-<a href="https://forge.sat.iit.edu//2011/07/pic21.png"><img class="alignnone size-thumbnail wp-image-20" title="pic2" src="https://forge.sat.iit.edu//2011/07/pic21-150x150.png" alt="" width="150" height="150" /></a>
+<a href="https://forge.sat.iit.edu/assets/2011/07/pic21.png"><img class="alignnone size-thumbnail wp-image-20" title="pic2" src="https://forge.sat.iit.edu/assets/2011/07/pic21-150x150.png" alt="" width="150" height="150" /></a>
 I select datastore one and I see two virtual machines. Cicero and
 Danada. Let me click on Cicero and I can browse the datastore.
-<a href="https://forge.sat.iit.edu//2011/07/pic5.png"><img class="alignnone size-thumbnail wp-image-23" title="pic5" src="https://forge.sat.iit.edu//2011/07/pic5-150x150.png" alt="" width="150" height="150" /></a>
+<a href="https://forge.sat.iit.edu/assets/2011/07/pic5.png"><img class="alignnone size-thumbnail wp-image-23" title="pic5" src="https://forge.sat.iit.edu/assets/2011/07/pic5-150x150.png" alt="" width="150" height="150" /></a>
 Ok now I want to click on Danada and browse its Datastore
-<a href="https://forge.sat.iit.edu//2011/07/picture3.png"><img class="alignnone size-thumbnail wp-image-21" title="picture3" src="https://forge.sat.iit.edu//2011/07/picture3-150x150.png" alt="" width="150" height="150" /></a>
+<a href="https://forge.sat.iit.edu/assets/2011/07/picture3.png"><img class="alignnone size-thumbnail wp-image-21" title="picture3" src="https://forge.sat.iit.edu/assets/2011/07/picture3-150x150.png" alt="" width="150" height="150" /></a>
 
 Notice all the content is missing! Trust me it is still there as this is an important server and if it went missing, I just might go missing as well. So what is going on? Remember the link I posted at the top? Count the number of characters in the virtual machine name of danada. Notice how in the datastore window it seems to cut off. 
 
