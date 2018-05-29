@@ -20,7 +20,9 @@ tags:
 - cobbler
 comments: []
 ---
-<p>When trying to use Cobbler 2.4.1 to install Ubuntu on some older Dell Poweredge 1425s. The strange thing is that the pressed script always drops to manual on the first step of detecting the network card.   You can manually select the right one and proceed with the install perfectly.  But this is frustrating as it breaks the entire idea of "automation."</p>
-<p>I found the syntax to the answer here:  Though its tangential to the questions</p>
-<p><a href="http:&#47;&#47;serverfault.com&#47;questions&#47;143296&#47;how-to-get-http-preseed-to-work-correctly-on-ubuntu-10-04-lts-lucid">http:&#47;&#47;serverfault.com&#47;questions&#47;143296&#47;how-to-get-http-preseed-to-work-correctly-on-ubuntu-10-04-lts-lucid<&#47;a> </p>
-<p>Look in the answer for the line <code>interface=auto<&#47;code>. Here is where in Cobbler you need to add a kernel option or parameter to include interface=eth0 and everything will work.</p>
+When trying to use Cobbler 2.4.1 to install Ubuntu on some older Dell Poweredge 1425s. The strange thing is that the pressed script always drops to manual on the first step of detecting the network card.   You can manually select the right one and proceed with the install perfectly.  But this is frustrating as it breaks the entire idea of "automation."
+
+I found the syntax to the answer here:  Though its tangential to the questions:
+[http://serverfault.com/questions/143296/how-to-get-http-preseed-to-work-correctly-on-ubuntu-10-04-lts-lucid](http://serverfault.com/questions/143296/how-to-get-http-preseed-to-work-correctly-on-ubuntu-10-04-lts-lucid "Preseed on Lucid")
+
+Look in the answer for the line ```interface=auto```. Here is where you need to add a kernel option or parameter to include interface=eth0 and everything will work.
