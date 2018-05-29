@@ -25,32 +25,32 @@ tags:
 comments: []
 ---
 <p>This last fall we successfully launched 5 projects - here are the links to the video</p>
-<p><strong>2 Minute Introduction of projects<&#47;strong><br />
+<p><strong>2 Minute Introduction of projects</strong><br />
 [jwplayer mediaid="1293"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-intro.mp4">ITMT492Fall2014-intro.mp4<&#47;a></p>
-<p><strong>Project 1 Home Automation:<&#47;strong><br />
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-intro.mp4">ITMT492Fall2014-intro.mp4</a></p>
+<p><strong>Project 1 Home Automation:</strong><br />
 [jwplayer mediaid="1295"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-home-automation.mp4">ITMT492Fall2014-home-automation.mp4<&#47;a></p>
-<p><code><a href="https:&#47;&#47;github.com&#47;jhajek&#47;ITMT492-FALL2014" title="ITMT 492 Fall Github Source Repo">ITMT 492 Fall Github Source Repo<&#47;a></p>
-<p><strong>Project 2 ACE BOX<&#47;strong><br />
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-home-automation.mp4">ITMT492Fall2014-home-automation.mp4</a></p>
+<p><code><a href="https://github.com/jhajek/ITMT492-FALL2014" title="ITMT 492 Fall Github Source Repo">ITMT 492 Fall Github Source Repo</a></p>
+<p><strong>Project 2 ACE BOX</strong><br />
 [jwplayer mediaid="1294"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-RFID.mp4">ITMT492Fall2014-RFID.mp4<&#47;a><br />
-<code><a href="https:&#47;&#47;github.com&#47;jhajek&#47;ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo<&#47;a></p>
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-RFID.mp4">ITMT492Fall2014-RFID.mp4</a><br />
+<code><a href="https://github.com/jhajek/ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo</a></p>
 <p>Project 3 Home Automation Framework<br />
 [jwplayer mediaid="1300"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-home-automation.mp4">ITMT492Fall2014-home-automation.mp4<&#47;a></p>
-<p><code><a href="https:&#47;&#47;github.com&#47;jhajek&#47;ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo<&#47;a></p>
-<p><strong>Project 4 Following Mirror<&#47;strong><br />
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-home-automation.mp4">ITMT492Fall2014-home-automation.mp4</a></p>
+<p><code><a href="https://github.com/jhajek/ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo</a></p>
+<p><strong>Project 4 Following Mirror</strong><br />
 [jwplayer mediaid="1298"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-following-mirror.mp4">ITMT492Fall2014-following-mirror.mp4<&#47;a></p>
-<p><code><a href="https:&#47;&#47;github.com&#47;jhajek&#47;ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo<&#47;a></p>
-<p><strong>Project 5 Flood Detection<&#47;strong><br />
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-following-mirror.mp4">ITMT492Fall2014-following-mirror.mp4</a></p>
+<p><code><a href="https://github.com/jhajek/ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo</a></p>
+<p><strong>Project 5 Flood Detection</strong><br />
 [jwplayer mediaid="1297"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-flood-detection.mp4">ITMT492Fall2014-flood-detection.mp4<&#47;a></p>
-<p><code><a href="https:&#47;&#47;github.com&#47;jhajek&#47;ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo<&#47;a></p>
-<p><strong>Project 6 Automative Automation<&#47;strong><br />
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-flood-detection.mp4">ITMT492Fall2014-flood-detection.mp4</a></p>
+<p><code><a href="https://github.com/jhajek/ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo</a></p>
+<p><strong>Project 6 Automative Automation</strong><br />
 [jwplayer mediaid="1296"]<br />
-<a href="https:&#47;&#47;forge.sat.iit.edu&#47;wp-content&#47;uploads&#47;2014&#47;12&#47;ITMT492Fall2014-automotive.mp4">ITMT492Fall2014-automotive.mp4<&#47;a></p>
-<p><code><a href="https:&#47;&#47;github.com&#47;jhajek&#47;ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo<&#47;a></p>
+<a href="https://forge.sat.iit.edu/assets/2014/12/ITMT492Fall2014-automotive.mp4">ITMT492Fall2014-automotive.mp4</a></p>
+<p><code><a href="https://github.com/jhajek/ITMT492-FALL2014" title="ITMT 492 Fall Source Repo">ITMT 492 Fall Github Source Repo</a></p>
 <p>Final Presentation & Comments "I have seen the Future..."<br />
 [jwplayer mediaid="1299"]</p>
