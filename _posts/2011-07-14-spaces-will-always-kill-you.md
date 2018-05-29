@@ -10,16 +10,6 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-excerpt: "Spaces will always kill you...rnPerhpas you have heard the advice<strong>
-  never never never</strong> put spaces in a file name? Perhaps you ignored
-  that advice and did it anyway? And then what happened? Exactly.rnrnThis
-  point is no more vitally important than in dealing with vmware esx and esxi servers.
-  Especially when dealing with datastores. See this link for the gory details
-  <a href="http://kb.vmware.com/kb/1010832" target="_blank">http://kb.vmware.com/kb/1010832</a>
-
-  I have my vcenter instance and I am managing 3 esxi-servers.rnrnIf I want to download
-  the entire .vmdk (virtual machine) for backup I would simply change my options in
-  vCenter and goto DATASTORES.rnrn"
 wordpress_id: 18
 wordpress_url: http://aurora.rice.iit.edu/?p=18
 date: '2011-07-14 21:01:59 -0500'
@@ -35,6 +25,7 @@ Perhpas you have heard the advice ** never never never ** put spaces in a file n
 Exactly.
 
 This point is no more vitally important than in dealing with vmware esx and esxi servers. Especially when dealing with datastores. See this link for the gory details <a href="http://kb.vmware.com/kb/1010832" target="_blank">http://kb.vmware.com/kb/1010832</a>
+
 I have my vcenter instance and I am managing 3 esxi-servers.
 If I want to download the entire .vmdk (virtual machine) for backup I would simply change my options in vCenter and goto DATASTORES.
 
