@@ -22,7 +22,7 @@ tags:
 - Operations
 comments: []
 ---
-For a while I wanted to publish all of our research capabilities for the Cloud and Operations research group in the <a href="http://appliedtech.iit.edu/" title="School of Applied Technology">School of Applied Technology </a> <a href="http://appliedtech.iit.edu/itm" title="ITM">Information Technology and Management Program</a>.
+For a while I wanted to publish all of our research capabilities for the Cloud and Operations research group in the [Illinois Tech](https://web.iit.edu "IIT URL"), [School of Applied Technology - ITM Program](https://appliedtech.iit.edu/itm "SAT").
 
 [AppendixForITResroucesABET.pdf](assets/2015/05/AppendixForITResroucesABET.pdf "Appendix For IT Resources ABET")
 
