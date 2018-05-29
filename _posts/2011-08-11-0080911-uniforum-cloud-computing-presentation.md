@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 08&#47;09&#47;11 Uniforum Cloud Computing Presentation
+title: 08/09/11 Uniforum Cloud Computing Presentation
 author:
   display_name: hajek
   login: hajek
@@ -24,6 +24,6 @@ tags:
 - HP
 comments: []
 ---
-<p>This presentation was given at the <a href="http:&#47;&#47;uniforumchicago.org&#47;" title="Uniforum Chicago Website">Uniforum Chicago<&#47;a> Meeting held at Rice Campus on 08&#47;09&#47;11.  The topic was cloud computing and how IIT's School of Applied Technology is using Cloud Computing.</p>
-<p><a href='http:&#47;&#47;aurora.sat.iit.edu&#47;wp-content&#47;uploads&#47;2011&#47;08&#47;Uniforum08_09_11_clooudcomputing.pdf'>Uniforum08_09_11_cloudcomputing.pdf Slides<&#47;a></p>
-<p><object height="81" width="100%"><param name="movie" value="http:&#47;&#47;player.soundcloud.com&#47;player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21188664"><&#47;param><param name="allowscriptaccess" value="always"><&#47;param> <embed allowscriptaccess="always" height="81" src="http:&#47;&#47;player.soundcloud.com&#47;player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21188664" type="application&#47;x-shockwave-flash" width="100%"><&#47;embed> <&#47;object>  <span><a href="http:&#47;&#47;soundcloud.com&#47;impcnrd&#47;cloud">CLOUD<&#47;a> by <a href="http:&#47;&#47;soundcloud.com&#47;impcnrd">impcnrd<&#47;a><&#47;span> </p>
+<p>This presentation was given at the <a href="http://uniforumchicago.org/" title="Uniforum Chicago Website">Uniforum Chicago</a> Meeting held at Rice Campus on 08/09/11.  The topic was cloud computing and how IIT's School of Applied Technology is using Cloud Computing.</p>
+<p><a href='http://aurora.sat.iit.edu/wp-content/uploads/2011/08/Uniforum08_09_11_clooudcomputing.pdf'>Uniforum08_09_11_cloudcomputing.pdf Slides</a></p>
+<p><object height="81" width="100%"><param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21188664"></param><param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21188664" type="application/x-shockwave-flash" width="100%"></embed> </object>  <span><a href="http://soundcloud.com/impcnrd/cloud">CLOUD</a> by <a href="http://soundcloud.com/impcnrd">impcnrd</a></span> </p>
