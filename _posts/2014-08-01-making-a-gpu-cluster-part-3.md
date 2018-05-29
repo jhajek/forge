@@ -20,7 +20,7 @@ tags:
 - gpu
 comments: []
 ---
-<p>The next thing we wanted to do was create a virtual machine that would run CentOS as an operating system. To create the virtual machine we did</p>
+The next thing we wanted to do was create a virtual machine that would run CentOS as an operating system. To create the virtual machine we did:
 
 ```# virt-install --name centos-vm1--ram=2048--os-variant=rhel6 --network bridge=br0 --graphics none --console pty,target_type = serial --location  http://mirror.centos.org/centos/6/os/x86_64/ --extra-args   console=ttyS0, 115200n8 serial  --disk path= /var/lib/libvirt/images/centos-vm1-img, size=30``` 
 
