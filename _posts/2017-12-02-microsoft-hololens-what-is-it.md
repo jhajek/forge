@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: What is a Hololens? What is Augmented Reality?
+title: What is a HoloLens? What is Augmented Reality?
 date: '2017-10-16 12:11:43 -0500'
 date_gmt: '2017-10-16 20:11:43 -0500'
 categories:
