@@ -22,8 +22,9 @@ tags:
 comments: []
 ---
 <p><strong>Issue 1: How to compare two directories?</strong></p>
-<p><strong>Resolution</strong>: Take a snapshot of the original directory, wait a certain amount of time to take a second snapshot, and then compare the two.</p>
-<p style="text-align: left"><strong>Reference</strong>: See the article, &Gamma;&Ccedil;&pound;Finding New Files and Folders.&Gamma;&Ccedil;&yen; <a href="http://powershell.com/cs/blogs/tobias/archive/2009/01/09/tipps-amp-tricks-using-compare-object.aspx">http://powershell.com/cs/blogs/tobias/archive/2009/01/09/tipps-amp-tricks-using-compare-object.aspx</a></p><br />
+<p><strong>Resolution</strong>: Take a snapshot of the original directory, wait a certain amount of time to take a second snapshot, and then compare the two.
+
+**Reference:** See the article, Finding New Files and Folders.<a href="http://powershell.com/cs/blogs/tobias/archive/2009/01/09/tipps-amp-tricks-using-compare-object.aspx">http://powershell.com/cs/blogs/tobias/archive/2009/01/09/tipps-amp-tricks-using-compare-object.aspx</a></p><br />
 <strong>Issue 2: How to get the output of Compare-Object so that it can be emailed to the user?</strong></p>
 <p><strong>Resolution</strong>: Append the output to a text file. I used the &Gamma;&Ccedil;&ocirc;PassThru parameter and >$report.txt to append the output to a text file.</p>
 <p><strong>Reference</strong>: <a href="http://technet.microsoft.com/en-us/library/dd347568.aspx">http://technet.microsoft.com/en-us/library/dd347568.aspx</a></p>

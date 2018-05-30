@@ -25,4 +25,4 @@ tags:
 - Eucalyptyus
 comments: []
 ---
-<p><a href="http:&#47;&#47;aurora.sat.iit.edu&#47;wp-content&#47;uploads&#47;2011&#47;09&#47;5-machine-UEC-setup.pdf">5-Machine-UEC-Setup Guide PDF File<&#47;a></p>
+<p><a href="http://aurora.sat.iit.edu/wp-content/uploads/2011/09/5-machine-UEC-setup.pdf">5-Machine-UEC-Setup Guide PDF File</a></p>
