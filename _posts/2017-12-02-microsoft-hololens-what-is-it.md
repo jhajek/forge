@@ -15,7 +15,7 @@ tags:
 comments: []
 ---
 
-Some may ask, what is [Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)?  What is a [Microsoft Hololens](https://www.microsoft.com/en-us/hololens)?
+Some may ask, what is [Augmented Reality (AR)](https://en.wikipedia.org/wiki/Augmented_reality)?  What is a [Microsoft HoloLens](https://www.microsoft.com/en-us/hololens)?
 
 In short it is the only mainstream standalone, hands free AR solution on the market.
 
