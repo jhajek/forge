@@ -22,5 +22,5 @@ tags:
 comments: []
 ---
 <p>Here's a short document I wrote that looks at putting Bakery into the cloud. ┬&aacute;It assumes the use of Amazon services, but also mentions the use of Eucalyptus. ┬&aacute;It includes sections on how Bakery would work functionally and the costs associated with using Amazon services.</p>
-<p><a href="http:&#47;&#47;blog.sat.iit.edu&#47;wp-content&#47;uploads&#47;2012&#47;12&#47;Cloud-Bakery-Possibility.pdf">Cloud Bakery Possibility.pdf<&#47;a></p>
-<p><a href="http:&#47;&#47;blog.sat.iit.edu&#47;wp-content&#47;uploads&#47;2012&#47;12&#47;Cloud-Bakery-Possibility1.docx">Cloud Bakery Possibility.docx<&#47;a></p>
+<p><a href="http://blog.sat.iit.edu/wp-content/uploads/2012/12/Cloud-Bakery-Possibility.pdf">Cloud Bakery Possibility.pdf</a></p>
+<p><a href="http://blog.sat.iit.edu/wp-content/uploads/2012/12/Cloud-Bakery-Possibility1.docx">Cloud Bakery Possibility.docx</a></p>

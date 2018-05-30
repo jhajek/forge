@@ -19,5 +19,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>Computing applications hosted on dynamically-scaled virtual resources available as services are considered. Collaborative and non-collaborative "cloud-resident" applications are analyzed with respect to cost, device&#47;location independence, scalability, reliability, security, and sustainability. Commercial and local cloud architectures are examined. A group-based integration of course topics will result in a project employing various cloud computing technologies.</p>
-<p>Link to Syllabus --> <a href="http:&#47;&#47;blog.sat.iit.edu&#47;wp-content&#47;uploads&#47;2012&#47;08&#47;544-syllabus-fall2012.docx">544-syllabus-fall2012.docx<&#47;a></p>
+<p>Computing applications hosted on dynamically-scaled virtual resources available as services are considered. Collaborative and non-collaborative "cloud-resident" applications are analyzed with respect to cost, device/location independence, scalability, reliability, security, and sustainability. Commercial and local cloud architectures are examined. A group-based integration of course topics will result in a project employing various cloud computing technologies.</p>
+<p>Link to Syllabus --> <a href="http://blog.sat.iit.edu/wp-content/uploads/2012/08/544-syllabus-fall2012.docx">544-syllabus-fall2012.docx</a></p>

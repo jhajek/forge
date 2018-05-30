@@ -20,17 +20,17 @@ categories:
 tags: []
 comments: []
 ---
-<p><strong>Great! I've got my MAK - What do I do now?<&#47;strong></p>
+<p><strong>Great! I've got my MAK - What do I do now?</strong></p>
 <p>To enter your MAK on Windows 8 Enterprise and successfully activate, you can complete one of the following steps:</p>
 <ul>
-<li><strong>Command Line option:<&#47;strong>
-<p>Hit the┬&aacute;<strong>Windows+R<&#47;strong> hotkeys to open the Run box and┬&aacute;run the following command:</p>
+<li><strong>Command Line option:</strong>
+<p>Hit the┬&aacute;<strong>Windows+R</strong> hotkeys to open the Run box and┬&aacute;run the following command:</p>
 <p><strong>slmgr -ipk <em>xxxxx-xxxxx-xxxxx-xxxxx-xxxxx<br />
-<&#47;em><&#47;strong><&#47;li></p>
-<li><strong>GUI option:<&#47;strong>
-<p>Hit the┬&aacute;<strong>Windows+R<&#47;strong> hotkeys to open the Run box and run the following command:</p>
+</em></strong></li></p>
+<li><strong>GUI option:</strong>
+<p>Hit the┬&aacute;<strong>Windows+R</strong> hotkeys to open the Run box and run the following command:</p>
 <p><strong>slui.exe 3</p>
-<p><&#47;strong>This command will open the following Dialog Box in which you can manually enter your MAK:<&#47;li><br />
-<&#47;ul><br />
-<img alt="" src="https:&#47;&#47;blogs.technet.com&#47;resized-image.ashx&#47;__size&#47;483x338&#47;__key&#47;communityserver-blogs-components-weblogfiles&#47;00-00-00-94-09&#47;2860.Win8Ent_2D00_SLUI.png" border="0" &#47;></p>
+<p></strong>This command will open the following Dialog Box in which you can manually enter your MAK:</li><br />
+</ul><br />
+<img alt="" src="https://blogs.technet.com/resized-image.ashx/__size/483x338/__key/communityserver-blogs-components-weblogfiles/00-00-00-94-09/2860.Win8Ent_2D00_SLUI.png" border="0" /></p>
 <p>Enter your MAK in the "Product Key" field shown above, click the "Activate" button and you should be good to go!</p>

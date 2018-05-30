@@ -20,7 +20,7 @@ tags: []
 comments: []
 ---
 <p>This job opening came to us from a student Thomas Johnson - for a Service Manager at a tech services firm in Oak Brook - Right down Butterfield!!  See attachment for more details on the job see the attachment below.<br />
-<a href="http:&#47;&#47;www.aqueity.com" title="http:&#47;&#47;www.aqueity.com"><&#47;a><br />
+<a href="http://www.aqueity.com" title="http://www.aqueity.com"></a><br />
 SUMMARY</p>
 <p>Department:<br />
 Reports to:</p>
@@ -30,4 +30,4 @@ Service Manager is also responsible for providing high-level technical assistanc
 service and support is provided to customers at agreed levels.</p>
 <p>Service and Support<br />
 Chief Technology Officer (CTO)</p>
-<p><a href='http:&#47;&#47;blog.sat.iit.edu&#47;2012&#47;08&#47;job-opening-service-manager&#47;service-manager-job-description-3&#47;' rel='attachment wp-att-402'>Service-Manager-Job-Description.docx<&#47;a></p>
+<p><a href='http://blog.sat.iit.edu/2012/08/job-opening-service-manager/service-manager-job-description-3/' rel='attachment wp-att-402'>Service-Manager-Job-Description.docx</a></p>

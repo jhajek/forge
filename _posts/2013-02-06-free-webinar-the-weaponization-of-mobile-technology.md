@@ -20,4 +20,4 @@ tags: []
 comments: []
 ---
 <p>In this webinar, participants will learn how mobile technology can cause physical harm (and in some cases death) from the electronic manipulation of personal medical devices to the modification of electronic road signs. We will review the technologies and capabilities needed to harm others. Lastly, we will offer ways to mitigate the challenge that mobile devices bring to traditional physical crimes like murder.<br />
-<a href="http:&#47;&#47;blog.thomsonreuters.com&#47;index.php&#47;webinar-the-weaponization-of-mobile-technology&#47;">http:&#47;&#47;blog.thomsonreuters.com&#47;index.php&#47;webinar-the-weaponization-of-mobile-technology&#47;<&#47;a></p>
+<a href="http://blog.thomsonreuters.com/index.php/webinar-the-weaponization-of-mobile-technology/">http://blog.thomsonreuters.com/index.php/webinar-the-weaponization-of-mobile-technology/</a></p>

@@ -20,7 +20,7 @@ tags: []
 comments: []
 ---
 <p>Thank you for all your submissions.  There were many excellent papers.  I had a hard time choosing just two.  But I would like to highlight these papers and the way they were written.</p>
-<p><strong>Adrian Cabrera<&#47;strong><br />
-<a href='http:&#47;&#47;blog.sat.iit.edu&#47;wp-content&#47;uploads&#47;2012&#47;09&#47;Adrian_Cabrera_paper1.docx'>Adrian_Cabrera_paper1.docx<&#47;a></p>
-<p><strong>Adrian Hernandez<&#47;strong><br />
-<a href='http:&#47;&#47;blog.sat.iit.edu&#47;wp-content&#47;uploads&#47;2012&#47;09&#47;Adrian_Hernando_paper1.pdf'>Adrian_Hernando_paper1.pdf<&#47;a></p>
+<p><strong>Adrian Cabrera</strong><br />
+<a href='http://blog.sat.iit.edu/wp-content/uploads/2012/09/Adrian_Cabrera_paper1.docx'>Adrian_Cabrera_paper1.docx</a></p>
+<p><strong>Adrian Hernandez</strong><br />
+<a href='http://blog.sat.iit.edu/wp-content/uploads/2012/09/Adrian_Hernando_paper1.pdf'>Adrian_Hernando_paper1.pdf</a></p>

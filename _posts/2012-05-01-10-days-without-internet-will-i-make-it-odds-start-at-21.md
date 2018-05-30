@@ -19,5 +19,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I am moving to a new home.  At&t service was cancelled today 5&#47;1.  At&t will start service at new house May 11th...</p>
+<p>I am moving to a new home.  At&t service was cancelled today 5/1.  At&t will start service at new house May 11th...</p>
 <p>Let us see if and how I survive.</p>

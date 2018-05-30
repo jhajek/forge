@@ -24,8 +24,8 @@ tags:
 - KVM
 comments: []
 ---
-<p>There is a post <a title="Resizing and Uploading UEC image" href="http:&#47;&#47;blog.sat.iit.edu&#47;2011&#47;09&#47;resizing-and-uploading-uec-image&#47;">below<&#47;a> regarding resizing UEC images. This works great if you're using preexisting images from a tarball. However, if you have created your own images using the kvm-img tool, you'll need to do something a little different.</p>
-<p>The kvm-img tool provides a resize utility that is <em>very<&#47;em> easy to use.</p>
-<p>&nbsp;<code>kvm-image resize filename [+|-]size<&#47;code></p>
+<p>There is a post <a title="Resizing and Uploading UEC image" href="http://blog.sat.iit.edu/2011/09/resizing-and-uploading-uec-image/">below</a> regarding resizing UEC images. This works great if you're using preexisting images from a tarball. However, if you have created your own images using the kvm-img tool, you'll need to do something a little different.</p>
+<p>The kvm-img tool provides a resize utility that is <em>very</em> easy to use.</p>
+<p>&nbsp;<code>kvm-image resize filename [+|-]size</code></p>
 <p>You simply give it the filename of your image and either the explicit new size you want to use, or add or subtract space by using the optional plus or minus signs.</p>
-<p>You'll need to go into the VM and use the file system tools to actually access the new space, but this is the fastest way to get more space for your virtual images created with KVM, as these won't work with regular file image&#47;system tools.</p>
+<p>You'll need to go into the VM and use the file system tools to actually access the new space, but this is the fastest way to get more space for your virtual images created with KVM, as these won't work with regular file image/system tools.</p>

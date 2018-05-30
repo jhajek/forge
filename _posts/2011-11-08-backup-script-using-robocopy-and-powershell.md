@@ -48,7 +48,7 @@ for ($i=0; $i -lt 1; $i++) {</p>
 ## =========================================================</p>
 <p>Write-Host $i</p>
 <p>## robocopy will mirror a directory and log the file, note the log will append<br />
-robocopy $source[$i] $destination[$i] &#47;mir &#47;log+:$logDestination</p>
+robocopy $source[$i] $destination[$i] /mir /log+:$logDestination</p>
 <p>## this will take a snapshot of the source and destination directory<br />
 $shot1 = Dir $source[$i]<br />
 $shot2 = Dir $destination[$i]</p>
@@ -68,10 +68,10 @@ if ($File.Length -eq 0) {sendSuccessEmail}</p>
 <p>## if the backup report has feedback (all files were NOT copied successfully) it will send a failure email<br />
 $File = Get-ChildItem $backupReport<br />
 if ($File.Length -gt 0) {sendFailEmail}</p>
-<p>}<&#47;pre><br />
+<p>}</pre><br />
 Finally, to make this script run every night at the same time. We used Windows' Task Scheduler. However task scheduler will not take .ps1 files (powershell files). So we needed to make a batch file that pointed to the powershell script.</p>
-<pre><&#47;pre></p>
-<pre>Batch File Below:<&#47;pre></p>
-<pre lang="PowerShell">powershell -command "& 'X:\RobocopyBackup.ps1' "<&#47;pre></p>
+<pre></pre></p>
+<pre>Batch File Below:</pre></p>
+<pre lang="PowerShell">powershell -command "& 'X:\RobocopyBackup.ps1' "</pre></p>
 <p>&nbsp;<br />
 The above batch file was put into task scheduler and scheduled to run at a certain time everyday.</p>
