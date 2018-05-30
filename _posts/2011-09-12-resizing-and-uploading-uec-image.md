@@ -24,4 +24,4 @@ tags:
 - HP
 comments: []
 ---
-<p><a href="http:&#47;&#47;aurora.sat.iit.edu&#47;wp-content&#47;uploads&#47;2011&#47;09&#47;Resizing-and-Uploading-UEC-images.pdf">A Guide to Resizing and Uploading UEC images PDF File<&#47;a></p>
+<p><a href="http://aurora.sat.iit.edu/wp-content/uploads/2011/09/Resizing-and-Uploading-UEC-images.pdf">A Guide to Resizing and Uploading UEC images PDF File</a></p>
