@@ -19,4 +19,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>[jwplayer mediaid="314"]<a href='http:&#47;&#47;www.youtube.com&#47;watch?v=NmXQG0v7kJc'>Beatles.65.Medley.Dan.Tomal<&#47;a>  Dr. Tomal is a professor at IIT and teaches in the INTM and ITM program.</p>
+<p>[jwplayer mediaid="314"]<a href='http://www.youtube.com/watch?v=NmXQG0v7kJc'>Beatles.65.Medley.Dan.Tomal</a>  Dr. Tomal is a professor at IIT and teaches in the INTM and ITM program.</p>

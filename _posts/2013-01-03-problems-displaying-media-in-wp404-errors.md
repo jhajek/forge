@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Problem(s) displaying media in WP&#47;404 Errors
+title: Problem(s) displaying media in WP/404 Errors
 author:
   display_name: lmchughi
   login: lmchughi
@@ -22,8 +22,8 @@ comments: []
 <div>
 <p>So I found the solution.</p>
 <p>I just added correct MIME type to the WP site.</p>
-<p>Extension: <strong>mp4<&#47;strong></p>
-<p>MIME type: <strong>video&#47;mpeg<&#47;strong></p>
+<p>Extension: <strong>mp4</strong></p>
+<p>MIME type: <strong>video/mpeg</strong></p>
 <p>And now it works fine.</p>
-<p>What is a MIME, how do I edit in IIS7: <a href="http:&#47;&#47;technet.microsoft.com&#47;en-us&#47;library&#47;cc725608%28v=ws.10%29.aspxhttp:&#47;&#47;">http:&#47;&#47;technet.microsoft.com&#47;en-us&#47;library&#47;cc725608%28v=ws.10%29.aspx <&#47;a></p>
-<p><&#47;div></p>
+<p>What is a MIME, how do I edit in IIS7: <a href="http://technet.microsoft.com/en-us/library/cc725608%28v=ws.10%29.aspxhttp://">http://technet.microsoft.com/en-us/library/cc725608%28v=ws.10%29.aspx </a></p>
+<p></div></p>

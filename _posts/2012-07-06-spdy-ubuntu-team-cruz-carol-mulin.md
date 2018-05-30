@@ -19,12 +19,12 @@ categories:
 tags: []
 comments: []
 ---
-<p><strong>SPDY ┬&aacute;- Proof of concept can be done on your laptop using virtualbox (Cruz ┬&aacute;Tovar)(Mulin Shen) <&#47;strong><br />
-<a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;SPDY">http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;SPDY<&#47;a><br />
-<a href="http:&#47;&#47;dev.chromium.org&#47;spdy&#47;spdy-whitepaper">http:&#47;&#47;dev.chromium.org&#47;spdy&#47;spdy-whitepaper<&#47;a><br />
-<a href="http:&#47;&#47;googledevelopers.blogspot.com&#47;2012&#47;04&#47;add-spdy-support-to-your-apache-server.html">http:&#47;&#47;googledevelopers.blogspot.com&#47;2012&#47;04&#47;add-spdy-support-to-your-apache-server.html<&#47;a><br />
-<a href="http:&#47;&#47;code.google.com&#47;p&#47;mod-spdy&#47;">http:&#47;&#47;code.google.com&#47;p&#47;mod-spdy&#47;<&#47;a><br />
-<a href="http:&#47;&#47;twit.tv&#47;show&#47;security-now&#47;343">http:&#47;&#47;twit.tv&#47;show&#47;security-now&#47;343<&#47;a></p>
+<p><strong>SPDY ┬&aacute;- Proof of concept can be done on your laptop using virtualbox (Cruz ┬&aacute;Tovar)(Mulin Shen) </strong><br />
+<a href="http://en.wikipedia.org/wiki/SPDY">http://en.wikipedia.org/wiki/SPDY</a><br />
+<a href="http://dev.chromium.org/spdy/spdy-whitepaper">http://dev.chromium.org/spdy/spdy-whitepaper</a><br />
+<a href="http://googledevelopers.blogspot.com/2012/04/add-spdy-support-to-your-apache-server.html">http://googledevelopers.blogspot.com/2012/04/add-spdy-support-to-your-apache-server.html</a><br />
+<a href="http://code.google.com/p/mod-spdy/">http://code.google.com/p/mod-spdy/</a><br />
+<a href="http://twit.tv/show/security-now/343">http://twit.tv/show/security-now/343</a></p>
 <p>SPDY is a new protocol and a reworking of HTTP over TCP to make it more efficient and faster. ┬&aacute;Your job will be to configure an Apache webserver on Ubuntu Server 12.04 in order to handle the SPDY protocol.</p>
 <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 <p>July 6th, 2012</p>
