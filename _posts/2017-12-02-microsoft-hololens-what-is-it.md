@@ -11,7 +11,7 @@ tags:
 - IllinoisTech
 - SmartTechLab
 - AR
-- Hololens
+- HoloLens
 comments: []
 ---
 
@@ -19,7 +19,7 @@ Some may ask, what is [Augmented Reality (AR)](https://en.wikipedia.org/wiki/Aug
 
 In short it is the only mainstream standalone, hands free AR solution on the market.
 
-![*Hololens*](/assets/2017/12/display.png)
+![*HoloLens*](/assets/2017/12/display.png)
 
 Here is two videos (with audio commentary showing what is being done).  The entire city block of 31st and Michigan Ave in Chicago was modeled and displayed in a ballroom.  Note that the demo was unoptimzed for the location but a proof of concept.  
 
