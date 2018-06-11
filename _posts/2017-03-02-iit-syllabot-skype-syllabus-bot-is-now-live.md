@@ -23,8 +23,10 @@ tags:
 - syllabot
 comments: []
 ---
-<p><strong>Syllabot goes live! </strong></p>
-<p>  Illinois Institute of Technology continues to push the boundaries of modern technology.  With the help of a start graduate student, Dhashini Jeyapaul, we have published <a href="https://bots.botframework.com/bot?id=syllabot">Syllabot</a>, as of February 24th 2017.  We were 63 of 173 total bots at that time.</p>
+**Syllabot goes live!**
+
+Illinois Institute of Technology continues to push the boundaries of modern technology.  With the help of a start graduate student, Dhashini Jeyapaul, we have published <a href="https://bots.botframework.com/bot?id=syllabot">Syllabot</a>, as of February 24th 2017.  We were 63 of 173 total bots at that time.
+
 <p><strong>What does it do?</strong><br />
   Good question.  It is a Skype chat bot.  We used a Microsoft service called Q&A maker to take a regular course syllabus and convert it into Question and Answer pairs, (for instance, Who is the teacher?  Where is the class?  What is due week 1?).   I have attached the syllabus we used (ITMO 544 fall 2016) you can load the bot and try it out.</p>
 <p>You can add the bot to your Skype account here:</p>
