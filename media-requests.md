@@ -27,7 +27,7 @@ Here is a recent list of Media appearances by Jeremy Hajek
     + [https://youtu.be/DEzJYO6xDyk](https://youtu.be/DEzJYO6xDyk "ITMS URL")
 
 
-* Illinois Tech Univeristy News
+* Illinois Tech University News
     + [https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise](https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise "LSIH")
     + [https://youtu.be/yl-sLu4RDpg](https://youtu.be/yl-sLu4RDpg "LSIH")
 
