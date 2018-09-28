@@ -18,9 +18,16 @@ categories: []
 tags: []
 comments: []
 ---
-Here is a recent list of Media appearances by Jeremy Hajek
+Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
 ## 2018
+
+* SIGITE 2018 Conference Poster Presentation
+  + Vineet Sampat, Jeremy Hajek 
+September 2018 SIGITE '18: Proceedings of the 19th Annual SIG Conference on Information Technology Education 
+  + As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
+  + Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
+
 
 * IMTS MSC Industrial Direct
     + [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
