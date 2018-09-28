@@ -22,19 +22,19 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
 ## 2018
 
-* SIGITE 2018 Conference Poster Presentation
+* SIGITE 2018 Conference Poster Presentation  - 10/04/2018
   + Vineet Sampat, Jeremy Hajek 
 September 2018 SIGITE '18: Proceedings of the 19th Annual SIG Conference on Information Technology Education 
   + As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
   + Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
 
 
-* IMTS MSC Industrial Direct
+* IMTS MSC Industrial Direct - 09/06/2018
     + [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
     + [https://youtu.be/DEzJYO6xDyk](https://youtu.be/DEzJYO6xDyk "ITMS URL")
 
 
-* Illinois Tech University News
+* Illinois Tech University News - 08/06/2810
     + [https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise](https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise "LSIH")
     + [https://youtu.be/yl-sLu4RDpg](https://youtu.be/yl-sLu4RDpg "LSIH")
 
