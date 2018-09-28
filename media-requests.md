@@ -19,7 +19,18 @@ tags: []
 comments: []
 ---
 Here is a recent list of Media appearances by Jeremy Hajek
+
 ## 2018
+
+* IMTS MSC Industrial Direct
+    + [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
+    + [https://youtu.be/DEzJYO6xDyk](https://youtu.be/DEzJYO6xDyk "ITMS URL")
+
+
+* Illinois Tech Univeristy News
+    + [https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise](https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise "LSIH")
+    + [https://youtu.be/yl-sLu4RDpg](https://youtu.be/yl-sLu4RDpg "LSIH")
+
 
 * ABC 7 Chicago TV Interview - US, UK issue joint warning on Russian hackers - 04/19/2018
     + [http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/](http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/)
