@@ -36,3 +36,4 @@ His final paragraph sums up his conclusions saying:
 
 > *"Repair culture, in that sense, is not a mere side effect of the development of industrial societies. On the contrary, it is one of the very few distributed and consistent niches of resistance against the transformation of all human creativity into quantifiable commodity. I reckon it’s not hard to pick a side on this matter.*"
 
+Now the gentleman's background is different than mine and some opinions vary but on the whole he brings up a good point.
