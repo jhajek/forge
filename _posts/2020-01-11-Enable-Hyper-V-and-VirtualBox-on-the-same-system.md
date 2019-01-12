@@ -28,8 +28,8 @@ In retrospect, there is Hyper-V, which is Microsoft's enterprise grade Virtualiz
 
 Well I am currently doing work with the [Microsoft HoloLens](https://microsoft.com/hololens "Microsoft HoloLens website") which is Microsoft's cutting edge Augmented Reality platform.   We have done some neat research with it.
 
-Link
-Link
+[HoloLens Work](https://forge.sat.iit.edu/augmentedreality/mixedreality/2018/05/25/hololens-work.html
+ "HoloLens Work")
 
 But the best part is that the HoloLens makes use of Unity3d and VisualStudio to build and compile appx HoloLens projects.   There is a HoloLens simulator you can use that runs as a Hyper-V virtual machine for testing.  So the need to have both platforms comes into play.   But Hyper-V being a Type II hypervisor and VirtualBox being a Type-I will install together but only one hypervisor can run at a time.  
 
@@ -37,14 +37,14 @@ This is an issue because Hyper-V is loaded at boot and become the default hyperv
 
 This can be easily done via launching an elevated **CMD** or **Command Line**, not a Powershell, but a CMD as the syntax of these commands won't be recognized in *powershell*.  Here are the commands given by David Finster at his excellent website, [Finster Tech Consulting](https://fortc.com/switch-between-hyper-v-and-virtualbox-on-windows-10/ "Hyper-V BCD edit solution"):
 
-1) Open a command prompt as administrator.
-1) Run the following command: ```C:\>bcdedit /copy {current} /d “Disable Hyper-V”```
+1. Open a command prompt as administrator.
+1. Run the following command: ```C:\>bcdedit /copy {current} /d “Disable Hyper-V”```
   i) You will see the following result: The entry was successfully copied to (something like) {c8f8754a-d33e-11e8-8234-8cec4b60f7ca}.
-  i) You can use your own description instead of “Disable Hyper-V” if you like.
-1) Run the following command: ```C:\>bcdedit /set {c8f8754a-d33e-11e8-8234-8cec4b60f7ca} hypervisorlaunchtype off```
-  i) You will see the following result: The operation completed successfully.
-  i) Your serial number will be different -- adjust accordingly.
-1) Reboot the machine while holding down the shift key. You will be presented with a boot option to “Use another operating system”.
-  i)Select your new “Disable Hyper-V” option. The machine will boot with Hyper-V disabled and VirtualBox will work.
+  i. You can use your own description instead of “Disable Hyper-V” if you like.
+1. Run the following command: ```C:\>bcdedit /set {c8f8754a-d33e-11e8-8234-8cec4b60f7ca} hypervisorlaunchtype off```
+  i. You will see the following result: The operation completed successfully.
+  i. Your serial number will be different -- adjust accordingly.
+1. Reboot the machine while holding down the shift key. You will be presented with a boot option to “Use another operating system”.
+  i. Select your new “Disable Hyper-V” option. The machine will boot with Hyper-V disabled and VirtualBox will work.
 
 It works perfectly!
