@@ -24,7 +24,7 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
 * SIGITE 2018 Conference Poster Presentation  - 10/04/2018
   + Vineet Sampat, Jeremy Hajek 
-September 2018 SIGITE '18: Proceedings of the 19th Annual SIG Conference on Information Technology Education 
+September 2018 SIGITE '18: Proceedings of the 19th Annual SIG Conference on Information Technology Education. The Importance Of Hadoop Clusters in Educational Institutions
   + As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
   + Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
 
@@ -51,7 +51,7 @@ September 2018 SIGITE '18: Proceedings of the 19th Annual SIG Conference on Info
     + [http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/](http://chicago.cbslocal.com/2017/10/19/atm-skimmers-found-at-walgreens/)
 
 * SIGITE 2017 Conference Paper Presentation - Rochester NY - 10/04/17
-    +  Riviere, T., Gutierrez Ayala, H., & Hajek, J. (2017). The Extension and Implementation of the Autonomous Movement Framework. Proceedings of the 6th Annual Conference on Reaseach in Information and Technology. Rochester: ACM.     
+    +  Riviere, T., Gutierrez Ayala, H., & Hajek, J. (2017). The Extension and Implementation of the Autonomous Movement Framework. Proceedings of the 6th Annual Conference on Research in Information and Technology. Rochester: ACM.
 
 * Yahoo Finance - Credit Card Fraud - 10/02/17
     + [https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html](https://finance.yahoo.com/news/protect-yourself-credit-card-fraud-130000926.html)
