@@ -23,8 +23,7 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 ## 2018
 
 * SIGITE 2018 Conference Poster Presentation  - 10/04/2018
-  + Vineet Sampat, Jeremy Hajek 
-September 2018 SIGITE '18: Proceedings of the 19th Annual SIG Conference on Information Technology Education. The Importance Of Hadoop Clusters in Educational Institutions
+  + Sampat V., Hajek J. (2018). The Importance of Hadoop Clusters in Educational Institutions. Proceedings of the 19th Annual SIG Conference on Information Technology Education. Ft. Lauderdale: ACM
   + As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
   + Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
 
