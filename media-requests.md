@@ -20,28 +20,25 @@ comments: []
 ---
 Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
-## 2018
+# 2018
 
 * SIGITE 2018 Conference Poster Presentation  - 10/04/2018
   + Sampat V., Hajek J. (2018). The Importance of Hadoop Clusters in Educational Institutions. Proceedings of the 19th Annual SIG Conference on Information Technology Education. Ft. Lauderdale: ACM
   + As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
   + Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
 
-
 * IMTS MSC Industrial Direct - 09/06/2018
     + [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
     + [https://youtu.be/DEzJYO6xDyk](https://youtu.be/DEzJYO6xDyk "ITMS URL")
-
 
 * Illinois Tech University News - 08/06/2810
     + [https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise](https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise "LSIH")
     + [https://youtu.be/yl-sLu4RDpg](https://youtu.be/yl-sLu4RDpg "LSIH")
 
-
 * ABC 7 Chicago TV Interview - US, UK issue joint warning on Russian hackers - 04/19/2018
     + [http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/](http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/)
 
-## 2017
+# 2017
 
 * CBS 2 Chicago TV Interview - ATM Skimmers - 10/23/17
     + [http://chicago.cbslocal.com/2017/10/23/14-skimmers-now-found-on-atms-across-chicago/](http://chicago.cbslocal.com/2017/10/23/14-skimmers-now-found-on-atms-across-chicago/)
@@ -67,9 +64,7 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 * CBS 2 Chicago - EMV Chips in Credit Cards - 03/15/17
     + [http://chicago.cbslocal.com/2017/03/14/those-chip-cards-theyre-not-invincible/](http://chicago.cbslocal.com/2017/03/14/those-chip-cards-theyre-not-invincible/)
 
-* 
-
-## 2016
+# 2016
 
 * [Illinois Researchers Who Wowed Us in 2016 12&#47;16&#47;2016](http:&#47;&#47;chicagoinno.streetwise.co&#47;2016&#47;12&#47;16&#47;top-illinois-researchers-and-research-projects-in-2016&#47; "Illinois Top Researcher")
     + [Chicago Inno](http:&#47;&#47;chicagoinno.streetwise.co&#47; "Chicago Inno")
@@ -84,7 +79,7 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
     + [San Fransico Chronicle  - Smartphone 'voices' not always helpful in a health crisis 03&#47;14&#47;2016](http:&#47;&#47;www.sfgate.com&#47;business&#47;technology&#47;article&#47;Smartphone-voices-not-always-helpful-in-health-6888679.php "Smartphone")
     + The above interview was picked up by 338 prominent media outlets and helped gain national media exposure for Illinois Tech. 
 
-## 2015
+# 2015
 
 * WLS radio interview 7&#47;29&#47;15
     + [Open letter ban on offensive autonomous weapons](http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743">http:&#47;&#47;stationcaster.com&#47;player_skinned.php?s=1201&c=19093&f=4655743) 
