@@ -49,3 +49,5 @@ Secure server with Fail2ban and Docker
 
 ```docker run -v /path/in/host:/var/log/nginx/access.log nginx``` as an example.
 
+But how to get fail2ban access to the logs, and though you can execute the ```sudo docker logs container-name``` command and see the logs.
+
