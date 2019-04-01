@@ -20,6 +20,15 @@ comments: []
 ---
 Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
+# 2019
+
+Publication Title: 2019 IEEE EMBS International Conference on Biomedical & Health Informatics (BHI)
+Article Title: Mobile Application for Automated Insulin Delivery with Integrated Physical Activity Sensors
+Author(s): Ms. Caterina Lazaro, Dr. Mudassir Rashid, Mr. Mert Sevil, Mr. Iman Hajizadeh, Prof. Jeremy Hajek, Mr. Erdal Oruklu and Prof. Ali Cinar
+Author E-mail: clazarom@hawk.iit.edu, mrashid3@iit.edu, msevil@hawk.iit.edu, ihajizad@hawk.iit.edu, hajek@iit.edu, oruklu@iit.edu, cinar@iit.edu
+eCF Paper Id: 1570533966
+
+
 # 2018
 
 * SIGITE 2018 Conference Poster Presentation  - 10/04/2018
