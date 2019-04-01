@@ -22,21 +22,24 @@ For a while I wanted to publish the research capabilities of Professor Jeremy Ha
 
 Current applications include:
 
-* 4 node [Hadoop 2.6.5](http://hadoop.apache.org/ "Hadoop Cluster") Research Cluster
+* ~~4 node [Hadoop 2.6.5](http://hadoop.apache.org/ "Hadoop Cluster") Research Cluster~~
+* 5 node [Hadoop 2.8.5](http://hadoop.apache.org/ "Hadoop Cluster") Research Cluster
+    + 197 GB RAM and 47 processors available.
 * 1 [Pfsense 2.4](https://www.pfsense.org/ "Pfsense") VPN router for access to the cluster
 * 1 Instance of [Cobbler 2.8.x](https://cobbler.github.io/ "cobblerd") for network based installs
-* Use of [Riemann](http://riemann.io/ "riemann") for metric and event routing 
+* Use of [Riemann](http://riemann.io/ "riemann") for metric and event routing
 * 1 instance of [Grafana](https://grafana.com/ "grafana") for visual inspection of metrics
 * 2 instances of [Docker](https://www.docker.com/ "docker") running on Ubuntu 16.04 LTS
-* More to come...
 
 ### Current Hardware
-*  Hadoop Nodes
+
+* Hadoop Nodes
     + Namenode  - 1.8 TB of storage, 32 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
-    + Datanode1 - 3.6 TB of storage, 96 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
-    + Datanode2 - 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
+    + Datanode1 - 3.6 TB of storage, 94 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
+    + Datanode2 - 2 TB of storage, 56 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
     + Datanode3 - 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5504 Quad Core](https://ark.intel.com/products/40711/Intel-Xeon-Processor-E5504-4M-Cache-2_00-GHz-4_80-GTs-Intel-QPI "Intel 5504")
-    + Datanode4 - 2 TB of storage, 24 GB of RAM, [AMD FX 6100 Hexacore ](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
+    + Datanode4 - 2 TB of storage, 24 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
+    + Datanode5 - 2 TB of storage, 32 GB of RAM, [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
 
 ## Decommissioned
 
