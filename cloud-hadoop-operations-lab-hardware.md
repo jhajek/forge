@@ -41,6 +41,14 @@ Current applications include:
     + Datanode4 - 2 TB of storage, 24 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
     + Datanode5 - 2 TB of storage, 32 GB of RAM, [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
 
+### Software Support
+
+* Supported Software
+  + MapReduce
+  + Spark
+  + SparkR
+  + SparkQL
+  
 ## Decommissioned
 
 [AppendixForITResroucesABET.pdf from 05/15](https://forge.sat.iit.edu/wp-content/uploads/2015/05/ "ABET Appendix")
