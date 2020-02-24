@@ -20,6 +20,11 @@ comments: []
 ---
 Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
+# 2020
+
+* CBS 2 Interview: Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks
+  *[https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/](https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/ "Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks")
+
 # 2019
 
 Publication Title: 2019 IEEE EMBS International Conference on Biomedical & Health Informatics (BHI)
@@ -28,21 +33,20 @@ Author(s): Ms. Caterina Lazaro, Dr. Mudassir Rashid, Mr. Mert Sevil, Mr. Iman Ha
 Author E-mail: clazarom@hawk.iit.edu, mrashid3@iit.edu, msevil@hawk.iit.edu, ihajizad@hawk.iit.edu, hajek@iit.edu, oruklu@iit.edu, cinar@iit.edu
 eCF Paper Id: 1570533966
 
-
 # 2018
 
 * SIGITE 2018 Conference Poster Presentation  - 10/04/2018
-  + Sampat V., Hajek J. (2018). The Importance of Hadoop Clusters in Educational Institutions. Proceedings of the 19th Annual SIG Conference on Information Technology Education. Ft. Lauderdale: ACM
-  + As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
-  + Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
+  * Sampat V., Hajek J. (2018). The Importance of Hadoop Clusters in Educational Institutions. Proceedings of the 19th Annual SIG Conference on Information Technology Education. Ft. Lauderdale: ACM
+  * As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
+  * Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
 
 * IMTS MSC Industrial Direct - 09/06/2018
-    + [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
-    + [https://youtu.be/DEzJYO6xDyk](https://youtu.be/DEzJYO6xDyk "ITMS URL")
+  * [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
+  * [https://youtu.be/DEzJYO6xDyk](https://youtu.be/DEzJYO6xDyk "ITMS URL")
 
 * Illinois Tech University News - 08/06/2810
-    + [https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise](https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise "LSIH")
-    + [https://youtu.be/yl-sLu4RDpg](https://youtu.be/yl-sLu4RDpg "LSIH")
+  * [https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise](https://news.iit.edu/multimedia/2018/08/large-scale-immersive-hologram-show-real-impact-sea-level-rise "LSIH")
+  * [https://youtu.be/yl-sLu4RDpg](https://youtu.be/yl-sLu4RDpg "LSIH")
 
 * ABC 7 Chicago TV Interview - US, UK issue joint warning on Russian hackers - 04/19/2018
     + [http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/](http://abc7chicago.com/technology/us-uk-issue-joint-warning-on-russian-hackers/3353043/)
