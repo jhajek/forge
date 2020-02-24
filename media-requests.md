@@ -23,7 +23,7 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 # 2020
 
 * CBS 2 Interview: Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks
-  *[https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/](https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/ "Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks")
+  * [https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/](https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/ "Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks")
 
 # 2019
 
