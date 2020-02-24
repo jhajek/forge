@@ -89,7 +89,7 @@ eCF Paper Id: 1570533966
   * [ABC News - Smartphone 'voices' not always helpful in a health crisis](http:&#47;&#47;abcnews.go.com&#47;Technology&#47;wireStory&#47;smartphone-voices-helpful-health-crisis-37633175 "Smartphone")
   * [Fox news - Smartphone 'voices' not always helpful in a health crisis](http:&#47;&#47;www.foxnews.com&#47;health&#47;2016&#47;03&#47;14&#47;smartphone-voices-not-always-helpful-in-health-crisis.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+foxnews%2Fhealth+%28Internal+-+Health+-+Text%29 "Smartphone")
   * [Daily Mail UK - Smartphone 'voices' not always helpful in a health crisis march 14, 2016<&#47;li>](http:&#47;&#47;www.dailymail.co.uk&#47;sciencetech&#47;article-3492121&#47;Researchers-slam-smartphone-assistants-failing-offer-help-owners-rape-mental-illness-questions.html "smartphones")
-  * [San Fransico Chronicle  - Smartphone 'voices' not always helpful in a health crisis 03&#47;14&#47;2016](http:&#47;&#47;www.sfgate.com&#47;business&#47;technology&#47;article&#47;Smartphone-voices-not-always-helpful-in-health-6888679.php "Smartphone")
+  * [San Francisco Chronicle  - Smartphone 'voices' not always helpful in a health crisis 03&#47;14&#47;2016](http:&#47;&#47;www.sfgate.com&#47;business&#47;technology&#47;article&#47;Smartphone-voices-not-always-helpful-in-health-6888679.php "Smartphone")
   * The above interview was picked up by 338 prominent media outlets and helped gain national media exposure for Illinois Tech.
 
 ## 2015
