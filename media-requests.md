@@ -37,8 +37,8 @@ eCF Paper Id: 1570533966
 
 * SIGITE 2018 Conference Poster Presentation  - 10/04/2018
   * Sampat V., Hajek J. (2018). The Importance of Hadoop Clusters in Educational Institutions. Proceedings of the 19th Annual SIG Conference on Information Technology Education. Ft. Lauderdale: ACM
-  * As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ... 
-  * Keywords: apache spark, big data, big data research, hadoop research, hdfs, opensource big data, spark, sparkr 
+  * As concepts such as Big Data, Data Analytics, and Machine Learning become more prevalent in industry how does your educational institution intend to join into this new stream of technology and areas of research? How will your faculty conduct grant based research in this area - Costly cloud based options ...
+  * Keywords: Apache Spark, big data, big data research, Hadoop research, hdfs, opensource big data, Spark, SparkR
 
 * IMTS MSC Industrial Direct - 09/06/2018
   * [https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers](https://www.mscdirect.com/betterMRO/imts-2018-video-colleges-companies-join-forces-appeal-next-gen-metalworkers "MSC IMTS interview")
