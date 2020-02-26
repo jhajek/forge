@@ -100,7 +100,7 @@ eCF Paper Id: 1570533966
 * Daily Business Ledger - May 27 2015
   * [http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492](http:&#47;&#47;dhbusinessledger.com&#47;Content&#47;Default&#47;Homepage-Rotating-Articles&#47;Article&#47;These-high-tech-robots-could-change-the-way-you-do-business-&#47;-3&#47;303&#47;15492 "High Tech Robots")
 
-* ABC 7 April 28th 2015 
+* ABC 7 April 28th 2015
   * Here is the video clip from the tornado warning sirens story on ABC 7 Chicago. I apologize I did not get a heads-up from ABC 7 regarding the air date.
   * [http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47;](http:&#47;&#47;abc7chicago.com&#47;news&#47;tornado-warning-sirens-adjust-to-digital-age&#47;684428&#47; "Tornado Warning System")
 
