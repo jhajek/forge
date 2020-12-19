@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: DevOps Meetup with Bryan Cantrill and Ray Krueger
-author:
-  display_name: hajek
-  login: hajek
-  email: hajek@iit.edu
-  url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1698
-wordpress_url: https://forge.sat.iit.edu/?p=1698
 date: '2016-05-09 14:22:39 -0500'
 date_gmt: '2016-05-09 19:22:39 -0500'
 categories:
@@ -22,7 +15,6 @@ tags:
 - DevOps Chicago meetup
 comments: []
 ---
-Dear Friends,
 
 Went to an amazing DevOps meetup here in Chicago and heard [Bryan Cantrill](http://dtrace.org/blogs/bmc/ "Bryan Cantrill") (CTO of Joyent) speak.  He is as advertised.  Also heard from Ray Krueger, the CTO of Hilton Hotels talk about their own IT and infrastructure patterns.  [They posted a video of the presentation here:](https://vimeo.com/165120806 "Meetup with Bryan Cantrill and Ray Krueger")
 
