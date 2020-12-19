@@ -20,7 +20,7 @@ comments: []
 
 ## TL/DR
 
-This is a hint to clarify the missing parts in the Packer Proxmox-iso template creation documentations
+This is a hint to clarify the missing parts in the Packer Proxmox-iso template creation documentations using Packer 1.6.6 and Proxmox VE 6.3-2
 
 ## Introduction
 
