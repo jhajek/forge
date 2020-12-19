@@ -34,7 +34,7 @@ This project we are embarking on uses [Mariadb 10.3](https://mariadb.com/ "maria
 
 ## Docker and the Diagram
 
-Fail2ban works by scannig for failed login attempts and simply bans that IP after a certain number of strikes or fail logins per a defined time period. This makes use of the log and error files located in ```/var/log```.  But when the database is running in a [Docker container](https://www.docker.com/ "Docker website") there is no log file on the host system because the applicaiton is in the container.  Whereas fail2ban is running onthe host system and not inside of the container.   To complicate this from a visualization perspective, the Docker process is forwarding port from the container to the host system (yes I have hardened passwords and remote root login denied.). 
+Fail2ban works by scanning for failed login attempts and simply bans that IP after a certain number of strikes or fail logins per a defined time period. This makes use of the log and error files located in ```/var/log```.  But when the database is running in a [Docker container](https://www.docker.com/ "Docker website") there is no log file on the host system because the applicaiton is in the container.  Whereas fail2ban is running onthe host system and not inside of the container.   To complicate this from a visualization perspective, the Docker process is forwarding port from the container to the host system (yes I have hardened passwords and remote root login denied.). 
 
 https://serverfault.com/questions/253452/how-do-i-setup-monitoring-of-mysql-with-fail2ban
 
