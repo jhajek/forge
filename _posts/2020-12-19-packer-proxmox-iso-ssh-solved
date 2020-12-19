@@ -1,0 +1,71 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Using Packer Proxmox-iso Template SSH Waiting Connection Problem Solved'
+author:
+  display_name: Jeremy Hajek
+  email: hajek@.iit.edu
+date: '2020-12-19 00:08:52 -0600'
+categories:
+- software
+- automation
+tags: 
+- packer
+- proxmox
+- qemu_agent
+- ssh
+comments: []
+---
+
+## TL/DR
+
+This is a hint to clarify the missing parts in the Packer Proxmox-iso template creation documentations
+
+## Introduction
+
+Recently I have started using [Proxmox](https://proxmox.com/en/ "Proxmox website"), which is an AGPL based software version of managed KVM.  This is similar to Microsoft Hyper-V or VMware. [Packer](https://packer.io "Packer website") is a tool from [Hashicorp](https://hashicorp.com "hashicorp website") that allows one to automate an installation of an operating system.  Packer then allows you to generate artifacts that can be reused, audited, and version controlled.  
+
+Using the Packer [Proxmox iso template creator](https://www.packer.io/docs/builders/proxmox/iso "Packer Promox iso Builder webpage") templates can be generated that can be cloned functioning operating system instances.
+
+Using [Packer version 1.6.6](https://www.packer.io/downloads "Packer download webpage")
+
+## Solution
+
+In the preseed.cfg file used in Packer, Preseed needs to include/install `qemu-guest-agent`
+
+```bash
+
+# Individual additional packages to install
+d-i pkgsel/include string build-essential ssh curl rsync git unzip wget vim openssh-server software-properties-common qemu-guest-agent
+
+```
+
+```bash
+ubuntu-18045-user1: output will be in this color.
+
+==> ubuntu-18045-user1: Creating VM
+==> ubuntu-18045-user1: No VM ID given, getting next free from Proxmox
+==> ubuntu-18045-user1: Starting VM
+==> ubuntu-18045-user1: Starting HTTP server on port 9004
+==> ubuntu-18045-user1: Waiting 10s for boot
+==> ubuntu-18045-user1: Typing the boot command
+==> ubuntu-18045-user1: Waiting for SSH to become available...
+```
+
+```bash
+020/12/19 05:53:37 packer-builder-proxmox-iso plugin: [DEBUG] Error getting SSH address: 500 QEMU guest agent is not running
+2020/12/19 05:53:45 packer-builder-proxmox-iso plugin: [DEBUG] Error getting SSH address: 500 QEMU guest agent is not running
+2020/12/19 05:53:50 packer-builder-proxmox-iso plugin: [INFO] Attempting SSH connection to 192.168.1.239:22...
+2020/12/19 05:53:50 packer-builder-proxmox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/12/19 05:53:50 packer-builder-proxmox-iso plugin: [DEBUG] handshaking with SSH
+2020/12/19 05:53:50 packer-builder-proxmox-iso plugin: [DEBUG] handshake complete!
+2020/12/19 05:53:50 packer-builder-proxmox-iso plugin: [INFO] no local agent socket, will not connect agent
+2020/12/19 05:53:50 packer-builder-proxmox-iso plugin: Running the provision hook
+==> ubuntu-18045-user1: Connected to SSH!
+==> ubuntu-18045-user1: Stopping VM
+==> ubuntu-18045-user1: Converting VM to template
+2020/12/19 05:53:52 packer-builder-proxmox-iso plugin: template_id: 101
+2020/12/19 05:53:57 [INFO] (telemetry) ending proxmox-iso
+Build 'ubuntu-18045-user1' finished after 9 minutes 34 seconds.
+```
