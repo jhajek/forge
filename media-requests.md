@@ -22,6 +22,8 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
 ## 2020
 
+* Jeremy Hajek, Mudassir Rashid, Mert Sevil, Ali Cinar, Pablo Angel Alvarez Fernandez, and Dhiraj Jain. 2020. The Necessity of Interdisciplinary Software Development for Building Viable Research Platforms: Case Study in Automated Drug Delivery in Diabetes. In Proceedings of the 21st Annual Conference on Information Technology Education (SIGITE '20). Association for Computing Machinery, New York, NY, USA, 390–396. DOI:[https://doi.org/10.1145/3368308.3415377](https://doi.org/10.1145/3368308.3415377 "DOI Number")
+* Pablo Ángel Álvarez Fernández and Jeremy R. Hajek. 2020. A Case Study in Comparative Speech-to-Text Libraries for Use in Transcript Generation for Online Education Recordings. In Proceedings of the 21st Annual Conference on Information Technology Education (SIGITE '20). Association for Computing Machinery, New York, NY, USA, 223–228. DOI:[https://doi.org/10.1145/3368308.3415380](https://doi.org/10.1145/3368308.3415380 "DOI Number")
 * CBS 2 Interview: Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks
   * [https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/](https://chicago.cbslocal.com/video/4438609-chicago-police-launch-new-facial-recognition-technology-they-say-to-catch-crooks/ "Chicago Police Launch New Facial Recognition Technology They say to Catch Crooks")
 
