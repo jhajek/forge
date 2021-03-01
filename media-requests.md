@@ -20,6 +20,10 @@ comments: []
 ---
 Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
+## 2021
+
+* CBS 2 Interview: About IDES form access issues for unemployment forms: [https://chicago.cbslocal.com/2021/02/25/unemployment-1099g-tax-form-access-tech-fix/amp/](https://chicago.cbslocal.com/2021/02/25/unemployment-1099g-tax-form-access-tech-fix/amp/ "CBS 2 Interview")
+
 ## 2020
 
 * Jeremy Hajek, Mudassir Rashid, Mert Sevil, Ali Cinar, Pablo Angel Alvarez Fernandez, and Dhiraj Jain. 2020. The Necessity of Interdisciplinary Software Development for Building Viable Research Platforms: Case Study in Automated Drug Delivery in Diabetes. In Proceedings of the 21st Annual Conference on Information Technology Education (SIGITE '20). Association for Computing Machinery, New York, NY, USA, 390–396. DOI:[https://doi.org/10.1145/3368308.3415377](https://doi.org/10.1145/3368308.3415377 "DOI Number")
