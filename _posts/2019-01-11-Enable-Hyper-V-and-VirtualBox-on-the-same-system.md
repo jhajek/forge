@@ -38,10 +38,10 @@ This is an issue because Hyper-V is loaded at boot and become the default hyperv
 This can be easily done via launching an elevated **CMD** or **Command Line**, not a Powershell, but a CMD as the syntax of these commands won't be recognized in *powershell*.  Here are the commands given by David Finster at his excellent website, [Finster Tech Consulting](https://fortc.com/switch-between-hyper-v-and-virtualbox-on-windows-10/ "Hyper-V BCD edit solution"):
 
 1. Open a command prompt as administrator.
-2. Run the following command: ```C:\>bcdedit /copy {current} /d “Disable Hyper-V”```
+2. Run the following command: ```bcdedit /copy {current} /d “Disable Hyper-V”```
   * You will see the following result: The entry was successfully copied to (something like) {c8f8754a-d33e-11e8-8234-8cec4b60f7ca}
   * You can use your own description instead of “Disable Hyper-V” if you like.
-3. Run the following command: ```C:\>bcdedit /set {c8f8754a-d33e-11e8-8234-8cec4b60f7ca} hypervisorlaunchtype off```
+3. Run the following command: ```bcdedit /set {c8f8754a-d33e-11e8-8234-8cec4b60f7ca} hypervisorlaunchtype off```
   * You will see the following result: The operation completed successfully.
   * Your serial number will be different -- adjust accordingly.
 4. Reboot the machine while holding down the shift key. You will be presented with a boot option to “Use another operating system”.
