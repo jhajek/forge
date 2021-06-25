@@ -22,7 +22,9 @@ Here is a recent list of Media and Publications appearances by Jeremy Hajek
 
 ## 2021
 
-* CBS 2 Interview: About IDES form access issues for unemployment forms: [https://chicago.cbslocal.com/2021/02/25/unemployment-1099g-tax-form-access-tech-fix/amp/](https://chicago.cbslocal.com/2021/02/25/unemployment-1099g-tax-form-access-tech-fix/amp/ "CBS 2 Interview")
+* CBS 2 Interview 06/25/21: [https://chicago.cbslocal.com/2021/06/21/mobile-device-phishing-scams-bank-account-drained/](https://chicago.cbslocal.com/2021/06/21/mobile-device-phishing-scams-bank-account-drained/ "Phone security").  Phone security and how you need to secure it against bad actors.
+
+* CBS 2 Interview: 02/22/21: About [IDES](https://www2.illinois.gov/ides/Pages/default.aspx "Illinois Departments of Employment Security") form access issues for unemployment forms: [https://chicago.cbslocal.com/2021/02/25/unemployment-1099g-tax-form-access-tech-fix/amp/](https://chicago.cbslocal.com/2021/02/25/unemployment-1099g-tax-form-access-tech-fix/amp/ "CBS 2 Interview")
 
 ## 2020
 
