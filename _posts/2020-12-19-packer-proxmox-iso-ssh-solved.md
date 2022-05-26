@@ -81,7 +81,7 @@ Build 'ubuntu-18045-user1' finished after 9 minutes 34 seconds.
 ```
 
 ## Working Packer Proxmox-iso Template
-
+{%raw%}
 ```json
 
 {
@@ -175,6 +175,7 @@ Build 'ubuntu-18045-user1' finished after 9 minutes 34 seconds.
       ]
 }
 ```
+{%endraw%}
 
 ## Working Preseed File
 
