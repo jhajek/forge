@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'Back to Blogging!'
-date: '2022-05-29 00:01:22 -0600'
+date: '2022-05-27 00:01:22 -0600'
 categories:
 - promotion
 - blogging
