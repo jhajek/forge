@@ -15,10 +15,11 @@ categories: []
 tags: []
 comments: []
 ---
-For a while I wanted to publish the research capabilities of Professor Jeremy Hajek for the Cloud and Operations research group in the [Information Technology and Management Program](http://appliedtech.iit.edu/itm "ITM") Program at the [School of Applied Technology](http://appliedtech.iit.edu "School of Applied Technology").
+For a while I wanted to publish the research capabilities of Professor Jeremy Hajek for the Cloud and Operations research group in the [Information Technology and Management Program](http://iit.edu/itm "ITM") Program at the [College of Computing](https://www.iit.edu/computing "College of Computing").
 
-## Current Hardware Platform - as of 12/09/20
+## Current Hardware Platform
 
+*Update 12/09/20*
 Current applications include:
 
 * 5 node [Hadoop 2.8.5](http://hadoop.apache.org/ "Hadoop Cluster") Research Cluster
