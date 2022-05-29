@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'Setting Up Jekyll to run as a systemd service -- with gotchas solved'
-date: '2022-05-29 00:10:29 -0600'
+date: '2022-05-28 00:10:29 -0600'
 categories:
 - code
 - blog
