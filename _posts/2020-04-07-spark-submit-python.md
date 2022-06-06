@@ -11,8 +11,6 @@ author_login: jhajek
 author_email: hajek@.iit.edu
 date: '2020-04-07 20:55:52 -0600'
 date_gmt: '2020-04-07 12:55:52 -0600'
-categories:
-- software
 tags: 
 - hadoop
 - spark

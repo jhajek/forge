@@ -4,9 +4,6 @@ status: publish
 published: true
 title: 'Using Packer Proxmox-iso Template SSH Waiting Connection Problem Solved'
 date: '2020-12-19 00:08:52 -0600'
-categories:
-- software
-- automation
 tags: 
 - packer
 - proxmox
