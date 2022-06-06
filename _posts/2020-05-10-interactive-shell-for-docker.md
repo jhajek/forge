@@ -5,9 +5,6 @@ published: true
 title: 'Interactive Shell for Ubuntu Bionic Docker Containers'
 date: '2020-05-10 20:55:52 -0600'
 date_gmt: '2020-05-10 17:55:52 -0600'
-categories:
-- software
-- containers
 tags: 
 - docker
 - containers
