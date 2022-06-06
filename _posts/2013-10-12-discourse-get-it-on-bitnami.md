@@ -10,19 +10,15 @@ author:
   url: ''
 author_login: jruvinsk
 author_email: jruvinsk@hawk.iit.edu
-wordpress_id: 995
-wordpress_url: https://blog.sat.iit.edu/?p=995
 date: '2013-10-12 03:17:31 -0500'
 date_gmt: '2013-10-12 08:17:31 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---
 After you download bitnami package:
 
-* Create a virtual machine on virtual box 
-* Choose existing hard disk 
+* Create a virtual machine on virtual box
+* Choose existing hard disk
 * Select the main vmdk(the one without s001.vmdk, s002.vmdk etc...)
 * Set network configuration as bridged adapter
 * Start the new vm you just made

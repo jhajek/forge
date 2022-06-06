@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1363
-wordpress_url: https://forge.sat.iit.edu/?p=1363
 date: '2015-05-07 10:24:07 -0500'
 date_gmt: '2015-05-07 15:24:07 -0500'
-categories:
-- Cloud
 tags:
 - cloud
 - Eucalyptus
@@ -27,19 +23,20 @@ For a while I wanted to publish all of our research capabilities for the Cloud a
 [AppendixForITResroucesABET.pdf](assets/2015/05/AppendixForITResroucesABET.pdf "Appendix For IT Resources ABET")
 
 ### Eucalyptus 4.0.2 Cloud Computing Stack
+
 Capacity is over 100 IPs instances supporting over 200 virtual machine instances over 4 nodes and up to 1 TB of Object based storage and 750 GB of EBS based storage.  Capabilities include loadbalancing and elastic deployment.  Systems are provisioned by Cobbler 2.4.1 instance running on Ubuntu 14.04 server edition.
 
 Projects on the Eucalyptus Stack are currently running an elastic Hadoop Cluster with capacity up to 32 nodes.
 
 Location IIT Rice Campus
 
-*  Incheon - Dell PowerEdge 2970 12 cores 32 GB of memory 1 TB of 15K SCSI local storage
-*  Alexandria - Dell PowerEdge R710 8 cores 96 GB of memory 3 TB of local storage  
-*  Quantas - Dell PowerEdge R510 8 cores 32 GB of memory 3 TB of local storage 
-*  Nebelet - Dell PowerEdge R510 8 cores 32 GB of memory 3 TB of local storage   
-*  lexington.sat.iit.edu 1 Dell PowerEdge 1850
-*  3 HP ProLiant DL360
-*  oswego.sat.iit.edu -> cobbler server 1 Dell PowerEdge SC 1425
+* Incheon - Dell PowerEdge 2970 12 cores 32 GB of memory 1 TB of 15K SCSI local storage
+* Alexandria - Dell PowerEdge R710 8 cores 96 GB of memory 3 TB of local storage  
+* Quantas - Dell PowerEdge R510 8 cores 32 GB of memory 3 TB of local storage 
+* Nebelet - Dell PowerEdge R510 8 cores 32 GB of memory 3 TB of local storage   
+* Lexington.sat.iit.edu 1 Dell PowerEdge 1850
+* 3 HP ProLiant DL360
+* oswego.sat.iit.edu -> cobbler server 1 Dell PowerEdge SC 1425
 
 ### Deployment and Operations Research Cluster
 Provides research capabilities into CEPH distributed file system clusters and MAAS (Metal as a Service) clustering for application install.

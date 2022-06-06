@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1425
-wordpress_url: https://forge.sat.iit.edu/?p=1425
 date: '2015-06-22 23:44:18 -0500'
 date_gmt: '2015-06-23 04:44:18 -0500'
-categories:
-- Cloud
 tags:
 - cobbler
 comments: []

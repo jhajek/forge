@@ -1,4 +1,4 @@
-s---
+---
 layout: post
 status: publish
 published: true
@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: ctovar
 author_email: ctovar@hawk.iit.edu
-wordpress_id: 391
-wordpress_url: http://blog.sat.iit.edu/?p=391
 date: '2012-07-27 10:37:30 -0500'
 date_gmt: '2012-07-27 16:37:30 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

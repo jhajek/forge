@@ -10,15 +10,8 @@ author:
   url: ''
 author_login: warrken
 author_email: warrken@hawk.iit.edu
-wordpress_id: 173
-wordpress_url: http://blog.sat.iit.edu/?p=173
 date: '2011-11-02 10:22:09 -0500'
 date_gmt: '2011-11-02 15:22:09 -0500'
-categories:
-- tools
-- Projects
-- Cloud
-- fun
 tags:
 - Eucalyptus
 - KVM

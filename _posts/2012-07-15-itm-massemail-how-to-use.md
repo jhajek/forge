@@ -11,12 +11,8 @@ author:
 author_login: jhartma3
 author_email: jhartma3@hawk.iit.edu
 author_url: http://www.linkedin.com/in/jeffreyhartmann
-wordpress_id: 357
-wordpress_url: http://blog.sat.iit.edu/?p=357
 date: '2012-07-15 11:54:51 -0500'
 date_gmt: '2012-07-15 17:54:51 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

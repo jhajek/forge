@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: emacorke
 author_email: emacorke@hawk.iit.edu
-wordpress_id: 1129
-wordpress_url: https://blog.sat.iit.edu/?p=1129
 date: '2014-07-18 21:35:17 -0500'
 date_gmt: '2014-07-19 02:35:17 -0500'
-categories:
-- GPU
 tags:
 - gpu
 comments: []
@@ -44,4 +40,3 @@ The second file we needed to edit was our networking script for eth0. So at the 
 ```vim /etc/sysconfig/network-scripts/ifcfg-eth0```
 
 This file has an entry called ```HWADDR``` which has the MAC address of eth0. The MAC address in this file mapped to the MAC address of the Ethernet Interface of our previous motherboard. We replaced the MAC address with the MAC address we wrote down earlier. It should be noted that If this file doesn't have an entry called ```HWADDR``` then one must create this entry and type in the MAC address written down earlier. We saved, exited VIM, and rebooted the system. Once that was done we did ifconfig at the command prompt and checked to see if our edits went through. It did and we then checked to see if we were able to connect to the network and internet. To our relief we were able to.
-

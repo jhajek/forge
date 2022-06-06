@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: emacorke
 author_email: emacorke@hawk.iit.edu
-wordpress_id: 1112
-wordpress_url: https://blog.sat.iit.edu/?p=1112
 date: '2014-07-06 19:07:20 -0500'
 date_gmt: '2014-07-07 00:07:20 -0500'
-categories:
-- GPU
 tags:
 - gpu
 comments: []

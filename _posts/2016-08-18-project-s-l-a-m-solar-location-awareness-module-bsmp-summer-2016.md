@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 2004
-wordpress_url: https://forge.sat.iit.edu/?p=2004
 date: '2016-08-18 12:20:58 -0500'
 date_gmt: '2016-08-18 17:20:58 -0500'
-categories:
-- Projects
-- presentation
 tags:
 - IoT
 - Illinois Tech
@@ -33,10 +28,10 @@ This presentation created a system to detect an approaching body to a door and s
 **10 minute demo video**
 {% youtube 80B8qZ8Rls0 %}
 
-<code>Source Code:</code> [Project S.L.A.M. source code](https://github.com/illinoistech-itm/slam "Project SLAM source code")
+Source Code: [Project S.L.A.M. source code](https://github.com/illinoistech-itm/slam "Project SLAM source code")
 
-*  Gabriel Filipe Botelho Barbosa
-*  Matheus Braz Duque
-*  Guilherme De Castro
-*  Luiz Gustavo De Marchi Brito
-*  Rodrigo Ferreira Abdulmassih
+* Gabriel Filipe Botelho Barbosa
+* Matheus Braz Duque
+* Guilherme De Castro
+* Luiz Gustavo De Marchi Brito
+* Rodrigo Ferreira Abdulmassih

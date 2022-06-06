@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1003
-wordpress_url: https://blog.sat.iit.edu/?p=1003
 date: '2013-11-12 23:13:38 -0600'
 date_gmt: '2013-11-13 05:13:38 -0600'
-categories:
-- tools
-- Projects
 tags:
 - cobbler
 - Ubuntu

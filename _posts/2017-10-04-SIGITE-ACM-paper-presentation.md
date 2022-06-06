@@ -5,8 +5,6 @@ published: true
 title: SIGITE 2017 Paper Presentation - The Extension and Implementation of the Autonomous Movement Framework
 date: '2017-10-16 12:11:43 -0500'
 date_gmt: '2017-10-16 20:11:43 -0500'
-categories:
-- AMF
 tags:
 - IllinoisTech
 - SmartTechLab

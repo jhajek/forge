@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1580
-wordpress_url: https://forge.sat.iit.edu/?p=1580
 date: '2015-10-31 23:46:50 -0500'
 date_gmt: '2015-11-01 04:46:50 -0600'
-categories:
-- Pandoc
-- Textbook
 tags:
 - linux
 - textbook

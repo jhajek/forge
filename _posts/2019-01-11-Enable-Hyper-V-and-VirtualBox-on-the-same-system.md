@@ -11,9 +11,6 @@ author_login: jhajek
 author_email: hajek@.iit.edu
 date: '2019-01-11 20:39:52 -0600'
 date_gmt: '2019-01-11 22:09:52 -0600'
-categories:
-- software
-- virtualization
 tags: 
 - virtualization
 - vagrant

@@ -7,9 +7,6 @@ author_login: hajek
 author_email: hajek@iit.edu
 date: '2016-05-09 14:22:39 -0500'
 date_gmt: '2016-05-09 19:22:39 -0500'
-categories:
-- Cloud
-- meetup
 tags:
 - Bryan Cantrill
 - DevOps Chicago meetup

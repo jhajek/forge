@@ -11,10 +11,6 @@ author_login: jhajek
 author_email: hajek@.iit.edu
 date: '2019-01-10 10:39:52 -0600'
 date_gmt: '2019-01-10 12:09:52 -0600'
-categories:
-- community
-- maker
-- iot
 tags: 
 - repair
 - sustainability

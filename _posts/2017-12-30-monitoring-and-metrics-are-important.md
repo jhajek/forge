@@ -5,8 +5,6 @@ published: true
 title: MVP Minimal Viable Platform or why monitoring and metrics are essential  
 date: '2017-12-30 12:11:43 -0500'
 date_gmt: '2017-12-30 20:11:43 -0500'
-categories:
-- Orchestration
 tags:
 - IllinoisTech
 - SmartTechLab

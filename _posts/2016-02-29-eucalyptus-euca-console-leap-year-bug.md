@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1648
-wordpress_url: https://forge.sat.iit.edu/?p=1648
 date: '2016-02-29 11:45:36 -0600'
 date_gmt: '2016-02-29 17:45:36 -0600'
-categories:
-- Uncategorized
-- tools
-- Eucalyptus
 tags:
 - Eucalyptus
 - euca-console
@@ -34,12 +28,12 @@ Leap year bug...  luckily everyone else's software caught fire so there was a qu
 
 [https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE](https://groups.google.com/a/eucalyptus.com/forum/#!topic/euca-users/mqhYXCzAfaE)
 
-Fix is here: by changing the line: 
+Fix is here: by changing the line:
 
-```expires = datetime.today().replace(year=2003)``` 
-to 
-```expires = datetime.today().replace(year=2016)``` 
-in 
+```expires = datetime.today().replace(year=2003)```
+to
+```expires = datetime.today().replace(year=2016)```
+in
 ```/usr/lib/python2.6/site-packages/Beaker-1.5.4-py2.6.egg/beaker/session.py ```
 
 and restarted the console service and it works fine.

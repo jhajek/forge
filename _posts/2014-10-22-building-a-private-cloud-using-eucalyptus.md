@@ -10,19 +10,15 @@ author:
   url: ''
 author_login: supadyay
 author_email: supadyay@hawk.iit.edu
-wordpress_id: 1190
-wordpress_url: https://blog.sat.iit.edu/?p=1190
 date: '2014-10-22 18:37:28 -0500'
 date_gmt: '2014-10-22 23:37:28 -0500'
-categories:
-- tools
-- Cloud
 tags:
 - Eucalyptus
 - HP
 comments: []
 ---
-### Problem
+### Problem Statement
+
 This is going to be about how Professor Jeremy and a couple of us managed to build a private cloud using Eucalyptus 4.0.1.
 So lets look at thearchitecture of Eucalyptus. It contains the following
 [caption id="attachment_1199" align="aligncenter" width="474" class=" "]<a href="https://blog.sat.iit.edu/wp-content/uploads/2014/09/diagram-eucalyptus-components.png"><img class=" wp-image-1199" src="https://blog.sat.iit.edu/wp-content/uploads/2014/09/diagram-eucalyptus-components-300x200.png" alt="Eucalyptus Architecture" width="474" height="316" /></a> Eucalyptus Architecture[/caption]
@@ -36,16 +32,15 @@ So lets look at thearchitecture of Eucalyptus. It contains the following
 
 ### Installation steps
 
-lexington.sat.iit.edu was on Eucalyptus 4.0.1. The instructions to installing it are well documented in the below link.
-https://www.eucalyptus.com/docs/eucalyptus/4.0.1/#install-guide/eucalyptus.html
-We setup the CC and NC in MANAGED-NOVLAN mode.
+lexington.sat.iit.edu was on Eucalyptus 4.0.1. The instructions to installing it are well documented [in this link](https://www.eucalyptus.com/docs/eucalyptus/4.0.1/#install-guide/eucalyptus.html "Install Guide Website Link"). We setup the CC and NC in MANAGED-NOVLAN mode.
 
-### Challenges Faced:
+### Challenges Faced
+
 Documentation for solving the issues you face while installing and operating Eucalyptus very sparse. Below are the one's we faced.
 
 1. Setting up the ntp - All the node controllers will eventually have to be in a private network so they cannot communicate with the ntp servers due to which their clock would be incorrect. The way to get around this would open the/etc/ntp.conf using your favorite editor and add "server <ip address of CC> iburst" . Then do a "service ntp restart". It would take a couple of seconds after which the command "ntpstat' should show that your date and time is synced.
 2. Use the logs well - A definite way to confirm that all the components are up and running would be from the logs which are at /var/log/eucalyptus/ and euca-describe-services being the easy way. Below is a list of log files which you could look at in each component
-    + CLC - cloud-output.log : This is all that is needed for debugging any issue with the CLC. Try doing "grep -i "ERROR" cloud-output.log" . This would give you all the **"possible"** placesof errors. If you are looking for a problem with the CLC. It should be here. However, the CLC retries multiple times to fix a problem, so an error if once seen might be fixed by the CLC in the subsequent tries. 
+    + CLC - cloud-output.log : This is all that is needed for debugging any issue with the CLC. Try doing "grep -i "ERROR" cloud-output.log" . This would give you all the **"possible"** placesof errors. If you are looking for a problem with the CLC. It should be here. However, the CLC retries multiple times to fix a problem, so an error if once seen might be fixed by the CLC in the subsequent tries.
     + Walrus -cloud-output.log : Hardly encountered any issues. But this log file would convey all the information you need.  
     + CC - cc.log : This is "THE MOST IMPORTANT FILE". Any errors with your network setup , issues with you nodes etc. can all be found here. Increase the logging level in /etc/eucalyptus.euca*conf to DEBUG ( INFO is the default) to see more information populated.
 

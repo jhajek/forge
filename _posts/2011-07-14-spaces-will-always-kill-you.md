@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 18
-wordpress_url: http://aurora.rice.iit.edu/?p=18
 date: '2011-07-14 21:01:59 -0500'
 date_gmt: '2011-07-15 03:01:59 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

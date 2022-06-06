@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: jbrown20
 author_email: jbrown20@hawk.iit.edu
-wordpress_id: 271
-wordpress_url: http://blog.sat.iit.edu/?p=271
 date: '2012-04-17 15:52:54 -0500'
 date_gmt: '2012-04-17 21:52:54 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

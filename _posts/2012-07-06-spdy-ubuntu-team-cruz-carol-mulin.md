@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: mshen6
 author_email: mshen6@hawk.iit.edu
-wordpress_id: 347
-wordpress_url: http://blog.sat.iit.edu/?p=347
 date: '2012-07-06 13:38:01 -0500'
 date_gmt: '2012-07-06 19:38:01 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

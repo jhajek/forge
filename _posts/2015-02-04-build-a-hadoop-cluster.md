@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: supadyay
 author_email: supadyay@hawk.iit.edu
-wordpress_id: 1328
-wordpress_url: https://forge.sat.iit.edu/?p=1328
 date: '2015-02-04 11:20:13 -0600'
 date_gmt: '2015-02-04 17:20:13 -0600'
-categories:
-- tools
-- Projects
 tags:
 - Eucalyptus
 - HP

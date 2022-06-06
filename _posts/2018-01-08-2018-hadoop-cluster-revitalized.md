@@ -13,8 +13,6 @@ author_email: vchandrasekaran@hawk.iit.edu
 author_url: https://www.linkedin.com/in/venkatesh-naidu-chandrasekaran/
 date: '2018-01-09 06:39:52 -0600'
 date_gmt: '2018-01-09 12:09:52 -0600'
-categories:
-- Cluster
 tags: 
 - Cluster
 comments: []

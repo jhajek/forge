@@ -5,8 +5,6 @@ published: true
 title: 2nd Place finish in Chicago Innovation Challenge 2017
 date: '2017-11-01 12:11:43 -0500'
 date_gmt: '2017-11-01 20:11:43 -0500'
-categories:
-- AugmentedReality
 tags:
 - IllinoisTech
 - SmartTechLab

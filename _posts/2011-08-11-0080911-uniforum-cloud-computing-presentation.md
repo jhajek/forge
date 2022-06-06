@@ -10,15 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 70
-wordpress_url: http://aurora.sat.iit.edu/?p=70
 date: '2011-08-11 11:24:23 -0500'
 date_gmt: '2011-08-11 16:24:23 -0500'
-categories:
-- tools
-- Projects
-- Cloud
-- fun
 tags:
 - Eucalyptus
 - HP
