@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1304
-wordpress_url: https://forge.sat.iit.edu/?p=1304
 date: '2015-01-01 01:04:05 -0600'
 date_gmt: '2015-01-01 07:04:05 -0600'
-categories:
-- Projects
-- presentation
 tags:
 - IoT
 - Embedded Systems

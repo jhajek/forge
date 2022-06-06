@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: emacorke
 author_email: emacorke@hawk.iit.edu
-wordpress_id: 1286
-wordpress_url: https://forge.sat.iit.edu/?p=1286
 date: '2014-11-08 21:37:29 -0600'
 date_gmt: '2014-11-09 03:37:29 -0600'
-categories:
-- GPU
 tags:
 - gpu
 - Eucalyptus

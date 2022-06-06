@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1508
-wordpress_url: https://forge.sat.iit.edu/?p=1508
 date: '2015-07-23 22:46:36 -0500'
 date_gmt: '2015-07-24 03:46:36 -0500'
-categories:
-- Jobs
 tags:
 - jeremyhajek
 - resume

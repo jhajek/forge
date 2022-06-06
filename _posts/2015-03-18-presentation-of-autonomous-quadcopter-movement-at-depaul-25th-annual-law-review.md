@@ -10,15 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1339
-wordpress_url: https://forge.sat.iit.edu/?p=1339
 date: '2015-03-18 13:59:13 -0500'
 date_gmt: '2015-03-18 18:59:13 -0500'
-categories:
-- Projects
-- presentation
-- UAV
-- drones
 tags:
 - IoT
 - presentation

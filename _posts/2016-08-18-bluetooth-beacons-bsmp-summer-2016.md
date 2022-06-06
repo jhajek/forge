@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 2023
-wordpress_url: https://forge.sat.iit.edu/?p=2023
 date: '2016-08-18 13:10:27 -0500'
 date_gmt: '2016-08-18 18:10:27 -0500'
-categories:
-- projects
-- presentation
 tags:
 - IoT
 - Illinois Tech
@@ -28,7 +23,7 @@ tags:
 - beacons
 comments: []
 ---
-Bluetooth Beacons Project
+## Bluetooth Beacons Project
 
 This project used Bluetooth LE to create beacons to be used to create location based supplimental information
 
@@ -40,9 +35,9 @@ This project used Bluetooth LE to create beacons to be used to create location b
 **3 minute demo video**
 {% youtube VYwt01uB370 %}
 
-*  Gabriel Corte Real Saldanha
-*  Jessica Cristina Leite Machado
-*  Igor Reginato Dulgher Araujo
-*  Rafael Rodrigues Ghossi
-*  Anderson Sales De Menezes
-*  Thales Silva De Sousa
+* Gabriel Corte Real Saldanha
+* Jessica Cristina Leite Machado
+* Igor Reginato Dulgher Araujo
+* Rafael Rodrigues Ghossi
+* Anderson Sales De Menezes
+* Thales Silva De Sousa

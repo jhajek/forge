@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: lmchughi
 author_email: lmchughi@iit.edu
-wordpress_id: 593
-wordpress_url: https://blog.sat.iit.edu/?p=593
 date: '2012-12-27 22:36:13 -0600'
 date_gmt: '2012-12-28 04:36:13 -0600'
-categories:
-- tools
 tags:
 - WordPress
 comments: []

@@ -10,15 +10,8 @@ author:
   url: ''
 author_login: aplovich
 author_email: aplovich@hawk.iit.edu
-wordpress_id: 288
-wordpress_url: http://blog.sat.iit.edu/?p=288
 date: '2012-05-07 09:57:11 -0500'
 date_gmt: '2012-05-07 14:57:11 -0500'
-categories:
-- tools
-- Projects
-- Cloud
-- fun
 tags:
 - HP
 comments: []

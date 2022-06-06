@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: eneubaue
 author_email: eneubaue@hawk.iit.edu
-wordpress_id: 466
-wordpress_url: http://blog.sat.iit.edu/?p=466
 date: '2012-12-08 17:59:51 -0600'
 date_gmt: '2012-12-08 23:59:51 -0600'
-categories:
-- Uncategorized
 tags:
 - cloud
 - Bakery

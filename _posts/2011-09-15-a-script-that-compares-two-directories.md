@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: acabrer3
 author_email: acabrer3@hawk.iit.edu
-wordpress_id: 132
-wordpress_url: http://aurora.sat.iit.edu/?p=132
 date: '2011-09-15 10:16:49 -0500'
 date_gmt: '2011-09-15 16:16:49 -0500'
-categories:
-- Uncategorized
 tags:
 - script
 - compare directories

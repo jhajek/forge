@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: acabrer3
 author_email: acabrer3@hawk.iit.edu
-wordpress_id: 293
-wordpress_url: http://blog.sat.iit.edu/?p=293
 date: '2012-05-17 10:07:33 -0500'
 date_gmt: '2012-05-17 16:07:33 -0500'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

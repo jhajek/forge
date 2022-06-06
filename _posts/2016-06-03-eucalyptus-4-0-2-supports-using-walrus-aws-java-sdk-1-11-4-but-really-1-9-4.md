@@ -10,15 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1737
-wordpress_url: https://forge.sat.iit.edu/?p=1737
 date: '2016-06-03 23:47:23 -0500'
 date_gmt: '2016-06-04 04:47:23 -0500'
-categories:
-- Uncategorized
-- tools
-- Cloud
-- Eucalyptus
 tags:
 - Eucalyptus
 - HP Eucalyptus
@@ -26,9 +19,11 @@ tags:
 - AWS Java SDk
 comments: []
 ---
+## HPE Eucalyptus
+
 ![*HPE Eucalyptus*](/assets/2016/06/225px-Eucalyptus-Logo.jpg)
 
-<strike>Here at Illinois Tech we</strike> I have just completed a successful semester of using HP Eucalyptus 4.0.2 Cloud Platform for all of our capstone and research projects.  It has been a blessing as it has taken hardware requests and budgeting problems out of the IT groups hands and placed it into the students hands.  They were able to rapidly deploy their services, load-balancers and any resources needed on their own.
+~~~Here at Illinois Tech we~~~ I have just completed a successful semester of using HP Eucalyptus 4.0.2 Cloud Platform for all of our capstone and research projects.  It has been a blessing as it has taken hardware requests and budgeting problems out of the IT groups hands and placed it into the students hands.  They were able to rapidly deploy their services, load-balancers and any resources needed on their own.
 
 Still in the process of upgrading to Eucalyptus 4.0.2 but it still works with S3cmd and the AWS Java API (as they intended it to).
 
@@ -44,7 +39,8 @@ Credit goes to HP Eucalyptus employee, **Steve Jones** and user **CoderSparks**,
 
 I wanted to see for myself what the issue was so I tried to use the latest AWS Java SDK v1.11.4.  Surprisingly everything worked, but one important feature. Let's find out why.
 
-**Development Environment**
+### Development Environment
+
 My setup was:
 
 * Windows 10 machine

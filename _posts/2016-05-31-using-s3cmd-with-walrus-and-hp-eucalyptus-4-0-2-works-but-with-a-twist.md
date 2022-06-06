@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1741
-wordpress_url: https://forge.sat.iit.edu/?p=1741
 date: '2016-05-31 00:16:34 -0500'
 date_gmt: '2016-05-31 05:16:34 -0500'
-categories:
-- Cloud
-- jeremy
-- Eucalyptus
 tags:
 - cloud
 - Eucalyptus
@@ -38,8 +32,7 @@ A bucket I created with my account credentials should have list and read permiss
 Then I noticed a little tidbit in the S3cmd --help file that said this:
 ![*Signature V2*](/assets/2016/05/signature-v2.png "signature-v2")
 
-Look at the entry that says: 
-``` --signature-v2 ```    Use AWS Signature version 2 instead of newer signature methods. 
+Look at the entry that says: ``` --signature-v2 ```    Use AWS Signature version 2 instead of newer signature methods. 
 
 Helpful for S3-like systems that don't have AWS Signature v4 yet.
 ![*Jinkies*](/assets/2016/05/velma_jinkies_by_tinent.png)
@@ -53,7 +46,9 @@ These are detailed links to S3cmd and its setup.
 * [https://kushaldas.in/posts/s3cmd-and-walrus.html](https://kushaldas.in/posts/s3cmd-and-walrus.html)
 
 Copy the text below and place it in a file named .s3cfg in your home directory.
-```[default]
+
+```
+[default]
 access_key = YOURKEYHERE
 secret_key = YOURSECRETKEYHERE
 host_base = xxx.xxx.xxx.xxx:8773

@@ -11,8 +11,6 @@ author_login: jhajek
 author_email: hajek@.iit.edu
 date: '2018-04-19 06:39:52 -0600'
 date_gmt: '2018-04-19 12:09:52 -0600'
-categories:
-- CyberSecurity
 tags: 
 - CyberSecurity 
 comments: []

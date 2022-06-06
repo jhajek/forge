@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1714
-wordpress_url: https://forge.sat.iit.edu/?p=1714
 date: '2016-05-18 23:39:45 -0500'
 date_gmt: '2016-05-19 04:39:45 -0500'
-categories:
-- tools
-- Cloud
-- Eucalyptus
 tags:
 - euca2ools
 - bash on windows

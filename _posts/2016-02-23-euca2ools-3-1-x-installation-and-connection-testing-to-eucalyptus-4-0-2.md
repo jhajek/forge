@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1639
-wordpress_url: https://forge.sat.iit.edu/?p=1639
 date: '2016-02-23 14:06:10 -0600'
 date_gmt: '2016-02-23 20:06:10 -0600'
-categories:
-- Cloud
-- VPN
-- Eucalyptus
 tags:
 - cloud
 - IIT
@@ -31,7 +25,7 @@ comments: []
 For installing Euca2ools 3.1.x for use on Eucalyptus 4.0.2 (yes we are a couple of versions behind) here is the instructions and tests:
 Pre-reqs may be needed: (Ubuntu)
 
-```
+```bash
 sudo apt-get install git build-essential python-setuptools python-dev libxslt1-dev libxml2 libxml2-dev zlib1g-dev
 ```
 
@@ -43,22 +37,24 @@ On Mac or Linux [preferably Ubuntu because the school's VPN software doesn't com
 
 The output of the branch command will look like below: [Yours may very as this list changes over time.  The command itself is just a command that lists previous branches and is a check point to make sure you are in the correct place.]
 
-<blockquote>  remotes/origin/3.0-maint
+```bash
+  remotes/origin/3.0-maint
   remotes/origin/3.1-maint
   remotes/origin/HEAD -> origin/mast
   remotes/origin/maint-3.0
   remotes/origin/maint-3.1
   remotes/origin/maint-3.2
   remotes/origin/master
-</blockquote>
+```
 
 This command will move the github repo HEAD to point to euca2ools 3.1 which is the
 version compatible with eucalyptus 4.0.2
 
-```git checkout origin/maint-3.1``` 
+```git checkout origin/maint-3.1```
 
 Type this command inside the euca2ools directory to install
-```
+
+```bash
 python setup.py install # add sudo if you are on Linux - no sudo on Mac
 ```
 
@@ -73,21 +69,21 @@ This may or may not be necessary depending on how credentials were generated for
 Finally you need to source the credentials file you were sent (unzip the
 file into a secure directory by typing: (your credential file may not be named *you-credentials.zip*
 
-```
+```bash
 unzip -d creds your-credentials.zip
 source eucarc
 ```
 
 You can add this to your ```~/.bashrc``` as well so that when you login these credentials will be automatically sourced. Here is how to do that - note that it includes *my HOME directory* and change this to your HOME directory - best to use absolute PATH
 
-```
+```bash
 # User specific aliases and functions
 source /home/eucauser/creds/eucarc
 ```
 
 Final test - from the command line type:
 
-```
+```bash
 euca-version
 euca-describe-instances
 euca-describe-availability-zones verbose
@@ -97,8 +93,8 @@ Complete documentation on euca2ools usage is here:
 [https://region-b.geo-1.objects.hpcloudsvc.com/v1/10625742765718/generated-pdfs/Eucalyptus_4.0/user-guide-4.0.2.pdf](https://region-b.geo-1.objects.hpcloudsvc.com/v1/10625742765718/generated-pdfs/Eucalyptus_4.0/user-guide-4.0.2.pdf)
 
 You can log directly into the web console via going to
-<strike><a href="https://lexington.sat.iit.edu">https://lexington.sat.iit.edu</a></strike>
+~~~<a href="https://lexington.sat.iit.edu">https://lexington.sat.iit.edu</a>~~~
 
-take care
+take care,
 
 Jeremy Hajek

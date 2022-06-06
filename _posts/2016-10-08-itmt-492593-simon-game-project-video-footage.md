@@ -13,14 +13,8 @@ author_email: hajek@iit.edu
 excerpt: "In ITMT 492/593 Smart Technology and Embdedded Systems the students
   recently presented their Simon Game projects.  Click the link below to see all of
   the project videos (each one is ~1.30 minutes long.)\r\n\r\n"
-wordpress_id: 2048
-wordpress_url: https://forge.sat.iit.edu/?p=2048
 date: '2016-10-08 16:03:44 -0500'
 date_gmt: '2016-10-08 21:03:44 -0500'
-categories:
-- tools
-- fun
-- presentation
 tags:
 - ITMT 492
 - smart tech

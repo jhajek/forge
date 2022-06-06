@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: bkhodja
 author_email: bkhodja@iit.edu
-wordpress_id: 84
-wordpress_url: http://aurora.sat.iit.edu/?p=84
 date: '2011-08-18 11:27:09 -0500'
 date_gmt: '2011-08-18 16:27:09 -0500'
-categories:
-- tools
-- Projects
-- fun
 tags:
 - HP
 comments: []

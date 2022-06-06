@@ -11,9 +11,6 @@ author_login: jhajek
 author_email: hajek@.iit.edu
 date: '2018-05-21 06:39:52 -0600'
 date_gmt: '2018-05-21 12:09:52 -0600'
-categories:
-- AugmentedReality
-- MixedReality
 tags: 
 - SmartLab
 comments: []

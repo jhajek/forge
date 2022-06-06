@@ -11,9 +11,6 @@ author_login: jhajek
 author_email: hajek@.iit.edu
 date: '2018-09-14 06:39:52 -0600'
 date_gmt: '2018-09-14 12:09:52 -0600'
-categories:
-- skillsgap
-- universitycollaboration
 tags: 
 - AugmentedReality
 - Industry40

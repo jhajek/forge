@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 805
-wordpress_url: https://blog.sat.iit.edu/?p=805
 date: '2013-01-26 21:01:40 -0600'
 date_gmt: '2013-01-27 03:01:40 -0600'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

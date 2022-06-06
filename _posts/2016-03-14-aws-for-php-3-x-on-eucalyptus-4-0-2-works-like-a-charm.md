@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1659
-wordpress_url: https://forge.sat.iit.edu/?p=1659
 date: '2016-03-14 14:39:26 -0500'
 date_gmt: '2016-03-14 19:39:26 -0500'
-categories:
-- Cloud
-- fun
-- Eucalyptus
 tags:
 - cloud
 - HP Eucalyptus 4.0.2
@@ -31,7 +25,7 @@ My mission started off to see if I could figure out how to integrate the [http:/
 Researching the internet turned up not much current information.  But it did turn up these two original pieces of information about getting the AWS PHP SDK v1 to run from 2013.
 
 * [https://github.com/eucalyptus/eucalyptus/wiki/Using-PHP-with-Eucalyptus](https://github.com/eucalyptus/eucalyptus/wiki/Using-PHP-with-Eucalyptus)
-*  [https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP](https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP)
+* [https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP](https://github.com/eucalyptus/eucalyptus/wiki/AWS-SDK-for-PHP)
 
 But AWS PHP SDK 1.0 is [deprecated](https://github.com/amazonwebservices/aws-sdk-for-php), big time. So what to do?  Perhaps you could just make a drop in replacement?  If only that was possible.  It seems that AWS always modifys there API terminology per version. To the rescue! As of Eucalyptus 4.x branch the developers have managed to match their code perfectly and v3 api works right out of the box.
 
@@ -70,4 +64,4 @@ print_r($result);
 Note I hard coded the credentials for two reasons:  1 you have to change the permissions of any credentials file - like ~/.aws/crednetials because it is owned by root:root on any Eucalyptus created image. Or you could use IAM - which I am working on =)  But at least this gets you started! S3 is my next take but their constructor is not so straight forward.
 
 take care
-Jeremy Hajek 
+Jeremy Hajek

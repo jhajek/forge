@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 2034
-wordpress_url: https://forge.sat.iit.edu/?p=2034
 date: '2016-10-04 13:58:37 -0500'
 date_gmt: '2016-10-04 18:58:37 -0500'
-categories:
-- AMF
 tags:
 - uav
 - drones

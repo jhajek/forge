@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1560
-wordpress_url: https://forge.sat.iit.edu/?p=1560
 date: '2015-08-19 10:31:17 -0500'
 date_gmt: '2015-08-19 15:31:17 -0500'
-categories:
-- tools
-- fun
 tags:
 - IoT
 - ITMT 492

@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1812
-wordpress_url: https://forge.sat.iit.edu/?p=1812
 date: '2016-06-29 10:30:49 -0500'
 date_gmt: '2016-06-29 15:30:49 -0500'
-categories:
-- Pandoc
 tags:
 - textbook
 - pandoc

@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 941
-wordpress_url: https://blog.sat.iit.edu/?p=941
 date: '2013-08-29 23:51:37 -0500'
 date_gmt: '2013-08-30 04:51:37 -0500'
-categories:
-- tools
-- Projects
-- Cloud
 tags:
 - Eucalyptus
 - HP

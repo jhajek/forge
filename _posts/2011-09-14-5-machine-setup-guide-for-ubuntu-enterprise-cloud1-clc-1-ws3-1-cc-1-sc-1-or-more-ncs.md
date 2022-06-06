@@ -11,18 +11,11 @@ author:
   url: ''
 author_login: ktewoldu
 author_email: ktewoldu@iit.edu
-wordpress_id: 118
-wordpress_url: http://aurora.sat.iit.edu/?p=118
 date: '2011-09-14 21:22:01 -0500'
 date_gmt: '2011-09-15 02:22:01 -0500'
-categories:
-- tools
-- Projects
-- Cloud
-- fun
 tags:
 - HP
 - Eucalyptyus
 comments: []
 ---
-<p><a href="http://aurora.sat.iit.edu/wp-content/uploads/2011/09/5-machine-UEC-setup.pdf">5-Machine-UEC-Setup Guide PDF File</a></p>
+<p><a href="/assets/2011/09/5-machine-UEC-setup.pdf">5-Machine-UEC-Setup Guide PDF File</a></p>

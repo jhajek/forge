@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: zwagner
 author_email: zwagner@iit.edu
-wordpress_id: 6
-wordpress_url: http://aurora.rice.iit.edu/?p=6
 date: '2011-07-13 14:31:38 -0500'
 date_gmt: '2011-07-13 20:31:38 -0500'
-categories:
-- Uncategorized
 tags:
 - MooseFS
 - cloud

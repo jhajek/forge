@@ -9,8 +9,6 @@ author:
   email: hajek@iit.edu
 date: '2018-03-14 06:39:52 -0600'
 date_gmt: '2018-03-14 12:09:52 -0600'
-categories:
-- Cobbler
 tags: 
 - Cluster Cobbler Centos VPN Research
 comments: []

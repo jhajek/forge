@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: sat_admin
 author_email: appliedtechhelp@iit.edu
-wordpress_id: 1
-wordpress_url: http://aurora.rice.iit.edu/?p=1
 date: '2011-07-12 19:25:42 -0500'
 date_gmt: '2011-07-12 19:25:42 -0500'
-categories:
-- Uncategorized
 tags:
 - IT
 - cat
@@ -27,4 +23,3 @@ Hello. This is to introduce the School of Applied Technology Blog. This is a cen
 And as always...
 
 <a href="assets/2011/07/error-lolcat-problemz_small.jpg"><img class="alignnone size-full wp-image-15" title="error-lolcat-problemz_small" src="assets/2011/07/error-lolcat-problemz_small.jpg" alt="How SAT works" width="277" height="208" /></a>
-

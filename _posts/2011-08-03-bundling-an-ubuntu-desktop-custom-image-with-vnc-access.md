@@ -10,14 +10,7 @@ author:
   url: ''
 author_login: ktewoldu
 author_email: ktewoldu@iit.edu
-wordpress_id: 55
-wordpress_url: http://aurora.sat.iit.edu/?p=55
 date: '2011-08-03 15:17:46 -0500'
-date_gmt: '2011-08-03 20:17:46 -0500'
-categories:
-- tools
-- Projects
-- Cloud
 tags:
 - Eucalyptus
 - HP

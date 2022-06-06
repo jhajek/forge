@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1598
-wordpress_url: https://forge.sat.iit.edu/?p=1598
 date: '2015-11-12 12:29:08 -0600'
 date_gmt: '2015-11-12 18:29:08 -0600'
-categories:
-- Uncategorized
 tags: []
 comments: []
 ---

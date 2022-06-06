@@ -14,8 +14,6 @@ wordpress_id: 750
 wordpress_url: https://blog.sat.iit.edu/?p=750
 date: '2013-01-03 17:01:45 -0600'
 date_gmt: '2013-01-03 23:01:45 -0600'
-categories:
-- Help!
 tags: []
 comments: []
 ---

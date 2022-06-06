@@ -10,13 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1930
-wordpress_url: https://forge.sat.iit.edu/?p=1930
 date: '2016-08-11 00:25:22 -0500'
 date_gmt: '2016-08-11 05:25:22 -0500'
-categories:
-- Projects
-- presentation
 tags:
 - IoT
 - gpu
@@ -38,7 +33,7 @@ This projects purpose is to use GPU/PCI passthrough in Linux KVM in order to cre
 
 ![*Project Guest Pass Team*](/assets/2016/08/IMG_1811-300x200.jpg "Guest Pass Team")
 
-*  Andre Bernardes Soares Guedes
-*  Priscila Da Costa Vieira
-*  Dogival Ferreira Da Silva Junior
-*  Jessica De Paula Figueira Ribeiro
+* Andre Bernardes Soares Guedes
+* Priscila Da Costa Vieira
+* Dogival Ferreira Da Silva Junior
+* Jessica De Paula Figueira Ribeiro

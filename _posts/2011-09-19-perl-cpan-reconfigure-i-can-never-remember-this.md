@@ -10,12 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 65
-wordpress_url: http://aurora.sat.iit.edu/?p=65
 date: '2011-09-19 14:30:33 -0500'
 date_gmt: '2011-09-19 20:30:33 -0500'
-categories:
-- tools
 tags:
 - Perl
 - CPAN

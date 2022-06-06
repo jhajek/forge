@@ -10,14 +10,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1838
-wordpress_url: https://forge.sat.iit.edu/?p=1838
 date: '2016-08-06 10:43:46 -0500'
 date_gmt: '2016-08-06 15:43:46 -0500'
-categories:
-- presentation
-- drones
-- AMF
 tags:
 - Illinois Tech
 - Drone
@@ -37,4 +31,3 @@ This is the demo video for the Autonomous Movement Framework for UAVs. Our demo 
 ```Source Code``` [Project AMF](https://github.com/illinoistech-itm/amf "Project AMF")
 
 ![*Two drones operating simultaneously*](/assets/2016/08/IMG_2055.jpg "Two drones operating sumultaniously")
-

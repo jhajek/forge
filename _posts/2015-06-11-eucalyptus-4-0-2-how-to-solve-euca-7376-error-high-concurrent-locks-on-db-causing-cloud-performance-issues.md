@@ -11,12 +11,8 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1410
-wordpress_url: https://forge.sat.iit.edu/?p=1410
 date: '2015-06-11 15:23:27 -0500'
 date_gmt: '2015-06-11 20:23:27 -0500'
-categories:
-- Cloud
 tags:
 - Eucalyptus
 comments: []
@@ -26,7 +22,7 @@ comments: []
 
 <a href="https://forge.sat.iit.edu/assets/2015/06/eucalyptus-logo.jpg"><img src="https://forge.sat.iit.edu/assets/2015/06/eucalyptus-logo-150x150.jpg" alt="eucalyptus-logo" width="150" height="150" class="alignnone size-thumbnail wp-image-1413" /></a>
 
-Every six months our Eucalyptus Cloud has this problem: <a href="https://eucalyptus.atlassian.net/browse/EUCA-7376">https://eucalyptus.atlassian.net/browse/EUCA-7376</a>   
+Every six months our Eucalyptus Cloud has this problem: <a href="https://eucalyptus.atlassian.net/browse/EUCA-7376">https://eucalyptus.atlassian.net/browse/EUCA-7376</a>
 
 We were on 4.0.1 and now 4.0.2.  I had posted this issue to the Eucalyptus Users Google Groups Back in October of 2014 <a href="https://groups.google.com/a/eucalyptus.com/forum/#!searchin/euca-users/EUCA-7376/euca-users/nHM6BXPRoOo/yXnlwDEh1SwJ">https://groups.google.com/a/eucalyptus.com/forum/#!searchin/euca-users/EUCA-7376/euca-users/nHM6BXPRoOo/yXnlwDEh1SwJ</a>
 
@@ -51,7 +47,7 @@ STATEMENT:  delete from metadata_extant_network where id=$1 and version=$2
 
 So we made like [DigDug](https://en.wikipedia.org/wiki/Dig_Dug "DigDug") found out what may have been causing this.
 
-### Solution:
+### Solution
 
 We noticed that the dhcp service failed to start on the CC.  Not dhpcd but dnsmasq and these 3 steps fixed our problem.
 

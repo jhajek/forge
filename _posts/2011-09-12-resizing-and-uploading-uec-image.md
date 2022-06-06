@@ -10,18 +10,11 @@ author:
   url: ''
 author_login: ktewoldu
 author_email: ktewoldu@iit.edu
-wordpress_id: 94
-wordpress_url: http://aurora.sat.iit.edu/?p=94
 date: '2011-09-12 22:11:35 -0500'
 date_gmt: '2011-09-13 03:11:35 -0500'
-categories:
-- tools
-- Projects
-- Cloud
-- fun
 tags:
 - Eucalyptus
 - HP
 comments: []
 ---
-<p><a href="http://aurora.sat.iit.edu/wp-content/uploads/2011/09/Resizing-and-Uploading-UEC-images.pdf">A Guide to Resizing and Uploading UEC images PDF File</a></p>
+<p><a href="http://assets/2011/09/Resizing-and-Uploading-UEC-images.pdf">A Guide to Resizing and Uploading UEC images PDF File</a></p>

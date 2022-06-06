@@ -11,22 +11,15 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1784
-wordpress_url: https://forge.sat.iit.edu/?p=1784
 date: '2016-06-06 22:39:35 -0500'
 date_gmt: '2016-06-07 03:39:35 -0500'
-categories:
-- Uncategorized
-- presentation
-- UAV
-- drones
 tags:
 - presentation
 - uav
 - drones
 comments: []
 ---
-**Fist successful flight of the Autonomous Service Framework**
+## Fist successful flight of the Autonomous Service Framework
 
 *This was done in March of 2015 -- I forgot to post it so I am posting it now.*
 
