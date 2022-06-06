@@ -4,10 +4,7 @@ status: publish
 published: true
 title: 'Ubuntu Server forgetting IPv4'
 date: '2022-06-02 11:14:59 -0600'
-categories:
-- code
-- server
-- blog
+
 tags: 
 - ubuntu
 - troubleshooting
