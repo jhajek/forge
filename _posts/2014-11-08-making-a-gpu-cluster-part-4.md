@@ -17,6 +17,8 @@ tags:
 - Eucalyptus
 comments: []
 ---
+## Making a GPU Cluster. (Part 4)
+
 With the virtual machine up and running the next thing we wanted to do was see if we could pass the GPU to our virtual machine. After researching online we came upon a couple of guides that dealt with PCI passthrough. The guide we ended up using was this...
 
 [RedHat PCI Passthrough Document](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/5/html/Virtualization/chap-Virtualization-PCI_passthrough.html "RedHat PCI Passthrough Document")
@@ -27,11 +29,11 @@ After altering our `grub.conf` file and adding our GPU card to the virtual machi
 
 We researched more about this error and through that we found that even though our motherboard chipset, Z77, should of supported `vt-d` certain motherboard manufacturers don't implement it well. To complicate matters further it seems that different BIOS versions can enable or break `vt-d` support. We found this website that gave a useful list of motherboards that support `vt-d`...
 
-<a href="http://www.overclock.net/t/1338063/vt-d-compatible-motherboards" title="VT-d Compatible Motherboards">www.overclock.net/t/1338063/vt-d-compatible-motherboards</a>
+[http://www.overclock.net/t/1338063/vt-d-compatible-motherboards](www.overclock.net/t/1338063/vt-d-compatible-motherboards "VT-d Compatible Motherboards")
 
-We ended up swapping out our motherboard for a Asrock Z77 Extreme 4 board. Our current hardware setup is...
+We ended up swapping out our motherboard for a ASRock Z77 Extreme 4 board. Our current hardware setup is...
 
-* Asrock Z77 Extreme 4
+* ASRock Z77 Extreme 4
 * AMD HD 6450
 * i5-3330
 
