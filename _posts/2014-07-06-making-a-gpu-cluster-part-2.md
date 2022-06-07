@@ -16,7 +16,9 @@ tags:
 - gpu
 comments: []
 ---
-This blog entry is a continuation of Making a GPU Cluster Part 1. In part 1 we created a GPU cluster using an ASUS P8Z77-V LK motherboard with three Radeon HD 6450 cards. We downloaded the AMD APP SDK onto the machine and installed OpenCL(A programming framework that lets users manage GPUs) by running the APP SDK. Aside from the AMD APP SDK installing OpenCL it also came with OpenCL samples which could be run to see if the system supported OpenCL. We ran the samples and found that our system supported OpenCL. The next thing we wanted to do was create a virtual machine or two that would simulate computers joining a network and asking our GPU cluster to share some of its GPU processing power. If the virtual machines can run the OpenCL samples off of our GPU cluster then we figured that this experiment in creating a GPU cluster would be a success.
+This blog entry is a continuation of Making a GPU Cluster Part 1. In part 1 we created a GPU cluster using an ASUS P8Z77-V LK motherboard with three Radeon HD 6450 cards. We downloaded the AMD APP SDK onto the machine and installed OpenCL(A programming framework that lets users manage GPUs) by running the APP SDK. Aside from the AMD APP SDK installing OpenCL it also came with OpenCL samples which could be run to see if the system supported OpenCL. We ran the samples and found that our system supported OpenCL. 
+
+The next thing we wanted to do was create a virtual machine or two that would simulate computers joining a network and asking our GPU cluster to share some of its GPU processing power. If the virtual machines can run the OpenCL samples off of our GPU cluster then we figured that this experiment in creating a GPU cluster would be a success.
 
 Before creating the virtual machine maintenance and some installations are required. The first thing we installed was the required KVM RPMs/packages. To do this we did the following commands at the command prompt
 
@@ -66,5 +68,5 @@ Once the system restarted we wanted to confirm that our bridge was created so we
 
 ```Ifconfig```
 
-Making a GPU Cluster Part 3 will cover how we set up the virtual machine.<br />
+Making a GPU Cluster Part 3 will cover how we set up the virtual machine.
 <a href="https://blog.sat.iit.edu/2014/08/making-a-gpu-cluster-part-3/"></a>

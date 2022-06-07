@@ -20,9 +20,9 @@ The next thing we wanted to do was create a virtual machine that would run CentO
 
 ```# virt-install --name centos-vm1--ram=2048--os-variant=rhel6 --network bridge=br0 --graphics none --console pty,target_type = serial --location  http://mirror.centos.org/centos/6/os/x86_64/ --extra-args   console=ttyS0, 115200n8 serial  --disk path= /var/lib/libvirt/images/centos-vm1-img, size=30```
 
-What we typed into the command line interface was instructions to create a virtual machine named centos-vm1, allocate it 2048 ram to use, have the OS type be rhel6, use a network bridge called br0, inform the system that we will not be using a GUI for this install, use a serial console to view the virtual machine, inform the system of where the installation files for CentOS is, and create an image at specified location to use for future booting.
+What we typed into the command line interface was instructions to create a virtual machine named centos-vm1, allocate it 2048 ram to use, have the OS type be rhel6, use a network bridge called `br0`, inform the system that we will not be using a GUI for this install, use a serial console to view the virtual machine, inform the system of where the installation files for CentOS is, and create an image at specified location to use for future booting.
 
-When we executed the virt-install command we created the virtual machine and were guided through the installation of CentOS onto the virtual machine with prompts that could be read at the command line interface. One of the prompts asked us whether or not we would be using dhcp to assign an IP address to our virtual machine. We ended up using this option. After going through all the prompts CentOS was installed and we rebooted the system. To access our newly created virtual machine we did.
+When we executed the `virt-install` command we created the virtual machine and were guided through the installation of CentOS onto the virtual machine with prompts that could be read at the command line interface. One of the prompts asked us whether or not we would be using dhcp to assign an IP address to our virtual machine. We ended up using this option. After going through all the prompts CentOS was installed and we rebooted the system. To access our newly created virtual machine we did.
 
 ```virsh console centos-vm1```
 
