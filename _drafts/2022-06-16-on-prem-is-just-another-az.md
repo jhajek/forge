@@ -11,6 +11,10 @@ tags:
 comments: []
 ---
 
+## Why are you running on-prem?
+
+The first question I receive when talking about the Cloud Lab is something akin to, *"Why not just use AWS?"* And this is a fair question. Having an on-prem Cloud Infrastructure has benefits over AWS or Azure or other cloud platforms.  
+
 ## On-prem teaching tool
 
 For teaching this is a great tools to have.  When something goes wrong, you can open up the hood and get into the logs and search, troubleshoot, and learn. You can also let the students get into the guts of the system and let them learn.  This learning allows for asking deeper questions of the system--which is the essential piece of troubleshooting.
