@@ -14,11 +14,7 @@ date: '2020-12-09 11:03:41 -0500'
 ---
 ## Big Data Platform - Spark Cluster
 
-Teaching the technology of Big Data is important.  My background is not as a [Data Scientist](https://docs.microsoft.com/en-us/learn/certifications/roles/data-scientist "Microsoft definition of Data Scientist") but more of a [Data Engineer](https://docs.microsoft.com/en-us/learn/certifications/roles/data-engineer "Microsoft definition of Data Engineer").
-
-### Apache Spark
-
-[Apache Spark](https://spark.apache.org/ "Apache Spark WebPage") is a "Unified engine for large-scale data analytics."
+Teaching the technology of Big Data is important.  My background is not as a [Data Scientist](https://docs.microsoft.com/en-us/learn/certifications/roles/data-scientist "Microsoft definition of Data Scientist") but more of a [Data Engineer](https://docs.microsoft.com/en-us/learn/certifications/roles/data-engineer "Microsoft definition of Data Engineer"). And I love deploying infrastructure.
 
 Current Cluster:
 
@@ -27,13 +23,25 @@ Current Cluster:
 
 ### Current Hardware
 
-* Namenode  - 1.8 TB of storage, 32 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
-* Datanode1 - 3.6 TB of storage, 94 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
-* Datanode2 - 2 TB of storage, 56 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
-* Datanode3 - 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5504 Quad Core](https://ark.intel.com/products/40711/Intel-Xeon-Processor-E5504-4M-Cache-2_00-GHz-4_80-GTs-Intel-QPI "Intel 5504")
-* Datanode4 - 2 TB of storage, 24 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
-* Datanode5 - 2 TB of storage, 32 GB of RAM, [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
+* MasterNode
+  * 1.8 TB of storage, 32 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
+* Worker Node 1
+  * 3.6 TB of storage, 94 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
+* Worker Node 2
+  * 2 TB of storage, 56 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
+* Worker Node 3
+  * 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5504 Quad Core](https://ark.intel.com/products/40711/Intel-Xeon-Processor-E5504-4M-Cache-2_00-GHz-4_80-GTs-Intel-QPI "Intel 5504")
+* Worker Node 4
+  * 2 TB of storage, 24 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
+* Worker Node 5
+  * 2 TB of storage, 32 GB of RAM, [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
+* Worker Node 6
+* Worker Node 7
+* Worker Node 8
 
+### Storage component for Spark Cluster
+
+There is an on-prem solution for storing datasets.  Using [Minio](https://min.io "Min.io webpage")
 
 ### Min.io
 
