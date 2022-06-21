@@ -10,7 +10,7 @@ tags:
 comments: []
 ---
 
-I define troubleshooting/debugging as not making the problem go away, but asking questions of a system until the answer reveals itself and you have gained a deeper fundamental understanding of your system.  But how can you begin to ask questions, especially when you are just starting?  Debugging can look like magic, but just like all magic tricks once you know the trick the illusion falls apart.
+I define troubleshooting/debugging as not making the problem go away, but asking questions of a system until the answer reveals itself and you have gained a deeper fundamental understanding of your system. But how can you begin to ask questions, especially when you are just starting?  Debugging can look like magic, but just like all magic tricks once you know the trick the illusion falls apart.
 
 ### 3P's Framework
 
