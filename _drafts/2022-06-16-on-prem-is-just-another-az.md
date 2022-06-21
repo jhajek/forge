@@ -30,7 +30,7 @@ Here is what I believe as the basic principles that define cloud:
 * Services accessible via API over HTTP
 * Elastic Block and File Storage
 * Elastic Compute
-* Elastic Object Storage
+* Object Storage via HTTP
 * Identity and access management
 
-When you define Cloud in that Fashion, then on-prem can become just another AZ in your computing strategy.  That is why having your own on-prem cloud infrastructure is important -- not just for teaching.
+When you define Cloud in that fashion, then on-prem can become just another AZ in your computing strategy.  That is why having your own on-prem cloud infrastructure is important -- not just for teaching.
