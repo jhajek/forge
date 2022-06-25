@@ -31,6 +31,50 @@ This can get a bit more complicated as now you have to setup [Jenkins](https://j
 
 See my Jenkins setup post -- here
 
+### Android Commandline tools
+
+You will need the sdkmanager for installing Android packages (version compiling tools) which is part of the commandline-tools.  You no longer need the Android-sdk package installed via apt -- that is too old.  These commandline tools run the Android compile from the commandline via the `Jenkinsfile`
+
+After you download the cmmdlinetools (I had to download them on windows and sftp the to the Jenkins Server)
+
+* Unzip the contents
+* Using the direct path install the tools via the command:
+  * ```./cmdline-tools/bin/sdkmanager --install "cmdline-tools;latest" --sdk_root=/home/vagrant/android_sdk```
+  * The ```--sdk_root``` is the place where the new sdk tools will go
+* Set the .bashrc to add the path to the sdkmanager to the system path
+* Set the Jenkins global settings to find this path
+  * set `ANDROID_SDK_HOME` to the `sdk_root` you defined earlier
+  * On Linux set `JAVA_HOME` to `/usr`
+
+Once everything is set the output of --list_installed should look like below.  Finally there is a permission issue to consider.   In order for `Jenkins` to use the `sdkmanager` and write files -- the sdkmanager would need to owned by `jenkins:jenkins` -- but if you want to install packages -- the files should be owned by your user.  A few things can be done:
+
+* use sudo
+* chown -R jenkins:jenkins and then back to your own user
+
+```bash
+sdkmanager --list_installed
+
+######Output
+  Path                 | Version      | Description                             | Location
+  -------              | -------      | -------                                 | -------
+  build-tools;28.0.3   | 28.0.3       | Android SDK Build-Tools 28.0.3          | build-tools/28.0.3
+  cmake;3.6.4111459    | 3.6.4111459  | CMake 3.6.4111459                       | cmake/3.6.4111459
+  cmdline-tools;latest | 7.0          | Android SDK Command-line Tools (latest) | cmdline-tools/latest
+  emulator             | 31.2.10      | Android Emulator                        | emulator
+  ndk;20.0.5594570     | 20.0.5594570 | NDK (Side by side) 20.0.5594570         | ndk/20.0.5594570
+  patcher;v4           | 1            | SDK Patch Applier v4                    | patcher/v4
+  platform-tools       | 33.0.2       | Android SDK Platform-Tools              | platform-tools
+```
+
+### Commands
+
+```bash
+sdkmanager --install 'cmake;3.6.4111459'
+sdkmanager --install 'ndk;20.0.5594570'
+sdkmanager --install 'build-tools;28.0.3'
+sdkmanager --install 'platforms;android-28'
+```
+
 ## Jenkins Project
 
 * Choose Multi pipeline
