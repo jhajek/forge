@@ -21,5 +21,5 @@ On Ubuntu -- the configuration is stored in the jenkins.service file
 Create Project -- Multipath
   Use Jenkinsfile in Root of project
 Installing and configuring Pandoc -- building a text book
-Use [`~~Github-Release~~`](https://github.com/github-release/ "Github release web page") to deploy artifacts
+~~Use [`Github-Release`](https://github.com/github-release/ "Github release web page") to deploy artifacts~~
 Use [`Hub`](https://hub.github.com/#scripting] "Hub project website") for releases

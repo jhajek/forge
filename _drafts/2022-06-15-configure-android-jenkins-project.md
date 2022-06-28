@@ -33,23 +33,24 @@ See my Jenkins setup post -- here
 
 ### Android Commandline tools
 
-You will need the sdkmanager for installing Android packages (version compiling tools) which is part of the commandline-tools.  You no longer need the Android-sdk package installed via apt -- that is too old.  These commandline tools run the Android compile from the commandline via the `Jenkinsfile`
+You will need the `sdkmanager` for installing Android packages (version compiling tools) which is part of the [`commandline-tools`](https://developer.android.com/studio/command-line#tools-sdk "Android Command Line tools") zip file. You no longer need the `android-sdk` package installed via apt -- that is too old. These commandline-tools run the Android build tools from the commandline via the `Jenkinsfile`.
 
 After you download the cmmdlinetools (I had to download them on windows and sftp the to the Jenkins Server)
 
 * Unzip the contents
 * Using the direct path install the tools via the command:
   * ```./cmdline-tools/bin/sdkmanager --install "cmdline-tools;latest" --sdk_root=/home/vagrant/android_sdk```
-  * The ```--sdk_root``` is the place where the new sdk tools will go
-* Set the .bashrc to add the path to the sdkmanager to the system path
+  * The ```--sdk_root``` is the directory where the new sdk tools will be installed to
+* Set the `.bashrc` to add the path to the `sdkmanager` to the system path
 * Set the Jenkins global settings to find this path
-  * set `ANDROID_SDK_HOME` to the `sdk_root` you defined earlier
+  * Set `ANDROID_SDK_HOME` to the `sdk_root` you defined earlier
   * On Linux set `JAVA_HOME` to `/usr`
 
-Once everything is set the output of --list_installed should look like below.  Finally there is a permission issue to consider.   In order for `Jenkins` to use the `sdkmanager` and write files -- the sdkmanager would need to owned by `jenkins:jenkins` -- but if you want to install packages -- the files should be owned by your user.  A few things can be done:
+Once everything is set the output of `--list_installed` should look like below. Finally there is a permission issue to consider. In order for `Jenkins` to use the `sdkmanager` and write files -- the `sdkmanager` would need to owned by `jenkins:jenkins` -- but if you want to install packages -- the files should be owned by your user. A few things can be done:
 
-* use sudo
-* chown -R jenkins:jenkins and then back to your own user
+* use `sudo`
+* `chown -R jenkins:jenkins` and then back to your own user
+* Though there has to be a better way to do this
 
 ```bash
 sdkmanager --list_installed
@@ -77,7 +78,7 @@ sdkmanager --install 'platforms;android-28'
 
 ## Jenkins Project
 
-* Choose Multi pipeline
+* Choose Multi-pipeline
 * Setup credentials
   * (Use Personal Access Token -- add URL and validate)
 * Include a file named: `Jenkinsfile` in the root of your Android Project repo.
@@ -110,7 +111,7 @@ stages {
 }
 ```
 
-### dir directive
+### The dir directive
 
 In your `Jenkinsfile`, you have to understand [pathing](https://jeremyhajek.com/2022/06/15/what-is-debugging.html).  The `Jenkinsfile` executes in the root directory, but if your `gradlew` executable is in a different directory Jenkins won't find it.  You need to add a `dir()` directive--essentially a `cd` command to get to the right directory to execute your `gradlew` command.  
 
@@ -122,13 +123,11 @@ groovy.lang.MissingPropertyException: No such property: assembleDebug for class:
   at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onGetProperty(SandboxInterceptor.java:251)
 ```
 
-### GitHub Release
+### Use Hub for deploying releases
 
-Now that you have successfully built an APK on a build server using Jenkins, you need to get this artifact deployed to the `Releases` tab on GitHub. The `Releases` tab allows for a central location to release artifacts that can be downloaded and then side-loaded onto your Android device.
+Now that you have successfully built an APK on a build server using [Jenkins](https://jenkins.io "Jenkins webpage"), you need to get this artifact deployed to the `Releases` tab on GitHub. The `Releases` tab allows for a central location to release artifacts that can be downloaded and then side-loaded onto your Android device.
 
-Configure GitHub Release
-
-Show examples in Jenkinsfile and in release script
+This requires a third part tool from GitHub called: [`Hub`](https://hub.github.com/#scripting] "Hub project website").
 
 ### Conclusion
 
