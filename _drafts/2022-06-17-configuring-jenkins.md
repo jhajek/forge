@@ -15,7 +15,7 @@ Configuring modern Jenkins
 Jenkins cd.foundation  - critical part of CI/CD  Continuous Integration / Continuous Delivery
 
 Install jenkins via PPA to get the LTS
-On Ubuntu -- the configuration is stored in the jenkins.service file
+On Ubuntu -- the configuration is stored in the `jenkins.service` file
   Change the default home directory
   Enable HTTPS -- generate pck12
 Create Project -- Multipath
