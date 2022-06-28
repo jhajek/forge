@@ -129,6 +129,26 @@ Now that you have successfully built an APK on a build server using [Jenkins](ht
 
 This requires a third part tool from GitHub called: [`Hub`](https://hub.github.com/#scripting] "Hub project website").
 
+```bash
+
+# A simple Hub file
+#!/bin/bash
+
+TODAY="v$(date +%Y-%m-%d.%H%M%S)"
+
+# GITHUB_TOKEN is defined in Jenkins Configuration to provide the Jenkins User with the Credentials to authenticate to Github
+# Using HUB from Github - https://github.com/github/hub
+
+# Release Publishing
+
+hub release create \
+       -a path-to-file-to-release \
+       -m "Name of release" \
+       -m "Release note" \
+       YourTagNameHere
+
+```
+
 ### Conclusion
 
 Automation is the key.  Yet Operating systems and compiler tools were not designed for automated creation and deployment of apps.  This is a great opportunity but takes some time to put together.  But once it is together it can speed deployment and get your Android App into you and your development teams hands.
