@@ -15,9 +15,9 @@ date: '2020-12-09 11:03:41 -0500'
 
 I wrote a text book. And its Opensource
 
-* 16 chapters
-* Quizes and exercises
-* 500 pages
+* 14 chapters
+* Quizzes and exercises
+* 500+ pages
 * Since it is about opensource -- the book itself is opensource
   * [https://github.com/jhajek/Linux-text-book-part-1/releases](https://github.com/jhajek/Linux-text-book-part-1/releases "URL to book GitHub project")
 * PDF and epub available
