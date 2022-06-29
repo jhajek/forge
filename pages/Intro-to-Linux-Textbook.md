@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Understanding Free and Opensource Operating Systems - the Book
+title: Intro to Linux Textbook
 author:
   display_name: hajek
   login: hajek
