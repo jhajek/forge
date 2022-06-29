@@ -13,7 +13,7 @@ author_email: hajek@iit.edu
 date: '2020-12-09 11:03:41 -0500'
 ---
 
-I wrote a text book. And its Opensource - 
+I wrote a text book. And its Opensource
 
 * 16 chapters
 * Quizes and exercises
