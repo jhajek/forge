@@ -36,7 +36,7 @@ So what can one use for on-prem cloud?
 * Version Control for Configurations
   * [Git](https://git-scm.org "Git website")
   * [Github](https://github.com "GitHub website")
-* Virtualization Mangement (Elastic Compute)
+* Virtualization Management (Elastic Compute)
   * [Proxmox 7](https://proxmox.com "Proxmox website")
 * S3-Compatible Object Storage
   * [Min.io](https://min.io "Minio webpage")
@@ -44,12 +44,12 @@ So what can one use for on-prem cloud?
   * [Consul](https://consul.io "Consul website")
   * Cloud images are not static but ephemeral
 * Virtual Machine Template Construction
-  * [Packer](https://packer.io "Pacjer website")
+  * [Packer](https://packer.io "Packer website")
 * Virtual Machine Infrastructure Deployment
   * [Terraform](https://terraform.io "Terraform website")
-* Password Managent
+* Password Management
   * All public private keys and API tokens -- no passwords
-  * [Twisted Ewards Curve](https://en.wikipedia.org/wiki/Twisted_Edwards_curve "Twisted Edwards Curve wiki page")
+  * [Twisted Edwards Curve](https://en.wikipedia.org/wiki/Twisted_Edwards_curve "Twisted Edwards Curve wiki page")
 * Monitoring
   * [Grafana](https://grafana.com/ "Grafana website")
 * Event Routing
