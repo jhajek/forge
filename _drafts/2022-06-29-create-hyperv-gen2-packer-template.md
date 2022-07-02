@@ -8,9 +8,11 @@ tags:
 - packer
 - Ubuntu
 - vms
+- howto
 comments: []
 ---
 
+https://hub.docker.com/_/jenkins
 
 https://www.packer.io/plugins/builders/hyperv/iso
 
