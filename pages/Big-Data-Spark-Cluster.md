@@ -19,7 +19,7 @@ Teaching the technology of Big Data is important.  My background is not as a [Da
 Current Cluster:
 
 * 8 nodes [Spark 3.2.x Research Cluster](https://spark.apache.org/ "Apache Spark WebPage")
-  * 197 GB RAM and 47 processors available.
+  * 491 GB RAM and 47 processors available.
 
 ### Current Hardware
 
