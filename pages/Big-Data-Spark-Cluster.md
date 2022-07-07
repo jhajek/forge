@@ -26,13 +26,13 @@ Current Cluster:
 * MasterNode
   * 1.8 TB of storage, 32 GB of RAM, [AMD FX 6100 Hexacore](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors#Bulldozer_Core_.28Zambezi.2C_32_nm.29 "AMD FX 6100")
 * Worker Node 1
-  * 3.6 TB of storage, 94 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
+  * 3.6 TB of storage, 94 GB of RAM, 2x [Intel Xeon E5530](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Interl E5530")
 * Worker Node 2
-  * 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
+  * 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5530](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
 * Worker Node 3
-  * 4 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5504 Quad Core](https://ark.intel.com/products/40711/Intel-Xeon-Processor-E5504-4M-Cache-2_00-GHz-4_80-GTs-Intel-QPI "Intel 5504")
+  * 4 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5504](https://ark.intel.com/products/40711/Intel-Xeon-Processor-E5504-4M-Cache-2_00-GHz-4_80-GTs-Intel-QPI "Intel 5504")
 * Worker Node 4
-  * 2 TB of storage, 32 GB of RAM, 2x [Intel Xeon E5530 Quad Core](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
+  * 2 TB of storage, 64 GB of RAM, 2x [Intel Xeon E5530](https://ark.intel.com/products/37103/Intel-Xeon-Processor-E5530-8M-Cache-2_40-GHz-5_86-GTs-Intel-QPI "Intel 5530")
 * Worker Node 5
   * 2 TB of storage, 100 GB of RAM, [Intel Xeon E5-2620](https://ark.intel.com/content/www/us/en/ark/products/64594/intel-xeon-processor-e52620-15m-cache-2-00-ghz-7-20-gts-intel-qpi.html "Intel Xeon E5-2620")
 * Worker Node 6
