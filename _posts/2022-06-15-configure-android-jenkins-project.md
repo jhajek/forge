@@ -42,7 +42,7 @@ After you download the cmmdlinetools (I had to download them on windows and sftp
   * ```./cmdline-tools/bin/sdkmanager --install "cmdline-tools;latest" --sdk_root=/home/vagrant/android_sdk```
   * The ```--sdk_root``` is the directory where the new sdk tools will be installed to
 * Set the `.bashrc` to add the path to the `sdkmanager` to the system path
-* Set the Jenkins global settings to find this path
+* Set the Jenkins global settings from the Jenkins web console to find this path
   * Set `ANDROID_SDK_HOME` to the `sdk_root` you defined earlier
   * On Linux set `JAVA_HOME` to `/usr`
 
