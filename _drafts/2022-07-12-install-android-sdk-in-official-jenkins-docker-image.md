@@ -120,25 +120,104 @@ sudo docker exec -u root -it jenkins-fall-class bash
 # Once at the root prompt at the interactive shell
 apt update
 apt install hub
+# type exit to exit the interactive shell
 ```
 
+### Creating the Jenkins Project for your Android Application
 
-Jenkins: Create new job > name project > Multi-branch project
-Name Project - give description
-Branch Sources (select Project Name)
-under username give your GitHub ID and Password is the GitHub token you created (remember they are 30 days expire)
-for ID place a meaningful name and I would recommend putting a date so you can know which set of credentials is which once they expire
-Give the URL to your illinoistech-itm repo -- make sure to have a Jenkinsfile in the root -- pointing to your project (or a sub-directory if you have one)
+Now lets log into our Jenkins console again. Jenkins works on the concepts of `Jobs` which is essentially a project, but a project with an outcome. You could say you have a **job** to build an Android App from said source code.
 
-From Jenkins Docker container bash interactive shell
-use the sdkmanager to install and accept licenses dependencies
-./sdkmanager --install 
-     patcher;v4 
-     platform-tools
-     build-tools;30.0.3
-     platforms;android-32
+The steps to take are as follows:
 
-This has to due with the fact that you need to manually accept Android SDK licenses - this is one way to do it or take a license folder from an already accepted system and place it in the ANDROID_HOME directory
-	https://developer.android.com/studio/intro/update.html#download-with-gradle
+1) Create `New Item`
+1) Give the project a name -- this is for the human so be as specific as you can
+1) Select project type of: `Multi-branch`
+
+The new job (item) has been created. Let's configure it. You are automatically taken to the job configuration screen.
+
+1) Give the project a name - this will be a local directory on the system where cloned code is stored so best **NOT** to put spaces in this name
+1) Fill in a good description of the project and who is involved in using it
+1) Select the `Branch Sources` and choose `GitHub` as the source option
+1) Select the Add button and add credentials under the project name (not Jenkins)
+1) You will be prompted for a username, password and ID to connect to GitHub. this will be your GitHub user ID, the password will be the GITHUB_TOKEN you created previously and the ID is a note your will create to identify this set of credentials.
+1) GitHub Tokens are set to expire every 30 days by default -- at that time you will need to repeat these steps and create new credential pairs (so a good ID is important otherwise you will get confused which tokens are active!)
+1) Add `Repository URL` as the full URL to your GitHub repo
+1) Make sure to have a Jenkinsfile in the root -- pointing to your project (or a sub-directory if you have one) -- more on this below
+
+### Jenkinsfile
+
+If you are missing a [Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/ "Jenkinsfile documentation webpage") in the root of your repo we need to create one. A `Jenkinsfile` can be placed in locations other than the root of your repo, and you would adjust that path in the Jenkins job configuration. For now we will leave this in the root of the repo.
+
+The syntax for a Jenkinsfile will look something like this:
+
+```bash
+// Jenkinsfile template (must have capital "J")
+// https://www.jenkins.io/doc/book/pipeline/jenkinsfile/
+pipeline {
+    agent any
+
+stages {
+    stage('Build')  {
+          steps {      
+                dir("itmd-555/Sample-For-Jenkins") {
+                sh 'chmod +x ./gradlew'
+                sh './gradlew assembleRelease'
+                }
+        }
+    }    
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    echo 'Deploying Android APK to GitHub Release Tab...'
+                    sh '/var/jenkins_home/sample-app-release-script.sh'
+                }
+            }
+        }
+    }
+}
+```
+
+Note the `dir()` which tells the Jenkins server where my Android Gradle project files are located. In this case in a sub-folder `ITMD-555/Sample-For-Jenkins`. Once complete your project will automatically be cloned by Jenkins to the build server and will try to use the Android SDK build tools. [Gradle](https://developer.android.com/studio/releases/gradle-plugin "Android Gradle Plugin webpae") is the tool Android uses to build its projects. It is not an Android or Google tool, but is used by many people for building large software projects.
+
+### Why Your First Build Failed
+
+Your first build will fail with an error message stating that certain tools are not installed that Android needs to build. This sample project assumes I am using a new default Android Studio project using the Android 32 build tools.
+
+```bash
+> Failed to install the following Android SDK packages as some licences have not been accepted.
+     patcher;v4 SDK Patch Applier v4
+     platform-tools Android SDK Platform-Tools
+     emulator Android Emulator
+     build-tools;30.0.3 Android SDK Build-Tools 30.0.3
+     platforms;android-32 Android SDK Platform 32
+     tools Android SDK Tools
+```
+
+How can we install these missing tools? Normally your Gradle build script is smart enough to go an fetch all the needed build tools and dependencies for you. In this case we are not developing in Android Studio, but developing with the Android SDK tools from the commandline. We need to go back to the Docker container commandline.
+
+```bash
+# Use the docker exec -it command
+sudo docker exex -it jenkins-fall-class bash
+# Change directory into the android-sdk/latest/bin directory to 
+# use the sdkmanager
+cd ./android-sdk/latest/bin
+# Use the sdkmanager to install and accept licenses dependencies
+./sdkmanager --install "patcher;v4"
+./sdkmanager --install "platform-tools"
+./sdkmanager --install "build-tools;30.0.3"
+./sdkmanager --install "platforms;android-32"
+# Feel free to add any other packages you think you will need for building your software
+```
+
+### Accepting Licenses
+
+The reason we have to manually install the additional software packages is due with the fact that you need to manually accept Android SDK licenses before install. [There is another way](https://developer.android.com/studio/intro/update.html#download-with-gradle "Android Studio License Accept alternative method webpage") were you can copy a `license` directory from a system running Android Studio, where you have already accepted the licenses via the `SDK Manager`. Place this `licenses` directory in your `$ANDROID_HOME` directory.
+
+
 
 Place the script: sample-app-release.sh into your /var/jenkins_home mapped directory
