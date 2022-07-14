@@ -77,10 +77,10 @@ You will end up adding 3 ENV variables:
 * The first variable to add: `GITHUB_TOKEN`
   * You will need to create this under your GitHub account, under account settings
   * These tokens expire after 30 days by default, plan accordingly
-* The second variable to add: `ANDROID_SDK`
-  * Put the path to the installed sdkmanager, Android needs this to install addtional tools
-  * `/var/jenkins_home/android_sdk/cmdline-tools/latest/bin`
-* The third variable to add: `ANDROID_HOME`
+* ~~The second variable to add: `ANDROID_SDK`~~
+  * ~~Put the path to the installed sdkmanager, Android needs this to install additional tools~~
+  * ~~`/var/jenkins_home/android_sdk/cmdline-tools/latest/bin`~~
+* The second ~~third~~ variable to add: `ANDROID_HOME`
   * Put the path to the home directory of the sdkmanager
   * `/var/jenkins_home/android_sdk`
 
