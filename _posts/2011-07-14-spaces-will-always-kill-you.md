@@ -46,5 +46,4 @@ It turns out if you have a space in the 32nd place of the name of your vm, the d
 
 <img src="/assets/2011/07/32space1.png" alt="" width="327" height="70" />
 
-Sure enough 32nd char is a space. Now what to do? Simple Vmware recommends to rename the vm and eliminate the space in that spot (I now go further and forbid all spaces ever) and then you need to
-migrate the vm to another system and the content will appear again. I tried this and it works the problem of the missing data solved.
+Sure enough 32nd char is a space. Now what to do? Simple Vmware recommends to rename the vm and eliminate the space in that spot (I now go further and forbid all spaces ever) and then you need to migrate the vm to another system and the content will appear again. I tried this and it works the problem of the missing data solved.
