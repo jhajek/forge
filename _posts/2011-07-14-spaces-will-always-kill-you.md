@@ -42,7 +42,7 @@ Notice all the content is missing! Trust me it is still there as this is an impo
 
 (Compare that with the pic 1 and you will see a longer name.) (Hint Also I fixed the problem as well replacing " " with "_".)
 
-It turns out if you have a space in the 32nd place of the name of your vm, the datastore cannot see it!  So lets do some quick counting
+It turns out if you have a space in the 32nd place of the name of your vm, the datastore cannot see it! So lets do some quick counting
 
 <img src="/assets/2011/07/32space1.png" alt="" width="327" height="70" />
 
