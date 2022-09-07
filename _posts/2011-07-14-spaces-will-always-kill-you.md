@@ -19,7 +19,7 @@ Spaces will always kill you... you think, "Oh this only happens to other people,
 
 Exactly.
 
-This point is no more vitally important than in dealing with vmware esx and esxi servers. Especially when dealing with datastores. See this link for the gory details <a href="http://kb.vmware.com/kb/1010832" target="_blank">http://kb.vmware.com/kb/1010832</a>
+This point is no more vitally important than in dealing with vmware esx and esxi servers. Especially when dealing with datastores. See this link for the gory details [http://kb.vmware.com/kb/1010832](http://kb.vmware.com/kb/1010832 "VMWare knowledge base 1010832")
 
 I have my vcenter instance and I am managing 3 esxi-servers.
 If I want to download the entire .vmdk (virtual machine) for backup I would simply change my options in vCenter and goto DATASTORES.
