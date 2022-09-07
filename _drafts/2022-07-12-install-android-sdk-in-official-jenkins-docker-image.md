@@ -218,6 +218,4 @@ cd ./android-sdk/latest/bin
 
 The reason we have to manually install the additional software packages is due with the fact that you need to manually accept Android SDK licenses before install. [There is another way](https://developer.android.com/studio/intro/update.html#download-with-gradle "Android Studio License Accept alternative method webpage") were you can copy a `license` directory from a system running Android Studio, where you have already accepted the licenses via the `SDK Manager`. Place this `licenses` directory in your `$ANDROID_HOME` directory.
 
-
-
 Place the script: sample-app-release.sh into your /var/jenkins_home mapped directory

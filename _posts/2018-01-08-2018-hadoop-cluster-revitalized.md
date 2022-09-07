@@ -18,15 +18,15 @@ tags:
 comments: []
 ---
 
-As I prepared to write this column, I have used the data from the final assignment of ITMD-521 Client/Server Technologies and Applications by professor Jeremy Hajek and worked on the assignment post semester to analyse the performance of the cluster. To benchmark the cluster, the tests or the MapReduce tasks were run on the upgraded cluster and compared with the older results. 
+As I prepared to write this column, I have used the data from the final assignment of ITMD-521 Client/Server Technologies and Applications by professor Jeremy Hajek and worked on the assignment post semester to analyze the performance of the cluster. To benchmark the cluster, the tests or the MapReduce tasks were run on the upgraded cluster and compared with the older results.
 
-Though the first set of results indicated that the jobs took longer than usual to complete with the elapsed times of the tasks going beyond 5 hours and the larger tasks taking almost half a day. This is due to the fair scheduler employed in the current cluster as opposed to the fifo scheduler used last time around. Since all the tasks are run in parallel in the fair scheduler. The resources would be fairly shared among all the jobs running on the cluster. This means that the users of the cluster currently would not have to wait for the jobs previously running on the cluster to be completed before their tasks begin execution. 
+Though the first set of results indicated that the jobs took longer than usual to complete with the elapsed times of the tasks going beyond 5 hours and the larger tasks taking almost half a day. This is due to the fair scheduler employed in the current cluster as opposed to the FIFO scheduler used last time around. Since all the tasks are run in parallel in the fair scheduler. The resources would be fairly shared among all the jobs running on the cluster. This means that the users of the cluster currently would not have to wait for the jobs previously running on the cluster to be completed before their tasks begin execution.
 
-The first set of results obtained after the cluster was set up shows significantly lesser time taken for the reduce, merge, shuffle and map times. Let us take a look at the following graphs to understand this better. The bar chart in green is the times taken by the optimised cluster and the time taken by the same job under the old configuration is given in red. 
+The first set of results obtained after the cluster was set up shows significantly lesser time taken for the reduce, merge, shuffle and map times. Let us take a look at the following graphs to understand this better. The bar chart in green is the times taken by the optimized cluster and the time taken by the same job under the old configuration is given in red.
 
 ![*Map Time Comparisons*](/assets/2018/01/1.png)
 
-The above graph shows the map times of the jobs. We can see that the jobs take about the same time as the previous map times or lesser. Most of the map times are considerably lesser than the previous tasks. 
+The above graph shows the map times of the jobs. We can see that the jobs take about the same time as the previous map times or lesser. Most of the map times are considerably lesser than the previous tasks.
 
 ![*Reduce Times*](/assets/2018/01/2.png)
 
