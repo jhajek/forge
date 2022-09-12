@@ -10,15 +10,16 @@ author:
   url: ''
 author_login: hajek
 author_email: hajek@iit.edu
-wordpress_id: 1528
-wordpress_url: https://forge.sat.iit.edu/?page_id=1528
-date: '2015-08-05 22:10:01 -0500'
-date_gmt: '2015-08-06 03:10:01 -0500'
+date: '2022-09-12 22:10:01 -0500'
 categories: []
 tags: []
 comments: []
 ---
 Here is a recent list of Media and Publications appearances by Jeremy Hajek
+
+## 2022
+
+* Naroa Amezaga and Jeremy Hajek. 2022. Availability of Voice Deepfake Technology and its Impact for Good and Evil. In The 23rd Annual Conference on Information Technology Education (SIGITE '22). Association for Computing Machinery, New York, NY, USA, 23–28. [https://doi.org/10.1145/3537674.3554742](https://doi.org/10.1145/3537674.3554742 "ACM DOI URL to publication")
 
 ## 2021
 
