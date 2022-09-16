@@ -25,7 +25,7 @@ tags:
 - prototype
 comments: []
 ---
-In ITMT 492/593 Smart Technology and Embdedded Systems the students recently presented their Simon Game projects.  Click the link below to see all of the project videos (each one is ~1.30 minutes long.)
+In ITMT 492/593 Smart Technology and Embedded Systems the students recently presented their Simon Game projects.  Click the link below to see all of the project videos (each one is ~1.30 minutes long.)
 
 <p><a id="more"></a><a id="more-2048"></a></p>
 
