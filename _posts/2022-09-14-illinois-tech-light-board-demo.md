@@ -13,4 +13,4 @@ comments: []
 
 At Illinois Tech I had a chance to test and use a lightboard from eGlass.io.  I used it for teaching an introduction to networking class where I had to draw a lot of network diagrams.  It worked pretty well.
 
-{% youtube CS3sA7X5b90 %}
+{% youtube 04j8ALDyMEw %}
