@@ -27,7 +27,7 @@ Illinois Institute of Technology continues to push the boundaries of modern tech
 
 Good question.  It is a Skype chat bot.  We used a Microsoft service called Q&A maker to take a regular course syllabus and convert it into Question and Answer pairs, (for instance, Who is the teacher?  Where is the class?  What is due week 1?).   I have attached the syllabus we used (ITMO 544 fall 2016) you can load the bot and try it out.
 
-### You can add the bot to your Skype account here:
+### You can add the bot to your Skype account
 
 * <a href="https://bots.botframework.com/bot?id=syllabot">https://bots.botframework.com/bot?id=syllabot</a>
 * The sample syllabus we used: <a href="/assets/2017/03/544-444-syllabus-fall2016.docx">544-444-syllabus-fall2016.docx</a>

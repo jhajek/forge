@@ -21,6 +21,6 @@ This was the winning entry video:
 
 {% youtube 7KjaCpoKEL8 %}
 
-The premise of the project revolved around [Microsoft's Hololens](https://www.microsoft.com/en-us/hololens/buy) and the creation of AR (Augmented Reality)
+The premise of the project revolved around [Microsoft's HoloLens](https://www.microsoft.com/en-us/hololens/buy) and the creation of AR (Augmented Reality)
 
 Well done team.  They were awarded $1000 cash prize and 6 weeks of incubator space at [mHub Chicago](https://mhubchicago.com/).
