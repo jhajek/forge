@@ -127,7 +127,7 @@ wget https://dl.grafana.com/oss/release/grafana_9.1.6_amd64.deb
 sudo dpkg -i grafana_9.1.6_amd64.deb
 ```
 
-**But** the latest Grafana versions assume you are using systemd version 247+ which supports a feature called `ProtectProc`. [This hides processes `/proc` from the services](https://www.sherbers.de/use-temporaryfilesystem-to-hide-files-or-directories-from-systemd-services "webpage for explaining ProtectProc"). Unfortunately, Ubuntu 20.04.5 supports only systemd version 245. So a simple find/replace command using `sed` to comment out this feature will be needed, or upgrade to Ubuntu 22.04.1 Jammy.
+**But** the latest Grafana versions assume you are using systemd version 247+ which supports a feature called `ProtectProc`. [This hides processes `/proc` from the services](https://www.sherbers.de/use-temporaryfilesystem-to-hide-files-or-directories-from-systemd-services "webpage for explaining ProtectProc"). Unfortunately, Ubuntu 20.04.5 uses systemd version 245. So a simple find/replace command using `sed` to comment out this feature will be needed, or upgrade to Ubuntu 22.04.1 Jammy.
 
 ```bash
 # After Grafana install
