@@ -26,9 +26,8 @@ Graphite is a bit of a trick to install as it is really 3 parts, and each part h
 
 * Graphite-web
   * A Django-based web application that renders graphs and dashboards
-  * This is not used as Grafana has replaced the need for it
-  * But we want just the [Graphite-api](https://pypi.org/project/graphite-api/ "graphite api webpage") so Grafana can interact with Whisper
-  * This will be the hard part...
+    * This is not used as Grafana has replaced the need for it
+  * We want just the [Graphite-api](https://pypi.org/project/graphite-api/ "graphite api webpage") so Grafana can interact with Whisper
 * Carbon
   * [Carbon](https://github.com/graphite-project/carbon "carbon webpage") has two service daemons, Carbon-Relay and Carbon-Cache that cache received metrics and then write them to storage
 * Whisper
@@ -76,7 +75,7 @@ python3 -m pip install graphite-api carbon whisper gunicorn
 sudo apt-get install -y python3-whisper graphite-carbon graphite-api python3-gunicorn
 ```
 
-### Check Service Status
+### Check Graphite Services' Status
 
 ```bash
 # Commands to enable the services
