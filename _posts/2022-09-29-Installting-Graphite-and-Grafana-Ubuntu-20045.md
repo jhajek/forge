@@ -67,28 +67,41 @@ Without the Django app portion of graphite-web, we will need gunicorn3 to be ins
 sudo apt-get update
 sudo apt-get install -y python3-dev python3-setuptools python3-pip
 # Install carbon, whisper, graphite-api, and gunicorn3 via PIP
-python3 -m pip install graphite-api carbon whisper gunicorn
+python3 -m pip install gunicorn graphite-api carbon whisper
 ```
 
 ```bash
 # Install carbon, whisper, graphite-api, and gunicorn3 via APT
-sudo apt-get install -y python3-whisper graphite-carbon graphite-api python3-gunicorn
+sudo apt-get install -y gunicorn python3-whisper graphite-carbon graphite-api
 ```
 
-### Check Graphite Services' Status
+Which one to choose?  Well it turns out that the APT package for `graphite-api` on Ubuntu 20.04, 1.1.3-5, has some dependency problems. To get around this, we can install the `graphite-api` via Python3 PIP. In addition, the `Carbon` package in APT is missing a `relay-rules.conf` file, needed for the `carbon-relay service to start`. We can retrieve the missing file from the projects [GitHub project](https://github.com/graphite-project/carbon/blob/master/conf/relay-rules.conf.example "GitHUb project website for graphite").
+
+### Automated Instructions
 
 ```bash
-# Commands to enable the services
+# Install Python dependencies
+sudo apt-get update
+sudo apt-get install -y python3-dev python3-setuptools python3-pip
+# Install carbon, whisper, graphite-api, and gunicorn3 via PIP
+python3 -m pip install graphite-api
+# Install carbon, whisper, graphite-api, and gunicorn3 via APT
+sudo apt-get install -y gunicorn python3-whisper graphite-carbon
+# Ubuntu Focal 20.04 Carbon package doesn't contain this relay-rules.conf file need 
+# to retrieve it via wget and manually copy it into /etc/carbon, otherwise 
+# carbon-relay@1 service won't start
+wget https://raw.githubusercontent.com/graphite-project/carbon/master/conf/relay-rules.conf.example
+sudo mv -v ./relay-rules.conf.example /etc/carbon/relay-rules.conf
+sudo systemctl daemon-reload
+
+###################################
+# Check Graphite Services' Status #
+###################################
+# Commands to enable the services (not needed on Ubuntu but good habit)
 sudo systemctl enable carbon-cache
 # @1 because you can have multiple relay daemons
 sudo systemctl enable carbon-relay@1
 sudo systemctl enable graphite-api
-
-# Commands to start the services
-sudo systemctl start carbon-cache
-# @1 because you can have multiple relay daemons
-sudo systemctl start carbon-relay@1
-sudo systemctl start graphite-api
 
 # Commands to check the services' status
 sudo systemctl status carbon-cache
@@ -97,7 +110,9 @@ sudo systemctl status carbon-relay@1
 sudo systemctl status graphite-api
 ```
 
-## Grafana
+## How to Install Grafana
+
+[Grafana is an Open Source graphing solution](https://grafana.com/oss "Grafana webpage"). Grafana does not store any data but has interfaces to read metrics from many different time of time storage databases and traditional databases.
 
 ```bash
 # Steps needed to be included in install-grafana.sh
@@ -105,3 +120,7 @@ sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/oss/release/grafana_9.1.6_amd64.deb
 sudo dpkg -i grafana_9.1.6_amd64.deb
 ```
+
+## Conclusion
+
+The steps to maintain an install of Graphite and Grafana have not aged as expected. Going back to Ubuntu 14/16 this process was simple. Overtime dependencies have creeped and new solutions have been released, though Grafana and Graphite are still well known and still widely in use. I think this is a good exercise of finding out software dependencies and how software is installed and finally showing that its a miracle that anything works.
