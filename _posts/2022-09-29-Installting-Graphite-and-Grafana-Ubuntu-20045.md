@@ -114,12 +114,6 @@ sudo systemctl enable carbon-cache
 # @1 because you can have multiple relay daemons
 sudo systemctl enable carbon-relay@1
 sudo systemctl enable graphite-api
-
-# Commands to check the services' status
-sudo systemctl status carbon-cache
-# @1 because you can have multiple relay daemons
-sudo systemctl status carbon-relay@1
-sudo systemctl status graphite-api
 ```
 
 ## How to Install Grafana
