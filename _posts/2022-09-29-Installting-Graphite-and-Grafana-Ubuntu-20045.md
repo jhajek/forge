@@ -66,12 +66,12 @@ Without the Django app portion of graphite-web, we will need gunicorn3 to be ins
 # Install Python dependencies
 sudo apt-get update
 sudo apt-get install -y python3-dev python3-setuptools python3-pip
-# via PIP
+# Install carbon, whisper, graphite-api, and gunicorn3 via PIP
 python3 -m pip install graphite-api carbon whisper gunicorn
 ```
 
 ```bash
-# Install carbon, whisper, graphite-api, and gunicorn3
+# Install carbon, whisper, graphite-api, and gunicorn3 via APT
 sudo apt-get install -y python3-whisper graphite-carbon graphite-api python3-gunicorn
 ```
 
