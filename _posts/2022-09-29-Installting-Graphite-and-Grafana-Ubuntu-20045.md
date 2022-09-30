@@ -53,7 +53,7 @@ Without the Django app portion of graphite-web, we will need gunicorn3 to be ins
 * [whisper](https://packages.ubuntu.com/focal/python3-whisper "whisper focal apt webpage") = 1.1.4-2
 * [gunicorn3](https://packages.ubuntu.com/focal/gunicorn "gunicorn focal apt webpage") = 20.0.4-3
 
-### APT package versions - Jammy Ubuntu 21.04.1
+### APT package versions - Jammy Ubuntu 22.04.1
 
 * [graphite-api](https://packages.ubuntu.com/jammy/graphite-api "graphite api jammy apt webpage") = 1.1.3-6
 * [carbon](https://packages.ubuntu.com/jammy/graphite-carbon "carbon jammy apt webpage") = 1.1.7-1
@@ -82,9 +82,21 @@ Which one to choose?  Well it turns out that the APT package for `graphite-api` 
 ```bash
 # Install Python dependencies
 sudo apt-get update
-sudo apt-get install -y python3-dev python3-setuptools python3-pip
-# Install carbon, whisper, graphite-api, and gunicorn3 via PIP
-python3 -m pip install graphite-api
+# Graphite-api -- turns out the problem is the default package in Ubuntu 20.04 repository for graphite-api 1.1.3-5 
+# https://bugs.launchpad.net/ubuntu/+source/graphite-api/+bug/1879148
+# The solution was to grab the fixed package from the next version of Ubuntu 20.10, codenamed Groovy Gorilla
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=954600
+# Is this normal?  No but its only for the Ubuntu 20.04 Focal distro that this fix wasn't back ported to
+# https://packages.ubuntu.com/groovy/graphite-api
+# https://packages.ubuntu.com/focal/graphite-api
+
+# Retrieve the package Python-Structlog that needs to be backported to Ubuntu 20.04 from the 20.10 repo
+wget http://archive.ubuntu.com/ubuntu/pool/universe/p/python-structlog/python3-structlog_20.1.0-1_all.deb
+sudo dpkg -i ./python3-structlog_20.1.0-1_all.deb
+# Retrieve the graphite-api package that needs to be backported to Ubuntu 20.04 from the 20.10 repo
+wget http://archive.ubuntu.com/ubuntu/pool/universe/g/graphite-api/graphite-api_1.1.3-6_all.deb
+sudo dpkg -i ./graphite-api_1.1.3-6_all.deb
+
 # Install carbon, whisper, graphite-api, and gunicorn3 via APT
 sudo apt-get install -y gunicorn python3-whisper graphite-carbon
 # Ubuntu Focal 20.04 Carbon package doesn't contain this relay-rules.conf file need 
@@ -119,6 +131,15 @@ sudo systemctl status graphite-api
 sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/oss/release/grafana_9.1.6_amd64.deb
 sudo dpkg -i grafana_9.1.6_amd64.deb
+```
+
+**But** the latest Grafana versions assume you are using systemd version 247+ which supports a feature called `ProtectProc`. [This hides processes `/proc` from the services](https://www.sherbers.de/use-temporaryfilesystem-to-hide-files-or-directories-from-systemd-services "webpage for explaining ProtectProc"). Unfortunately, Ubuntu 20.04.5 supports only systemd version 245. So a simple find/replace command using `sed` to comment out this feature will be needed, or upgrade to Ubuntu 22.04.1 Jammy.
+
+```bash
+# After Grafana install
+sudo sed -i 's/ProtectProc=invisible/#ProtectProc=invisible/g' /lib/systemd/system/grafana-server.service
+sudo systemctl enable grafana-server
+sudo systemctl start grafana-server
 ```
 
 ## Conclusion
