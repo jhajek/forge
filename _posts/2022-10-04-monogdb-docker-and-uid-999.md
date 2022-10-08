@@ -3,10 +3,6 @@ layout: post
 status: publish
 published: true
 title: 'Mongodb Docker Container, UID 999, and Ubuntu 22.04 Jammy'
-categories:
-- docker
-- mystery
-- software
 tags: 
 - mongodb
 - docker

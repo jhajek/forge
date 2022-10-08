@@ -3,11 +3,6 @@ layout: post
 status: publish
 published: true
 title: 'SIGITE 22 Presentation - Availability of Voice Deepfake Technology and its Impact for Good and Evil'
-categories:
-- software
-- ml
-- python
-- laptops
 tags: 
 - nlp
 - coding
