@@ -21,7 +21,7 @@ Working with a legacy version of [mongodb docker container](https://hub.docker.c
 
 Ubuntu 22.04 has the LXD process as uid 999. Mongodb inside of the container is running as uid 999 so there is an overlap conflict as outlined in this [GitHub issue](https://github.com/docker-library/mongo/issues/181 "webpage for git hub issue"). Though under Ubuntu 20.04, systemd-coredump was running as uid 999.
 
-The question becomes the quick hack is to just change the ownsership of files that need to be mounted in the container to be owned by uid 999 (systemd-coredump or lxd) -- it works by the way.
+The question becomes the quick hack is to just change the ownership of files that need to be mounted in the container to be owned by uid 999 (systemd-coredump or lxd) -- it works by the way.
 
 ```bash
 -rw-rw-r-- 1 user1 user1  200 Sep 30 02:44 mongodb.conf
