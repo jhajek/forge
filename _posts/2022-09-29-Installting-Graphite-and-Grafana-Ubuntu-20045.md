@@ -3,11 +3,6 @@ layout: post
 status: publish
 published: true
 title: 'Installing Grafana and Graphite on Ubuntu Server 20.04.5'
-categories:
-- software
-- Ubuntu
-- monitoring
-- configuration
 tags: 
 - linux
 - ubuntu
