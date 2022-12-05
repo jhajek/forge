@@ -20,7 +20,7 @@ The KubeCon + CloudNativeCon is a gathering of industry professionals discussing
 
 I attended one day, Wednesday 10/26. The estimates of attendance was 6000 in person attendance. The opening keynote highlighted that in the face of an expected economic downturn large companies stressed that they will not be cutting hiring or spending in the Cloud Native arena as they see Cloud Native as a tech differentiator and a way to bring products to market quicker while generating revenue.
 
-![*Kubecon KeyNote*](/assets/kubecon1.jpg "kubecon keynote")
+![*Kubecon KeyNote*](/assets/kubecon/kubecon1.jpg "kubecon keynote")
 
 ### Tech Companies were in attendance (not a complete list)
 
