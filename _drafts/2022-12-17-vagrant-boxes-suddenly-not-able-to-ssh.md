@@ -41,21 +41,7 @@ Permissions for '.vagrant/machines/default/virtualbox/private_key' are too open.
 
 Hmm so it seems that Vagrant on Windows when generating the new RSA key pair for each new Vagrant Box, was generating a key pair with too open permissions, which SSH will by default not proceed with and throw this error.  
 
-In this case the `vagrant ssh` abstraction was hiding this from me. I needed to add the addition `-- -v` to see the verbose output.
-
-## Solution
-
-So on Windows you need to change the permission of the private key file.  If you navigate to the path, say `.\focal64\.vagrant\machines\default\virtualbox` in the file manager you will see the `private_key` file.  If you `right-click` and select `properties > security` you will see that the file has no owner.
-
-You should select your own user, by hitting the `Edit` button and adding your username, then give your user full control (as you are the user who will need to use the key).
-
-This can also be done via the `icacls` command line (not from PowerShell but good old fashion CMD). The good folks at [StackOverFlow have an answer as well](https://stackoverflow.com/questions/48888365/openssh-using-private-key-on-windows-unprotected-private-key-file-error "website for stack overflow answer")
-
-```
-# From the Command Prompt (CMD) not PowerShell
-icacls .\private.key /inheritance:r
-icacls .\private.key /grant:r "%username%":"(R)"
-```
+In this case the `vagrant ssh` abstraction was hiding this from me. I needed to add the addition `-- -v` to see the verbose output. It turns out this whole problem is a **permission** problem, hidden by the Vagrant abstraction.
 
 ## But Wait There is More
 
@@ -64,3 +50,24 @@ Two more Items: my packer built Vagrant Boxes have the opposite problem, they ha
 The focal64 box's permission I just fixed manually, but when I issue the command: `vagrant destroy -f ; vagrant up ; vagrant ssh` I am right back to the permission denied error on the generation of a new RSA Key pair.
 
 Even worse, systems where `vagrant ssh` work, after a `vagrant destroy` the permissions are all messed up and the `permission denied` error comes back.
+
+## Solution
+
+This is done via the `icacls` command line (not from PowerShell but good old fashion CMD). The good folks at [StackOverFlow have an answer as well](https://stackoverflow.com/questions/48888365/openssh-using-private-key-on-windows-unprotected-private-key-file-error "website for stack overflow answer")
+
+```
+# From the Command Prompt (CMD) not PowerShell
+# The value .\private key is the path to the Vagrant private key, it can be found by issuing the vagrant ssh-config command
+icacls .\private.key /inheritance:r
+icacls .\private.key /grant:r "%username%":"(R)"
+```
+
+It can also be done via the Windows GUI, but I received mixed results, but from the CMD 100% success.
+
+On Windows you need to change the permission of the private key file.  If you navigate to the path, say `.\focal64\.vagrant\machines\default\virtualbox` in the file manager you will see the `private_key` file.  If you `right-click` and select `properties > security` you will see that the file has no owner.
+
+You should select your own user, by hitting the `Edit` button and adding your username, then give your user full control (as you are the user who will need to use the key).
+
+## Needs to be done after each destroy
+
+Only problem is that it needs to be done after each `vagrant destroy`... and only one one machine, which I am not running as administrator.
