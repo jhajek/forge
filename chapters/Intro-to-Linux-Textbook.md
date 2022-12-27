@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Intro to Linux Textbook
+title: Chapter 01 - Intro to Linux Textbook
 author:
   display_name: hajek
   login: hajek
@@ -17,8 +17,8 @@ Starting in 2015 I began to long commute back and forth to work via the train.  
 
 I present to you: **Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Part I**
 
-[Chapter 01 Introduction](./Intro-to-Linux-Textbook.html "link to chapter 01")
-[Chapter 02 History of Unix and Linux](./chapter-02.html "link to chapter 02")
+[Chapter 01 Introduction](../chapters/Intro-to-Linux-Textbook.html "link to chapter 01")
+[Chapter 02 History of Unix and Linux](../chapters/chapter-02.html "link to chapter 02")
 
 The book has:
 
