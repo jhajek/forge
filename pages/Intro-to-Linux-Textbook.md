@@ -17,6 +17,9 @@ Starting in 2015 I began to long commute back and forth to work via the train.  
 
 I present to you: **Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Part I**
 
+[Chapter 01 Introduction](./Intro-to-Linux-Textbook.md "link to chapter 01")
+[Chapter 02 History of Unix and Linux](./chapter-02.md "link to chapter 02")
+
 The book has:
 
 * 14 chapters
@@ -31,7 +34,7 @@ The book has:
 
 ## Chapter 1
 
-![*One of the survivors, poking around in the ruins with the point of a spear, uncovers a singed photo of Richard Stallman. They stare in silence. "This," one of them finally says, "This is a man who BELIEVED in something."*](images/Chapter-Header/Chapter-01/operating_systems.png "Operating Systems")
+![*One of the survivors, poking around in the ruins with the point of a spear, uncovers a singed photo of Richard Stallman. They stare in silence. "This," one of them finally says, "This is a man who BELIEVED in something."*](/assets/Chapter-Header/Chapter-01/operating_systems.png "Operating Systems")
 
 ## Objectives of this book
 
