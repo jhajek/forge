@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: post
 status: publish
 published: true
 title: Technology and Philosophy of Free and Opensource Software - Chapter 2 - History of Linux and Unix
-author_login: hajek
-author_email: hajek@iit.edu
-date: '2023-01-01 14:13:41 -0500'
+tags: 
+- Linux
+- Opensource
+- textbook
+- teaching
+comments: []
 ---
 
 ## Chapter 2 - History of Linux and Unix

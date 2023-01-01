@@ -1,19 +1,17 @@
 ---
-layout: page
+layout: post
 status: publish
 published: true
-title: Philosophy and Technology of Free and Opensource software - Chapter 01
-author:
-  display_name: hajek
-  login: hajek
-  email: hajek@iit.edu
-  url: ''
-author_login: hajek
-author_email: hajek@iit.edu
-date: '2023-01-01 13:12:41 -0500'
+title: 'Philosophy and Technology of Free and Opensource software - Chapter 01'
+tags: 
+- Linux
+- Opensource
+- textbook
+- teaching
+comments: []
 ---
 
-## Chapter 1
+## Chapter 1 - Introduction
 
 ![*One of the survivors, poking around in the ruins with the point of a spear, uncovers a singed photo of Richard Stallman. They stare in silence. "This," one of them finally says, "This is a man who BELIEVED in something."*](/assets/Chapter-Header/Chapter-01/operating_systems.png "Operating Systems")
 
