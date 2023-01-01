@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Technology and Philosophy of Free and Opensource Software - Chapter 2 - History of Linux and Unix
+title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Chapter 2 - History of Linux and Unix'
 tags: 
 - Linux
 - Opensource

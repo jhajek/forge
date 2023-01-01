@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'Philosophy and Technology of Free and Opensource software - Chapter 01'
+title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Chapter 01 - Introduction'
 tags: 
 - Linux
 - Opensource
