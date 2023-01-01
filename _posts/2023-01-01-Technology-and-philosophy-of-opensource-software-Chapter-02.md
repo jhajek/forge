@@ -2,11 +2,13 @@
 layout: page
 status: publish
 published: true
-title: Chapter 2 - History of Linux and Unix
+title: Technology and Philosophy of Free and Opensource Software - Chapter 2 - History of Linux and Unix
 author_login: hajek
 author_email: hajek@iit.edu
-date: '2022-12-27 11:03:41 -0500'
+date: '2023-01-01 14:13:41 -0500'
 ---
+
+## Chapter 2 - History of Linux and Unix
 
 ![*At the end of class if your instructor has done their job, you will find this cartoon funny.  If you already understand this cartoon you get an "A".*](/assets/Chapter-Header/Chapter-02/open_source.png "A GNU Dawn")
 

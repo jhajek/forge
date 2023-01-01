@@ -17,9 +17,6 @@ Starting in 2015 I began to long commute back and forth to work via the train.  
 
 I present to you: **Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Part I**
 
-[Chapter 01 Introduction](./chapters/Intro-to-Linux-Textbook.html "link to chapter 01")
-[Chapter 02 History of Unix and Linux](./chpaters/chapter-02.html "link to chapter 02")
-
 The book has:
 
 * 14 chapters
@@ -32,3 +29,5 @@ The book has:
   * PDF and epub available and update frequently
   * Make a pull request to update some content or contribute
   
+1. [Chapter 01 Introduction](/2023-01-01-Technology-and-philosophy-of-opensource-software-Chapter-01.html "link to chapter 01")
+1. [Chapter 02 History of Unix and Linux](/2023-01-01-Technology-and-philosophy-of-opensource-software-Chapter-02.html "link to chapter 02")
