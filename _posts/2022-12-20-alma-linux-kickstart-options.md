@@ -47,8 +47,6 @@ repo --name="epel9-everything" --baseurl="" --mirrorlist="https://mirrors.fedora
 
 I would like to say thanks to this user who provided the post: [mikew](https://almalinux.discourse.group/u/mikew "webpage profile for user mikew"). There is nothing stating this online and very little clear documentation about using kickstart for Alma Linux.
 
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
+{% for tag in page.tags %}
+<a href="/tags/{{ tag }}/">{{ tag }}</a>
+{% endfor %}
