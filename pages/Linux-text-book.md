@@ -30,4 +30,4 @@ The book has:
   * Make a pull request to update some content or contribute
   
 1. [Chapter 01 - Introduction](https://jeremyhajek.com/2022/12/30/Technology-and-philosophy-of-opensource-software-Chapter-01.html "link to chapter 01")
-1. [Chapter 02 - History of Unix and Linux](https://jeremyhajek.com/2022-12-31-Technology-and-philosophy-of-opensource-software-Chapter-02.html "link to chapter 02")
+1. [Chapter 02 - History of Unix and Linux](https://jeremyhajek.com/2022/12/31/Technology-and-philosophy-of-opensource-software-Chapter-02.html "link to chapter 02")
