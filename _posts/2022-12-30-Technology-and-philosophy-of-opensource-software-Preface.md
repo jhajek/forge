@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Chapter 01 - Introduction'
+title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Introduction'
 catergories: textbook
 tags: 
 - Linux
@@ -12,7 +12,7 @@ tags:
 comments: []
 ---
 
-## Chapter 1 - Introduction
+## Preface - Introduction
 
 ![*One of the survivors, poking around in the ruins with the point of a spear, uncovers a singed photo of Richard Stallman. They stare in silence. "This," one of them finally says, "This is a man who BELIEVED in something."*](/assets/Chapter-Header/Chapter-01/operating_systems.png "Operating Systems")
 

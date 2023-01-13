@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Chapter 2 - History of Linux and Unix'
+title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Chapter 1 - History of Linux and Unix'
 catergories: textbook
 tags: 
 - Linux
@@ -12,7 +12,7 @@ tags:
 comments: []
 ---
 
-## Chapter 2 - History of Linux and Unix
+## Chapter 1 - History of Linux and Unix
 
 ![*At the end of class if your instructor has done their job, you will find this cartoon funny.  If you already understand this cartoon you get an "A".*](/assets/Chapter-Header/Chapter-02/open_source.png "A GNU Dawn")
 
