@@ -12,7 +12,7 @@ tags:
 comments: []
 ---
 
-This is a current survey of macOS for M1/M2 ARM platform (Apple Silicon) virtualization replacement options. Since this is not x86 Virtual Box is out of the questions. **Note:** when I type *Apple Silicon*, I mean the M1/M2 plaform.
+This is a current survey of macOS for M1/M2 ARM platform (Apple Silicon) virtualization replacement options. Since this is not x86 Virtual Box is out of the questions. **Note:** when I type *Apple Silicon*, I mean the M1/M2 platform.
 
 ## Two Paid Solutions
 
