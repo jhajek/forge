@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'Current State of M1/M2 Mac Virtualization'
+title: 'Survey of the state of M1 and M2 Mac Virtualization'
 tags: 
 - virtualization
 - virtualbox
