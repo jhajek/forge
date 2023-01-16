@@ -22,13 +22,17 @@ I am not against spending money to get a good product and there are two really g
 
 There is also [VMware Fusion - from VMware](https://www.vmware.com/products/fusion.html "Website VMware fusion for M1 Mac")
 
-## Two Native Apple Silicon
+## Two Free Apple Silicon Native Solutions
 
-There are two native solutions as well for the Apple Silicon.
+I have come across two open solutions.
+
+### UTM
 
 Using [UTM](https://mac.getutm.app/ "website for apple UTM"), the direct Apple virtualization framework native to Apple Silicon. This is stable enough to use now but hasn't opened their API yet to third party automation tools such as Vagrant or Packer, but the request tickets are [in the works](https://github.com/hashicorp/vagrant/issues/12518 "website for UTM requests").
 
 There is also QEMU, which is an emulator that runs on Apple Silicon. UTM runs on top of QEMU but QEMU can run by itself using the `libvirt` library -- which is heavily Linux based but has been ported to Apple Silicon.
+
+### Tart
 
 There is a third option, and new tool called [Tart](https://github.com/cirruslabs/tart "website for Tart"). This is brand new and Vagrant Integration [is being actively worked on](https://github.com/hashicorp/vagrant/issues/12760 "website for tart").
 
