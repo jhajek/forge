@@ -24,6 +24,7 @@ github_username:  jhajek
 
 # Build settings
 markdown: kramdown
+future: true
 theme: minima
 gems:
   - jekyll-feed
