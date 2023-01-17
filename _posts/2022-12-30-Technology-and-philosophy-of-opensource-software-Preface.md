@@ -3,7 +3,6 @@ layout: post
 status: publish
 published: true
 title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Introduction'
-categories: textbook
 tags: 
 - Linux
 - Opensource
