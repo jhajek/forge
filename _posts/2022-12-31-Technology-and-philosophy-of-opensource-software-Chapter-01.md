@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'Understanding Free and Opensource Operating Systems, The Technology and Philosophy Of - Chapter 1 - History of Linux and Unix'
-catergories: textbook
+categories: textbook
 tags: 
 - Linux
 - Opensource
