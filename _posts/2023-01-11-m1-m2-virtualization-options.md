@@ -20,7 +20,7 @@ I am not against spending money to get a good product and there are two really g
 
 [Parallels](https://www.parallels.com/ "website for parallels virtualization solution") has a yearly subscription cost and is a great piece of software.  There is also a [pro-edition](https://www.parallels.com/products/desktop/pro "website for pro-edition of parallels") with that gives you access to a commandline and allows for scriptable automation to take place. This is needed for integration with [Vagrant](https://vagrantup.com "website for Vagrant"), [Packer](https://packer.io "website for packer"), [Docker](https://docker.io "website for Docker.io"), and [MiniKube](https://minikube.sigs.k8s.io/docs/ "website for minikube").
 
-There is also [VMware Fusion - from VMware](https://www.vmware.com/products/fusion.html "Website VMware fusion for M1 Mac")
+There is also [VMware Fusion - from VMware](https://www.vmware.com/products/fusion.html "Website VMware fusion for M1 Mac"). You can download from the VMware Cloud Connect the [Tech Preview](https://nikhilbhatt.hashnode.dev/vagrant-setup-in-mac-m1 "webpage for VMware cloud connect sign in page") but I assume that means you need an account.
 
 ## Two Free Apple Silicon Native Solutions
 
